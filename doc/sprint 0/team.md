@@ -9,7 +9,7 @@
   - Umair Farooqi (faroo124)
   - Peter Tamraz (tamrazpe)
   - Manahil Masroor (masroor6)
-
+  - Davit Badalyan (badalya1)
 ### Contact information
 
 - Parham Fartoot:
