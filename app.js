@@ -4,6 +4,10 @@ app = express();
 
 
 
+//css folder
+app.use(express.static("public"));
+
+
 // body encoded url
 app.use(express.urlencoded({extended:true}));
 
