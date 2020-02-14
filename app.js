@@ -11,9 +11,13 @@ app.use(express.urlencoded({extended:true}));
 const PORT = 3000;
 
 
+var chosen = ["CSC343", "CSC369"];
+var result;
 
 // Home Page Route
 app.get("/", function(req, res){
-    res.render("index");
-    
+    db.collection("cobalt").find({}).toArray(function(err, result) {
+        if (err) throw err;
+        res.render("index", {result:result, chosen:chosen});
+    });  
 });
