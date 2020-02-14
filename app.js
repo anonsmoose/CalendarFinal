@@ -37,5 +37,16 @@ app.get("/", function(req, res){
     db.collection("cobalt").find({}).toArray(function(err, result) {
         if (err) throw err;
         res.render("index", {result:result, chosen:chosen});
-    });  
+    });
+});
+
+//Post route for searching courses
+app.post("/",function(req,res){
+	chosen.push(req.body.course);
+	console.log(req.body.course)
+
+	db.collection("cobalt").find({}).toArray(function(err,result){
+		if (err) throw err;
+		res.render("index",{result:result,chosen:chosen});
+	});
 });
