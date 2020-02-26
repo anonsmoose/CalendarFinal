@@ -1,1 +1,23 @@
 .DS_Store
+
+usca-app/node_modules
+usca-api/node_modules
+usca-app/dist
+
+# local env files
+usca-app/.env.local
+usca-app/.env.*.local
+
+# Log files
+usca-app/npm-debug.log*
+usca-app/yarn-debug.log*
+usca-app/yarn-error.log*
+
+# Editor directories and files
+usca-app/.idea
+usca-app/.vscode
+usca-app/*.suo
+usca-app/*.ntvs*
+usca-app/*.njsproj
+usca-app/*.sln
+usca-app/*.sw?
