@@ -3,6 +3,7 @@
 usca-app/node_modules
 usca-api/node_modules
 usca-app/dist
+usca-api/dist
 
 # local env files
 usca-app/.env.local
