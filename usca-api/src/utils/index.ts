@@ -1,4 +1,4 @@
-import { Router, Request, Response, NextFunction } from "express";
+import { Router } from "express";
 
 type Wrapper = ((router: Router) => void);
 
@@ -11,21 +11,9 @@ export const applyMiddleware = (
   }
 };
 
-type Handler = (
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => Promise<void> | void;
-
-type Route = {
-  path: string;
-  method: string;
-  handler: Handler | Handler[];
-};
-
 export const applyRoutes = (routes: Route[], router: Router) => {
   for (const route of routes) {
     const { method, path, handler } = route;
-    (router as any)[method](path, handler);
+    router[method](path, handler);
   }
 };

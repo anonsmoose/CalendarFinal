@@ -8,4 +8,4 @@ export default [
       res.send("Hello world!");
     }
   }
-];
+] as Route[];
