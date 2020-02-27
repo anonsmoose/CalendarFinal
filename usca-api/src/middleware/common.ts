@@ -1,4 +1,5 @@
 import { Router } from "express";
+import express from "express";
 import cors from "cors";
 import parser from "body-parser";
 import compression from "compression";
@@ -13,4 +14,8 @@ export const handleBodyRequestParsing = (router: Router) => {
 
 export const handleCompression = (router: Router) => {
   router.use(compression());
+};
+
+export const handleStaticFiles = (router: Router) => {
+  router.use(express.static("public"));
 };
