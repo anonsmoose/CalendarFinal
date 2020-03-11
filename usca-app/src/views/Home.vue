@@ -1,17 +1,26 @@
 <template>
   <div class="home">
-    <Calendar />
+    <div class="columns">
+        <div class="column is-one-quarter">
+            <Searchbar />
+        </div>
+        <div class="column">
+            <Calendar />
+        </div>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Calendar from "@/components/Calendar.vue";
+import Searchbar from "@/components/SearchBar.vue";
 
 export default {
   name: "Home",
   components: {
-    Calendar
+    Calendar,
+    Searchbar
   }
 };
 </script>
