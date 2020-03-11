@@ -1,0 +1,800 @@
+tDept,tSid,institution_name,tFname,tMiddlename,tLname,tid,tNumRatings,rating_class,contentType,categoryType,overall_rating
+Biological Sciences,4919,University of Toronto at Scarborough,Michelle,,Aarts,1418527,5,good,TEACHER,PROFESSOR,4.2
+English,4919,University of Toronto at Scarborough,Anthony,,Adams,295370,13,good,TEACHER,PROFESSOR,4.5
+Management,4919,University of Toronto at Scarborough,Pankaj,,Aggarwal,590745,36,average,TEACHER,PROFESSOR,3.4
+Languages,4919,University of Toronto at Scarborough,Kusay,,Ahmad,795773,5,average,TEACHER,PROFESSOR,3.1
+Political Science,4919,University of Toronto at Scarborough,Aisha,,Ahmad,1822251,39,average,TEACHER,PROFESSOR,2.5
+Computer Science,4919,University of Toronto at Scarborough,Marzieh,,Ahmadzadeh,2259492,47,poor,TEACHER,PROFESSOR,1.6
+Economics,4919,University of Toronto at Scarborough,Syed,,Ahmed,738234,26,poor,TEACHER,PROFESSOR,2.4
+Sociology,4919,University of Toronto at Scarborough,Katelin,,Albert,2473412,10,good,TEACHER,PROFESSOR,4.3
+Management,4919,University of Toronto at Scarborough,Vitali,,Alexeev,1277400,3,average,TEACHER,PROFESSOR,2.7
+Human Geography & City Studies,4919,University of Toronto at Scarborough,Ahmed,,Allahwala,1579645,24,good,TEACHER,PROFESSOR,5.0
+Business,4919,University of Toronto at Scarborough,Sandro,,Ambuehl,2411846,2,average,TEACHER,PROFESSOR,3.0
+Psychology,4919,University of Toronto at Scarborough,Oren,,Amitay,1080811,52,good,TEACHER,PROFESSOR,4.5
+Biological Sciences,4919,University of Toronto at Scarborough,Maydianne,,Andrade,347140,67,good,TEACHER,PROFESSOR,4.2
+Political Science,4919,University of Toronto at Scarborough,Scott,,Aquanno,1804457,4,good,TEACHER,PROFESSOR,5.0
+Mathematics,4919,University of Toronto at Scarborough,Stefanos,,Aretakis,2481597,2,good,TEACHER,PROFESSOR,4.5
+Geography,4919,University of Toronto at Scarborough,George,,Arhonditsis,889059,11,good,TEACHER,PROFESSOR,4.4
+International Studies,4919,University of Toronto at Scarborough,Jack,,Arn,890770,17,average,TEACHER,PROFESSOR,3.0
+Physics,4919,University of Toronto at Scarborough,Pawel,,Artymowicz,1459394,7,good,TEACHER,PROFESSOR,3.9
+Social Science,4919,University of Toronto at Scarborough,Abednego,,Aryee,1270757,0,zero,TEACHER,PROFESSOR,N/A
+Biological Sciences,4919,University of Toronto at Scarborough,Aarthi,,Ashok,1381851,57,good,TEACHER,PROFESSOR,3.8
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Nnenna,,Asidianya,2476555,4,poor,TEACHER,PROFESSOR,1.2
+Computer  Math. Sciences,4919,University of Toronto at Scarborough,Asal,,Aslemand ,2071371,32,good,TEACHER,PROFESSOR,4.2
+Humanities,4919,University of Toronto at Scarborough,Maria,,Assif,1175491,41,good,TEACHER,PROFESSOR,4.7
+Computer amp Math. Sciences,4919,University of Toronto at Scarborough,Abbas,Mohsin,Attarwala,2364338,3,average,TEACHER,PROFESSOR,2.7
+Economics,4919,University of Toronto at Scarborough,Iris,,Au,392067,79,good,TEACHER,PROFESSOR,3.7
+Economics,4919,University of Toronto at Scarborough,Igor,,Averbakh,592669,12,good,TEACHER,PROFESSOR,4.4
+Humanities,4919,University of Toronto at Scarborough,Daniel,,Bader,1087433,4,good,TEACHER,PROFESSOR,3.8
+Psychology,4919,University of Toronto at Scarborough,Michael,,Bagby,1818190,3,good,TEACHER,PROFESSOR,4.3
+Humanities,4919,University of Toronto at Scarborough,Ruoyun,,Bai,1786575,2,average,TEACHER,PROFESSOR,3.0
+Humanities,4919,University of Toronto at Scarborough,Natalia,,Bakaeva,2527457,3,good,TEACHER,PROFESSOR,4.0
+Health Science,4919,University of Toronto at Scarborough,Caroline,,Bakarat-Hadad,1387823,14,average,TEACHER,PROFESSOR,2.9
+Physics,4919,University of Toronto at Scarborough,Scott,,Ballantyne,1914959,2,average,TEACHER,PROFESSOR,3.3
+Anthropology,4919,University of Toronto at Scarborough,Sandra,,Banford,804526,9,good,TEACHER,PROFESSOR,4.0
+Anthropology,4919,University of Toronto at Scarborough,Victor,,Barac,856546,9,average,TEACHER,PROFESSOR,3.3
+Health Science,4919,University of Toronto at Scarborough,Caroline,,Barakat,1388499,26,average,TEACHER,PROFESSOR,3.4
+Health Science,4919,University of Toronto at Scarborough,Barakat,,Barakat-Haddad.,1680208,4,good,TEACHER,PROFESSOR,3.6
+Classics,4919,University of Toronto at Scarborough,Adam,,Barker,2469787,9,good,TEACHER,PROFESSOR,4.8
+Psychology,4919,University of Toronto at Scarborough,John,,Bassili,1606026,0,zero,TEACHER,PROFESSOR,N/A
+Political Science,4919,University of Toronto at Scarborough,Karlo,,Basta,1416038,1,good,TEACHER,PROFESSOR,5.0
+Biological Sciences,4919,University of Toronto at Scarborough,Daman,,Bawa,737031,21,average,TEACHER,PROFESSOR,2.8
+Physics,4919,University of Toronto at Scarborough,Johann,,Bayer,787928,34,good,TEACHER,PROFESSOR,4.4
+Political Science,4919,University of Toronto at Scarborough,Pauline,,Beange,1821089,7,average,TEACHER,PROFESSOR,2.9
+Humanities,4919,University of Toronto at Scarborough,Corinne,,Beauquis,711551,25,good,TEACHER,PROFESSOR,4.7
+History,4919,University of Toronto at Scarborough,Camille,,Begin,1763892,4,average,TEACHER,PROFESSOR,2.9
+Humanities,4919,University of Toronto at Scarborough,Susana,,Bejar,1154021,4,average,TEACHER,PROFESSOR,3.1
+History,4919,University of Toronto at Scarborough,Daniel,,Bender,650097,11,good,TEACHER,PROFESSOR,3.7
+History,4919,University of Toronto at Scarborough,Christine,,Berkowitz,1639840,17,good,TEACHER,PROFESSOR,4.7
+International Studies,4919,University of Toronto at Scarborough,Albert,,Berry,263770,23,good,TEACHER,PROFESSOR,4.4
+Computer Science,4919,University of Toronto at Scarborough,Joe,,Bettridge,2261442,25,average,TEACHER,PROFESSOR,2.9
+Humanities,4919,University of Toronto at Scarborough,Robert,,Binnick,260118,23,poor,TEACHER,PROFESSOR,2.1
+International Studies,4919,University of Toronto at Scarborough,Anne-Emanuelle,,Birn,583689,11,average,TEACHER,PROFESSOR,3.0
+Classics,4919,University of Toronto at Scarborough,Katherine,,Blouin,1713622,8,good,TEACHER,PROFESSOR,4.2
+Anthropology,4919,University of Toronto at Scarborough,Janice,,Boddy,394124,7,good,TEACHER,PROFESSOR,4.2
+Humanities,4919,University of Toronto at Scarborough,Christine,,Bolus-Reichert,370438,20,good,TEACHER,PROFESSOR,4.3
+Biological Sciences,4919,University of Toronto at Scarborough,Cynthia,Lee,Bongard,2280992,0,zero,TEACHER,PROFESSOR,N/A
+Ecology,4919,University of Toronto at Scarborough,Rudy,,Boonstra,1486474,3,good,TEACHER,PROFESSOR,3.5
+Management,4919,University of Toronto at Scarborough,Sandford,,Borins,1555564,4,good,TEACHER,PROFESSOR,4.5
+Psychology,4919,University of Toronto at Scarborough,Douglas,,Bors,327723,64,average,TEACHER,PROFESSOR,2.5
+Psychology,4919,University of Toronto at Scarborough,Connie,,Boudens,1417576,32,poor,TEACHER,PROFESSOR,2.4
+Management,4919,University of Toronto at Scarborough,Chris,,Bovaird,253764,195,average,TEACHER,PROFESSOR,3.3
+Music,4919,University of Toronto at Scarborough,William,,Bowen,1808143,5,poor,TEACHER,PROFESSOR,2.0
+Philosophy,4919,University of Toronto at Scarborough,Kenneth,,Boyd,2487539,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4919,University of Toronto at Scarborough,Kosha,,Bramesfeld,2469433,6,average,TEACHER,PROFESSOR,3.0
+Philosophy,4919,University of Toronto at Scarborough,Joshua,,Brandt,2291956,11,good,TEACHER,PROFESSOR,4.5
+Biological Sciences,4919,University of Toronto at Scarborough,Vania,,Branker,1348313,2,average,TEACHER,PROFESSOR,3.0
+Geography,4919,University of Toronto at Scarborough,Glenn,,Brauen,2237939,5,average,TEACHER,PROFESSOR,3.4
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Anna,,Bretscher,853756,36,poor,TEACHER,PROFESSOR,2.4
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Natalia,,Breuss,339665,61,average,TEACHER,PROFESSOR,3.3
+Humanities,4919,University of Toronto at Scarborough,Yael,,Brotman,520194,6,good,TEACHER,PROFESSOR,3.9
+Humanities,4919,University of Toronto at Scarborough,Russell,,Brown,271590,19,good,TEACHER,PROFESSOR,3.9
+Biological Sciences,4919,University of Toronto at Scarborough,Ian,,Brown,495877,30,average,TEACHER,PROFESSOR,3.3
+Anthropology,4919,University of Toronto at Scarborough,Hilary,,Brown,2172966,9,good,TEACHER,PROFESSOR,3.7
+Biological Sciences,4919,University of Toronto at Scarborough,Jason,,Brown,1859751,71,good,TEACHER,PROFESSOR,4.7
+Philosophy,4919,University of Toronto at Scarborough,Anthony,,Bruno,2029964,7,good,TEACHER,PROFESSOR,3.9
+Biological Sciences,4919,University of Toronto at Scarborough,Shelley A.,,Brunt,451006,50,average,TEACHER,PROFESSOR,3.2
+Science,4919,University of Toronto at Scarborough,Shelly,,Brunt,2402474,1,poor,TEACHER,PROFESSOR,1.0
+Health Science,4919,University of Toronto at Scarborough,Toba,,Bryant,1418636,7,good,TEACHER,PROFESSOR,3.6
+Philosophy,4919,University of Toronto at Scarborough,Rachel,,Bryant,2575188,0,zero,TEACHER,PROFESSOR,N/A
+Geography,4919,University of Toronto at Scarborough,Michelle,,Buckley,1791595,16,good,TEACHER,PROFESSOR,4.3
+Geography,4919,University of Toronto at Scarborough,Michael,,Bunce,257714,25,good,TEACHER,PROFESSOR,3.6
+Social Science,4919,University of Toronto at Scarborough,Susannah,,Bunce,2503315,0,zero,TEACHER,PROFESSOR,N/A
+Geography,4919,University of Toronto at Scarborough,Susannah,,Bunce,1279931,3,average,TEACHER,PROFESSOR,3.1
+Journalism,4919,University of Toronto at Scarborough,Kenzie,,Burchell,2220412,4,average,TEACHER,PROFESSOR,3.0
+Philosophy,4919,University of Toronto at Scarborough,Victoria,,Burke,1278556,3,good,TEACHER,PROFESSOR,4.2
+Statistics,4919,University of Toronto at Scarborough,Ken,,Butler,269924,21,good,TEACHER,PROFESSOR,4.1
+Biological Sciences,4919,University of Toronto at Scarborough,Marc,,Cadotte,1461055,17,good,TEACHER,PROFESSOR,4.1
+History,4919,University of Toronto at Scarborough,Ralph,,Callebert,2480675,1,good,TEACHER,PROFESSOR,5.0
+Humanities,4919,University of Toronto at Scarborough,Robert,,Campbell,256674,47,good,TEACHER,PROFESSOR,4.6
+Economics,4919,University of Toronto at Scarborough,James,,Campbell,1812851,8,average,TEACHER,PROFESSOR,3.4
+Biological Sciences,4919,University of Toronto at Scarborough,Jennifer,,Campbell,2384621,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4919,University of Toronto at Scarborough,Zachariah,,Campbell,797910,142,good,TEACHER,PROFESSOR,3.5
+Economics,4919,University of Toronto at Scarborough,Michele,,Campolieti,547275,6,good,TEACHER,PROFESSOR,3.7
+Psychology,4919,University of Toronto at Scarborough,Jonathan,,Cant,1817806,3,good,TEACHER,PROFESSOR,4.2
+Humanities,4919,University of Toronto at Scarborough,Lora,,Carney,372455,8,good,TEACHER,PROFESSOR,3.6
+Philosophy,4919,University of Toronto at Scarborough,Elliot,,Carter,2548913,1,poor,TEACHER,PROFESSOR,1.0
+Education,4919,University of Toronto at Scarborough,Rose,,Caruso,1313336,3,good,TEACHER,PROFESSOR,5.0
+Political Science,4919,University of Toronto at Scarborough,David,,Carvounas,285316,23,good,TEACHER,PROFESSOR,3.8
+Management,4919,University of Toronto at Scarborough,Ling,,Cen,1675594,3,good,TEACHER,PROFESSOR,3.8
+Accounting,4919,University of Toronto at Scarborough,David,,Chan,1255461,3,poor,TEACHER,PROFESSOR,2.2
+International Studies,4919,University of Toronto at Scarborough,Leslie,,Chan,300077,32,good,TEACHER,PROFESSOR,3.5
+Management,4919,University of Toronto at Scarborough,Cindy,,Chan,2027032,5,good,TEACHER,PROFESSOR,3.8
+Business,4919,University of Toronto at Scarborough,Ambarish,,Chandra,2516334,2,poor,TEACHER,PROFESSOR,1.5
+Chemistry,4919,University of Toronto at Scarborough,Savitri,,Chandrasekhar,256798,106,good,TEACHER,PROFESSOR,3.7
+Health Science,4919,University of Toronto at Scarborough,Andrea,,Charise,1919518,12,average,TEACHER,PROFESSOR,3.1
+Management,4919,University of Toronto at Scarborough,Derek,,Chau,890605,18,average,TEACHER,PROFESSOR,3.0
+Health Science,4919,University of Toronto at Scarborough,Tran,,Chau ,2080225,2,poor,TEACHER,PROFESSOR,1.0
+Management,4919,University of Toronto at Scarborough,Liang,,Chen,458853,38,good,TEACHER,PROFESSOR,3.6
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Nick,,Cheng,382132,82,average,TEACHER,PROFESSOR,3.2
+Humanities,4919,University of Toronto at Scarborough,Schelomie,,Cherette,1682770,0,zero,TEACHER,PROFESSOR,N/A
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Jason,,Cheung,2341162,0,zero,TEACHER,PROFESSOR,N/A
+Humanities,4919,University of Toronto at Scarborough,Eric,,Chevrette,2577169,0,zero,TEACHER,PROFESSOR,N/A
+Sociology,4919,University of Toronto at Scarborough,Clayton,,Childress,2237341,1,good,TEACHER,PROFESSOR,4.0
+International Studies,4919,University of Toronto at Scarborough,Maliha,,Chishti,1542631,3,good,TEACHER,PROFESSOR,4.7
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Sophie,,Chrysostomou,1121711,52,average,TEACHER,PROFESSOR,3.3
+Sociology,4919,University of Toronto at Scarborough,Jennifer,Jihye,Chun,2366111,1,good,TEACHER,PROFESSOR,5.0
+Psychology,4919,University of Toronto at Scarborough,Laura,,Cirelli,2389255,8,good,TEACHER,PROFESSOR,3.9
+Humanities,4919,University of Toronto at Scarborough,Mark,,Clamen,349089,13,average,TEACHER,PROFESSOR,3.4
+Music,4919,University of Toronto at Scarborough,Caryl,,Clark,258969,18,poor,TEACHER,PROFESSOR,2.4
+Fine Arts,4919,University of Toronto at Scarborough,Joshua,,Cleminson,2312545,3,good,TEACHER,PROFESSOR,5.0
+Economics,4919,University of Toronto at Scarborough,Gordon,,Cleveland,257200,61,good,TEACHER,PROFESSOR,4.0
+Political Science,4919,University of Toronto at Scarborough,Christopher,,Cochrane,1659146,21,good,TEACHER,PROFESSOR,4.0
+Anthropology,4919,University of Toronto at Scarborough,Saul,,Cohen,1030916,8,good,TEACHER,PROFESSOR,3.8
+Management,4919,University of Toronto at Scarborough,Brian,,Connelly,1661955,3,average,TEACHER,PROFESSOR,2.5
+Management,4919,University of Toronto at Scarborough,P,,Constantino,457269,5,poor,TEACHER,PROFESSOR,2.3
+Economics,4919,University of Toronto at Scarborough,T,,Cook,590750,13,good,TEACHER,PROFESSOR,4.3
+Humanities,4919,University of Toronto at Scarborough,Kate,,Cooper,1986370,6,good,TEACHER,PROFESSOR,4.0
+Psychology,4919,University of Toronto at Scarborough,Andrew,,Cooper,2270574,5,good,TEACHER,PROFESSOR,4.8
+Computer Science,4919,University of Toronto at Scarborough,Eric,,Corlett,2504964,5,average,TEACHER,PROFESSOR,3.4
+Languages,4919,University of Toronto at Scarborough,Stephanie,,Cote,2559350,1,poor,TEACHER,PROFESSOR,2.0
+Fine Arts,4919,University of Toronto at Scarborough,T.L,,Cowan,2265726,3,good,TEACHER,PROFESSOR,4.7
+Psychology,4919,University of Toronto at Scarborough,George,,Cree,339974,26,good,TEACHER,PROFESSOR,4.3
+Geography,4919,University of Toronto at Scarborough,Ches,,Cristian,2515694,2,good,TEACHER,PROFESSOR,5.0
+English,4919,University of Toronto at Scarborough,Melba,,Cuddy Keane,1519655,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4919,University of Toronto at Scarborough,Maggie,,Cummings,948297,28,good,TEACHER,PROFESSOR,4.6
+Art History,4919,University of Toronto at Scarborough,Jody,,Cundy,2014584,6,good,TEACHER,PROFESSOR,4.2
+Psychology,4919,University of Toronto at Scarborough,Gerald,,Cupchik,2151826,1,average,TEACHER,PROFESSOR,3.0
+Psychology,4919,University of Toronto at Scarborough,G,,Cupchik,327722,67,average,TEACHER,PROFESSOR,2.7
+Classics,4919,University of Toronto at Scarborough,Alex,,Cushing,2225016,2,poor,TEACHER,PROFESSOR,2.0
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Stefan,,Czimek,2333554,5,good,TEACHER,PROFESSOR,4.4
+Education,4919,University of Toronto at Scarborough,Lisa,,Dack,1893668,1,good,TEACHER,PROFESSOR,3.5
+Accounting,4919,University of Toronto at Scarborough,Sandra,,Daga,2435924,3,average,TEACHER,PROFESSOR,3.3
+Anthropology,4919,University of Toronto at Scarborough,Shayne,,Dahl,2305953,1,good,TEACHER,PROFESSOR,4.0
+Anthropology,4919,University of Toronto at Scarborough,Bianca,,Dahl,1868943,20,good,TEACHER,PROFESSOR,4.7
+Chemistry,4919,University of Toronto at Scarborough,Shadi,,Dalili,931947,39,good,TEACHER,PROFESSOR,4.0
+Mathematics,4919,University of Toronto at Scarborough,Sotirios,,Damouras,1955654,15,average,TEACHER,PROFESSOR,3.0
+Psychology,4919,University of Toronto at Scarborough,Kyle,,Danielson,2335748,16,good,TEACHER,PROFESSOR,4.1
+Psychology,4919,University of Toronto at Scarborough,Alexander,,Daros,2464678,3,good,TEACHER,PROFESSOR,4.0
+Anthropology,4919,University of Toronto at Scarborough,Girish,,Daswani,1213688,15,average,TEACHER,PROFESSOR,3.0
+Anthropology,4919,University of Toronto at Scarborough,Lisa,,Davidson,2349260,0,zero,TEACHER,PROFESSOR,N/A
+Environmental Science,4919,University of Toronto at Scarborough,Heidi,,Daxberger,2090054,6,good,TEACHER,PROFESSOR,4.9
+American Studies & Ethnicity,4919,University of Toronto at Scarborough,Adrian,,De Leon,2501437,1,good,TEACHER,PROFESSOR,5.0
+Biological Sciences,4919,University of Toronto at Scarborough,Paul,,De Luca,1227669,3,good,TEACHER,PROFESSOR,5.0
+Philosophy,4919,University of Toronto at Scarborough,Ronnie,,De Sousa,1600735,2,poor,TEACHER,PROFESSOR,2.2
+Mathematics,4919,University of Toronto at Scarborough,Louis,,De Thanhoffer,2043430,38,average,TEACHER,PROFESSOR,3.2
+Psychology,4919,University of Toronto at Scarborough,Jessica,,Dere,1876882,19,good,TEACHER,PROFESSOR,4.0
+Management,4919,University of Toronto at Scarborough,Tarun,,Dewan,1631051,20,average,TEACHER,PROFESSOR,2.8
+Anthropology,4919,University of Toronto at Scarborough,Genevieve,,Dewar,1381845,20,average,TEACHER,PROFESSOR,3.4
+Chemistry,4919,University of Toronto at Scarborough,Marco,,Dezimmer,2530470,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4919,University of Toronto at Scarborough,Sonya,,Dhillon,2549057,1,good,TEACHER,PROFESSOR,5.0
+Psychology,4919,University of Toronto at Scarborough,Stefano ,I.,Di Domenico,2020177,2,good,TEACHER,PROFESSOR,3.5
+Philosophy,4919,University of Toronto at Scarborough,Christopher,,DiCarlo,2114723,3,good,TEACHER,PROFESSOR,4.7
+Political Science,4919,University of Toronto at Scarborough,Jordi,,Diez-Mendez,359699,7,average,TEACHER,PROFESSOR,3.1
+History,4919,University of Toronto at Scarborough,Husseina,,Dinani,2245486,2,poor,TEACHER,PROFESSOR,2.0
+Psychology,4919,University of Toronto at Scarborough,Le-Anh,,Dinh-Williams,2549060,1,poor,TEACHER,PROFESSOR,2.0
+Psychology,4919,University of Toronto at Scarborough,Karen,,Dion,1825486,2,good,TEACHER,PROFESSOR,4.5
+Science,4919,University of Toronto at Scarborough,Maria,,Dittrich,1613967,2,average,TEACHER,PROFESSOR,2.8
+Humanities,4919,University of Toronto at Scarborough,Neal,,Dolan,295150,50,good,TEACHER,PROFESSOR,4.0
+Chemistry,4919,University of Toronto at Scarborough,Jamie,,Donaldson,320814,46,average,TEACHER,PROFESSOR,2.8
+Anthropology,4919,University of Toronto at Scarborough,Steven,,Dorland,2237465,4,average,TEACHER,PROFESSOR,2.5
+Geology,4919,University of Toronto at Scarborough,Mike,,Doughty,419491,4,good,TEACHER,PROFESSOR,3.6
+History,4919,University of Toronto at Scarborough,Wayne,,Dowler,257236,18,good,TEACHER,PROFESSOR,4.4
+Anthropology,4919,University of Toronto at Scarborough,L.,E.,Doyle,1975054,1,poor,TEACHER,PROFESSOR,1.0
+Religion,4919,University of Toronto at Scarborough,A.,,Drodge,1238270,3,average,TEACHER,PROFESSOR,2.8
+Humanities,4919,University of Toronto at Scarborough,Arthur.J.,,Droge,1078134,10,good,TEACHER,PROFESSOR,4.3
+Linguistics,4919,University of Toronto at Scarborough,Vedran,,Dronjic,1103143,1,good,TEACHER,PROFESSOR,5.0
+Humanities,4919,University of Toronto at Scarborough,Andrew,,DuBois,474206,37,good,TEACHER,PROFESSOR,4.3
+Science,4919,University of Toronto at Scarborough,Steve,,Duffy,926760,5,good,TEACHER,PROFESSOR,3.9
+Psychology,4919,University of Toronto at Scarborough,Kevin,,Dunbar,1242546,2,good,TEACHER,PROFESSOR,4.2
+Health Science,4919,University of Toronto at Scarborough,Kirsty,,Duncan,896966,29,good,TEACHER,PROFESSOR,3.9
+History,4919,University of Toronto at Scarborough,Edward,,Dunsworth,2461951,1,good,TEACHER,PROFESSOR,5.0
+Humanities,4919,University of Toronto at Scarborough,Sudharshan,,Duraiyappah,764510,21,good,TEACHER,PROFESSOR,4.0
+Theater,4919,University of Toronto at Scarborough,Scott,,Dutrisac,1566281,2,good,TEACHER,PROFESSOR,4.5
+Journalism,4919,University of Toronto at Scarborough,Jeffrey,,Dvorkin,2402209,5,average,TEACHER,PROFESSOR,3.2
+Psychology,4919,University of Toronto at Scarborough,Crystal,,Dykstra,1418129,1,poor,TEACHER,PROFESSOR,2.0
+Management,4919,University of Toronto at Scarborough,Esther,,Eiling,1264526,4,good,TEACHER,PROFESSOR,4.2
+Geography,4919,University of Toronto at Scarborough,Michael,,Ekers,1781643,22,good,TEACHER,PROFESSOR,4.5
+Humanities,4919,University of Toronto at Scarborough,Modris,,Eksteins,256591,33,good,TEACHER,PROFESSOR,4.2
+Sociology,4919,University of Toronto at Scarborough,Emine,Fidan,Elcioglu,2428949,0,zero,TEACHER,PROFESSOR,N/A
+Philosophy,4919,University of Toronto at Scarborough,Kelin,,Emmett,1796153,23,average,TEACHER,PROFESSOR,3.5
+Languages,4919,University of Toronto at Scarborough,Jerry,,English,1922241,2,good,TEACHER,PROFESSOR,4.0
+Humanities,4919,University of Toronto at Scarborough,Jeri,,English,950230,22,good,TEACHER,PROFESSOR,4.3
+Psychology,4919,University of Toronto at Scarborough,Suzanne,,Erb,327721,17,good,TEACHER,PROFESSOR,4.0
+Computer Science,4919,University of Toronto at Scarborough,Francisco,,Estrada,1652505,28,good,TEACHER,PROFESSOR,3.5
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Michael,,Evans,267199,41,average,TEACHER,PROFESSOR,2.5
+Environmental Science,4919,University of Toronto at Scarborough,Nick,,Eyles,289231,51,good,TEACHER,PROFESSOR,3.6
+Health Science,4919,University of Toronto at Scarborough,Obidimma,,Ezezika,2333929,11,good,TEACHER,PROFESSOR,4.5
+Languages,4919,University of Toronto at Scarborough,Connie,,Fang,1536347,1,good,TEACHER,PROFESSOR,4.0
+Chemistry,4919,University of Toronto at Scarborough,Farkhondeh,,Fathi,1921945,49,good,TEACHER,PROFESSOR,4.0
+Health Science,4919,University of Toronto at Scarborough,Ghazal,,Fazli,2406504,8,good,TEACHER,PROFESSOR,4.7
+Science,4919,University of Toronto at Scarborough,Adam,,Fenech,1613979,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4919,University of Toronto at Scarborough,Pejman,,Ferdowsian,577753,9,good,TEACHER,PROFESSOR,4.3
+Classics,4919,University of Toronto at Scarborough,Jonathan,,Ferguson,1489083,3,average,TEACHER,PROFESSOR,3.2
+Art History,4919,University of Toronto at Scarborough,Leanne,,Fetterley,1369721,2,good,TEACHER,PROFESSOR,3.8
+Psychology,4919,University of Toronto at Scarborough,Lisa,,Fiksenbaum,2106204,30,poor,TEACHER,PROFESSOR,1.7
+Humanities,4919,University of Toronto at Scarborough,Lisa,,Fiorindi,1175496,2,average,TEACHER,PROFESSOR,3.2
+Biological Sciences,4919,University of Toronto at Scarborough,Mark,,Fitzpatrick,1480227,17,good,TEACHER,PROFESSOR,3.5
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,David,,Fleet,2412426,0,zero,TEACHER,PROFESSOR,N/A
+Classics,4919,University of Toronto at Scarborough,Emily,,Fletcher,1421938,1,good,TEACHER,PROFESSOR,4.0
+Human Geography  City Studies,4919,University of Toronto at Scarborough,Alexandra,,Flynn,2201963,4,good,TEACHER,PROFESSOR,4.5
+Anthropology,4919,University of Toronto at Scarborough,Jude,,Fokwang,928888,4,average,TEACHER,PROFESSOR,2.8
+Psychology,4919,University of Toronto at Scarborough,Brett,Quaid,Ford,2389366,2,good,TEACHER,PROFESSOR,4.5
+Biological Sciences,4919,University of Toronto at Scarborough,Joan,,Forder,1016354,6,good,TEACHER,PROFESSOR,4.5
+English,4919,University of Toronto at Scarborough,Sarah,,Fornace,1252822,0,zero,TEACHER,PROFESSOR,N/A
+Philosophy,4919,University of Toronto at Scarborough,Mark,,Fortney,2274731,3,good,TEACHER,PROFESSOR,4.3
+Women's Studies,4919,University of Toronto at Scarborough,Emily,,Fountas,1273147,4,good,TEACHER,PROFESSOR,4.4
+Psychology,4919,University of Toronto at Scarborough,Marc A,,Fournier,339976,93,good,TEACHER,PROFESSOR,4.2
+Economics,4919,University of Toronto at Scarborough,April,M.,Franco,1770590,11,poor,TEACHER,PROFESSOR,1.5
+Chemistry,4919,University of Toronto at Scarborough,Simon,,Fraser,510566,4,good,TEACHER,PROFESSOR,4.8
+Economics,4919,University of Toronto at Scarborough,Garth,,Frazer,476322,10,good,TEACHER,PROFESSOR,3.8
+Theater,4919,University of Toronto at Scarborough,Barry,,Freeman,1303631,6,good,TEACHER,PROFESSOR,4.8
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,John,,Friedlander,819333,4,average,TEACHER,PROFESSOR,2.8
+Humanities,4919,University of Toronto at Scarborough,Bill,,Friesen,378752,13,good,TEACHER,PROFESSOR,4.4
+Political Science,4919,University of Toronto at Scarborough,Diana,,FU,1874135,9,average,TEACHER,PROFESSOR,2.8
+Biological Sciences,4919,University of Toronto at Scarborough,Roberta,,Fulthorpe,794506,4,average,TEACHER,PROFESSOR,3.1
+Management,4919,University of Toronto at Scarborough,G.Quan,,Fun,1751427,0,zero,TEACHER,PROFESSOR,N/A
+Economics,4919,University of Toronto at Scarborough,Kieran,,Furlong,389883,39,average,TEACHER,PROFESSOR,3.1
+Biological Sciences,4919,University of Toronto at Scarborough,Marie,,Gadziola,2372197,8,good,TEACHER,PROFESSOR,3.9
+English,4919,University of Toronto at Scarborough,Ann,,Gagné,2155251,1,good,TEACHER,PROFESSOR,5.0
+Economics,4919,University of Toronto at Scarborough,Gregory,,Gagnon,1786790,1,poor,TEACHER,PROFESSOR,1.0
+Health Science,4919,University of Toronto at Scarborough,Kathleen,,Gamble,1914165,3,poor,TEACHER,PROFESSOR,2.3
+English,4919,University of Toronto at Scarborough,Kara,,Gaston,2024560,6,good,TEACHER,PROFESSOR,4.7
+Biological Sciences,4919,University of Toronto at Scarborough,Sonia,,Gazzarini,817546,8,average,TEACHER,PROFESSOR,3.1
+Humanities,4919,University of Toronto at Scarborough,Michael,,Gervers,482002,12,good,TEACHER,PROFESSOR,3.8
+Mathematics,4919,University of Toronto at Scarborough,Panagiotis,,Gianniotis,2368060,2,average,TEACHER,PROFESSOR,2.5
+Anthropology,4919,University of Toronto at Scarborough,Kevin,,Gibbs,1033468,3,good,TEACHER,PROFESSOR,3.8
+Political Science,4919,University of Toronto at Scarborough,Holly,,Gibbs,1097476,19,average,TEACHER,PROFESSOR,3.2
+Anthropology,4919,University of Toronto at Scarborough,Gillian,,Gillison,1707766,3,poor,TEACHER,PROFESSOR,1.8
+Chemistry,4919,University of Toronto at Scarborough,John,,Glover,1834705,1,good,TEACHER,PROFESSOR,5.0
+Computer  Math. Sciences,4919,University of Toronto at Scarborough,Parker,,Glynn-Adey,2164299,28,good,TEACHER,PROFESSOR,4.7
+Geography,4919,University of Toronto at Scarborough,Rachel,,Goffe,2517991,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4919,University of Toronto at Scarborough,Leo,,Goldmakher,1427320,24,good,TEACHER,PROFESSOR,4.9
+Humanities,4919,University of Toronto at Scarborough,Marlene,,Goldman,1190395,15,good,TEACHER,PROFESSOR,3.7
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Michael,,Goldstein,347366,13,average,TEACHER,PROFESSOR,3.0
+Biological Sciences,4919,University of Toronto at Scarborough,Eliana,,Gonzales-Vigil,2465479,3,good,TEACHER,PROFESSOR,3.7
+Economics,4919,University of Toronto at Scarborough,Marco,,Gonzalez-Navarro,1791513,3,poor,TEACHER,PROFESSOR,2.3
+Humanities,4919,University of Toronto at Scarborough,Lee,,Goreas,1618328,5,average,TEACHER,PROFESSOR,3.2
+Biological Sciences,4919,University of Toronto at Scarborough,Penelope ,,Gorton,2031916,4,good,TEACHER,PROFESSOR,3.6
+Political Science,4919,University of Toronto at Scarborough,Wilfrid,,Greaves,2268522,1,poor,TEACHER,PROFESSOR,1.0
+Journalism,4919,University of Toronto at Scarborough,Datejie,,Green,2131985,0,zero,TEACHER,PROFESSOR,N/A
+Geology,4919,University of Toronto at Scarborough,Brian,,Greenwood,822233,3,good,TEACHER,PROFESSOR,4.0
+History,4919,University of Toronto at Scarborough,Anup,,Grewal,2093091,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4919,University of Toronto at Scarborough,Raymond,,Grinnel,1326794,14,good,TEACHER,PROFESSOR,4.2
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Raymond,,Grinnell,257991,105,good,TEACHER,PROFESSOR,4.3
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Parnesh,,Grover,1198551,6,good,TEACHER,PROFESSOR,4.6
+Art History,4919,University of Toronto at Scarborough,Yi,,Gu,2191270,5,average,TEACHER,PROFESSOR,3.0
+Women's Studies,4919,University of Toronto at Scarborough,Connie,,Guberman,1657434,7,average,TEACHER,PROFESSOR,3.1
+History,4919,University of Toronto at Scarborough,David,,Gugel,1706610,2,good,TEACHER,PROFESSOR,5.0
+History,4919,University of Toronto at Scarborough,Jackson,Yuebin,Guo,2569566,1,poor,TEACHER,PROFESSOR,1.0
+Biological Sciences,4919,University of Toronto at Scarborough,Christina,,Guzzo,2450230,2,poor,TEACHER,PROFESSOR,2.0
+Women's Studies,4919,University of Toronto at Scarborough,Atiqa,,Hachimi,2092314,9,good,TEACHER,PROFESSOR,3.5
+Psychology,4919,University of Toronto at Scarborough,David,,Haley,910547,22,average,TEACHER,PROFESSOR,3.4
+History,4919,University of Toronto at Scarborough,Rick,,Halpern,2280372,8,good,TEACHER,PROFESSOR,4.6
+Psychology,4919,University of Toronto at Scarborough,Sherief,,Hammad,961940,0,zero,TEACHER,PROFESSOR,N/A
+Geography,4919,University of Toronto at Scarborough,Ju Hui,,Han,1788791,2,good,TEACHER,PROFESSOR,5.0
+Humanities,4919,University of Toronto at Scarborough,John,,Hannigan,802089,7,good,TEACHER,PROFESSOR,4.3
+Management,4919,University of Toronto at Scarborough,Samantha,,Hansen,2342353,0,zero,TEACHER,PROFESSOR,N/A
+Art History,4919,University of Toronto at Scarborough,Elizabeth,,Harney,1922420,2,good,TEACHER,PROFESSOR,4.8
+Computer Science,4919,University of Toronto at Scarborough,Brian,,Harrington,1753054,53,good,TEACHER,PROFESSOR,4.7
+Biological Sciences,4919,University of Toronto at Scarborough,Rene,,Harrison,357853,45,good,TEACHER,PROFESSOR,4.8
+Biological Sciences,4919,University of Toronto at Scarborough,Clare,,Hasenkampf,258975,67,good,TEACHER,PROFESSOR,3.6
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Ayesha,,Hashim,339667,20,poor,TEACHER,PROFESSOR,2.4
+Management,4919,University of Toronto at Scarborough,Michael,,Hasler,1887965,10,average,TEACHER,PROFESSOR,3.3
+Mathematics,4919,University of Toronto at Scarborough,Caren,,Hasler,2162835,8,good,TEACHER,PROFESSOR,4.0
+Geography,4919,University of Toronto at Scarborough,Mohammed,,Hassan,599078,6,average,TEACHER,PROFESSOR,2.9
+History,4919,University of Toronto at Scarborough,Paula,,Hastings,1893047,7,good,TEACHER,PROFESSOR,4.5
+Chemistry,4919,University of Toronto at Scarborough,Steve,,Hayward,1547468,2,good,TEACHER,PROFESSOR,4.2
+Mathematics,4919,University of Toronto at Scarborough,Yan (Mary),,He,2421382,1,poor,TEACHER,PROFESSOR,1.0
+Management,4919,University of Toronto at Scarborough,Joanna,,Heathcote,430805,24,good,TEACHER,PROFESSOR,3.8
+Economics,4919,University of Toronto at Scarborough,Walid,,Hejazi,603777,18,good,TEACHER,PROFESSOR,4.3
+Philosophy,4919,University of Toronto at Scarborough,Benj,,Hellie,1881290,11,poor,TEACHER,PROFESSOR,2.4
+Humanities,4919,University of Toronto at Scarborough,Rena,,Helms-Park,359354,12,good,TEACHER,PROFESSOR,4.3
+Humanities,4919,University of Toronto at Scarborough,Sherri,,Helwig,353274,28,good,TEACHER,PROFESSOR,3.5
+Sociology,4919,University of Toronto at Scarborough,Joe,,Hermer,302856,38,average,TEACHER,PROFESSOR,3.2
+Languages,4919,University of Toronto at Scarborough,Nizar F.,,Hermes,1424214,14,good,TEACHER,PROFESSOR,4.8
+Anthropology,4919,University of Toronto at Scarborough,Kregg,,Hetherington,937953,8,good,TEACHER,PROFESSOR,3.8
+Communication,4919,University of Toronto at Scarborough,Jeff,,Heydon,1994637,3,average,TEACHER,PROFESSOR,2.9
+Classics,4919,University of Toronto at Scarborough,Jessica,,Higgins,1525770,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4919,University of Toronto at Scarborough,Michelle,,Hilscher,1395470,12,good,TEACHER,PROFESSOR,4.0
+Fine Arts,4919,University of Toronto at Scarborough,Marla,,Hlady,1614055,3,good,TEACHER,PROFESSOR,4.0
+Humanities,4919,University of Toronto at Scarborough,David,,Hlynsky,503272,6,good,TEACHER,PROFESSOR,3.5
+Economics,4919,University of Toronto at Scarborough,Michael,,Ho,1167113,37,average,TEACHER,PROFESSOR,2.6
+Psychology,4919,University of Toronto at Scarborough,Nicholas,,Hobson,2096733,102,good,TEACHER,PROFESSOR,4.8
+Political Science,4919,University of Toronto at Scarborough,Matthew,,Hoffmann,890772,30,good,TEACHER,PROFESSOR,4.1
+Geography,4919,University of Toronto at Scarborough,Carmen,Teeple,Hopkins,2319877,4,poor,TEACHER,PROFESSOR,1.0
+Philosophy,4919,University of Toronto at Scarborough,Chad,,Horne,1657625,1,poor,TEACHER,PROFESSOR,2.0
+Geography,4919,University of Toronto at Scarborough,Chuck,,Hostovsky,1527975,2,good,TEACHER,PROFESSOR,5.0
+Geography,4919,University of Toronto at Scarborough,Charles,,Hostovsky,1574277,1,good,TEACHER,PROFESSOR,5.0
+Geology,4919,University of Toronto at Scarborough,Ken,,Howard,265629,10,average,TEACHER,PROFESSOR,2.7
+Communication,4919,University of Toronto at Scarborough,James,,Howard,2401313,1,good,TEACHER,PROFESSOR,5.0
+Management,4919,University of Toronto at Scarborough,James,,Howard,592667,28,good,TEACHER,PROFESSOR,4.0
+Humanities,4919,University of Toronto at Scarborough,Ping-Chun,,Hsiung,273881,48,poor,TEACHER,PROFESSOR,1.7
+Physics,4919,University of Toronto at Scarborough,Jonathan,,HU,1327749,2,poor,TEACHER,PROFESSOR,1.0
+Humanities,4919,University of Toronto at Scarborough,Karolina,,Hubner,1556173,10,good,TEACHER,PROFESSOR,4.8
+Sociology,4919,University of Toronto at Scarborough,Krista,,Hunt,2542697,2,average,TEACHER,PROFESSOR,3.0
+Geography,4919,University of Toronto at Scarborough,Mark,,Hunter,1928246,15,good,TEACHER,PROFESSOR,4.2
+Political Science,4919,University of Toronto at Scarborough,William,,Hurst,1777750,4,poor,TEACHER,PROFESSOR,1.0
+Philosophy,4919,University of Toronto at Scarborough,Waheed,,Hussain,1994601,6,good,TEACHER,PROFESSOR,4.5
+Psychology,4919,University of Toronto at Scarborough,Cendri,,Hutcherson,2178713,9,good,TEACHER,PROFESSOR,3.5
+Humanities,4919,University of Toronto at Scarborough,Franca,,Iacovetta,259769,19,good,TEACHER,PROFESSOR,4.3
+Psychology,4919,University of Toronto at Scarborough,Gabriela,,Ilie,815772,37,good,TEACHER,PROFESSOR,4.4
+Psychology,4919,University of Toronto at Scarborough,Yoel,,Inbar,1935672,25,good,TEACHER,PROFESSOR,4.1
+Psychology,4919,University of Toronto at Scarborough,Michael,,Inzlicht,801811,35,good,TEACHER,PROFESSOR,3.9
+Fine Arts,4919,University of Toronto at Scarborough,Alexander,,Irving,1432864,7,average,TEACHER,PROFESSOR,2.5
+Social Science,4919,University of Toronto at Scarborough,Marney,,Isaac,1510397,11,good,TEACHER,PROFESSOR,3.8
+Economics,4919,University of Toronto at Scarborough,Ryan,,Isakson,2112929,2,good,TEACHER,PROFESSOR,4.5
+Psychology,4919,University of Toronto at Scarborough,Rutsuko,,Ito,1908656,9,good,TEACHER,PROFESSOR,3.7
+Mathematics,4919,University of Toronto at Scarborough,Mohammad,,Ivaki,2342826,3,poor,TEACHER,PROFESSOR,2.3
+Political Science,4919,University of Toronto at Scarborough,Duncan,,Ivison,332826,9,average,TEACHER,PROFESSOR,3.3
+Chemistry,4919,University of Toronto at Scarborough,Artur,,Izmaylov,2187548,0,zero,TEACHER,PROFESSOR,N/A
+Science,4919,University of Toronto at Scarborough,Ruwan,,Jayasinghe,1613976,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4919,University of Toronto at Scarborough,Eliyas,,Jeffay,1567292,11,good,TEACHER,PROFESSOR,4.0
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Lisa,,Jeffrey,339668,3,average,TEACHER,PROFESSOR,3.0
+English,4919,University of Toronto at Scarborough,Dru,,Jeffries,2454149,1,good,TEACHER,PROFESSOR,5.0
+Political Science,4919,University of Toronto at Scarborough,Sanjay,,Jeram,1627675,6,good,TEACHER,PROFESSOR,4.7
+Languages,4919,University of Toronto at Scarborough,Shane,,Jiang,1589371,0,zero,TEACHER,PROFESSOR,N/A
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Xiamei,,Jiang,698143,34,average,TEACHER,PROFESSOR,2.5
+Mathematics,4919,University of Toronto at Scarborough,Xiao,,Jie,2571773,2,good,TEACHER,PROFESSOR,5.0
+Women's Studies,4919,University of Toronto at Scarborough,Nancy,,Johnston,1904432,2,good,TEACHER,PROFESSOR,5.0
+Psychology,4919,University of Toronto at Scarborough,Steve,,Joordens,255587,498,good,TEACHER,PROFESSOR,4.4
+Psychology,4919,University of Toronto at Scarborough,Gelareh,,Jowkar-Baniani,1601991,6,good,TEACHER,PROFESSOR,4.8
+Business,4919,University of Toronto at Scarborough,Michael,,Kahn,339506,7,average,TEACHER,PROFESSOR,2.9
+Humanities,4919,University of Toronto at Scarborough,Yoonjung,,Kang,862668,6,good,TEACHER,PROFESSOR,3.7
+Mathematics,4919,University of Toronto at Scarborough,Sohee,,Kang,2025414,15,good,TEACHER,PROFESSOR,4.4
+Women's Studies,4919,University of Toronto at Scarborough,Victoria,,Kannen,925665,12,good,TEACHER,PROFESSOR,5.0
+Computer Science,4919,University of Toronto at Scarborough,Smita,,Karchoo,1756220,6,good,TEACHER,PROFESSOR,4.4
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Camelia,,Karimianpour,2503325,5,good,TEACHER,PROFESSOR,4.6
+Political Science,4919,University of Toronto at Scarborough,Sean,,Karmali,2530659,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4919,University of Toronto at Scarborough,Kiumars,,Kaveh,2568288,1,average,TEACHER,PROFESSOR,3.0
+Art History,4919,University of Toronto at Scarborough,Lewis,,Kaye,2459171,2,average,TEACHER,PROFESSOR,2.5
+Humanities,4919,University of Toronto at Scarborough,Russell,,Kazal,550468,15,good,TEACHER,PROFESSOR,4.7
+Geography,4919,University of Toronto at Scarborough,Kirsten,,Kennedy,2349974,6,poor,TEACHER,PROFESSOR,2.3
+Mathematics,4919,University of Toronto at Scarborough,Christopher,,Kennedy,2458231,2,good,TEACHER,PROFESSOR,4.0
+Political Science,4919,University of Toronto at Scarborough,Jonathan,,Kent,1982697,2,good,TEACHER,PROFESSOR,4.5
+Geography,4919,University of Toronto at Scarborough,Thembela,,Kepe,1478289,16,good,TEACHER,PROFESSOR,4.5
+Chemistry,4919,University of Toronto at Scarborough,Kagan,,Kerman,1629643,14,average,TEACHER,PROFESSOR,2.7
+English,4919,University of Toronto at Scarborough,Niyosha,,Keyzad,2222562,2,good,TEACHER,PROFESSOR,5.0
+Mathematics,4919,University of Toronto at Scarborough,Mohammad,Kaviul,Khan,2566215,0,zero,TEACHER,PROFESSOR,N/A
+Finance,4919,University of Toronto at Scarborough,Mary,,Khapko,2123641,4,good,TEACHER,PROFESSOR,4.5
+Computer Science,4919,University of Toronto at Scarborough,Faiza,,Khattak,2526042,2,poor,TEACHER,PROFESSOR,1.0
+English,4919,University of Toronto at Scarborough,Elaine,,Khoo,2538325,1,good,TEACHER,PROFESSOR,4.0
+Management,4919,University of Toronto at Scarborough,Kyeongheui,,Kim,555016,11,poor,TEACHER,PROFESSOR,1.7
+Music,4919,University of Toronto at Scarborough,Rosanne,,King,2021889,13,good,TEACHER,PROFESSOR,4.5
+Music,4919,University of Toronto at Scarborough,Brett,,Kingsbury,2018052,5,good,TEACHER,PROFESSOR,4.4
+International Studies,4919,University of Toronto at Scarborough,Paul,,Kingston,426033,36,average,TEACHER,PROFESSOR,2.5
+Geography,4919,University of Toronto at Scarborough,Priya,,Kissoon,1628690,9,poor,TEACHER,PROFESSOR,1.9
+Writing,4919,University of Toronto at Scarborough,Sarah,,Kleeb,2247295,2,poor,TEACHER,PROFESSOR,2.0
+Social Science,4919,University of Toronto at Scarborough,Ivanka,,Knezevic,689123,15,average,TEACHER,PROFESSOR,2.8
+Political Science,4919,University of Toronto at Scarborough,Margaret,,Kohn,1477804,13,good,TEACHER,PROFESSOR,3.5
+Accounting,4919,University of Toronto at Scarborough,Douglas,,Kong,695662,13,good,TEACHER,PROFESSOR,4.6
+Theater,4919,University of Toronto at Scarborough,Sasha ,,Kovacs,2076733,1,good,TEACHER,PROFESSOR,5.0
+Geography,4919,University of Toronto at Scarborough,Jason,,Kovacs,2215434,2,average,TEACHER,PROFESSOR,3.0
+Chemistry,4919,University of Toronto at Scarborough,Heinz-Bernhard,,Kraatz,1628536,17,good,TEACHER,PROFESSOR,3.8
+Economics,4919,University of Toronto at Scarborough,Harry,,Krashinsky,268767,34,good,TEACHER,PROFESSOR,4.5
+Economics,4919,University of Toronto at Scarborough,Michael,,Krashinsky,407303,56,good,TEACHER,PROFESSOR,4.4
+Philosophy,4919,University of Toronto at Scarborough,Philip,,Kremer,558618,4,good,TEACHER,PROFESSOR,3.9
+Biological Sciences,4919,University of Toronto at Scarborough,Herbert,,Kronzucker,263722,90,good,TEACHER,PROFESSOR,4.1
+Anthropology,4919,University of Toronto at Scarborough,Chris,,Krupa,1592359,8,good,TEACHER,PROFESSOR,4.2
+Classics,4919,University of Toronto at Scarborough,Suha,,Kudsieh,466680,10,average,TEACHER,PROFESSOR,3.1
+Psychology,4919,University of Toronto at Scarborough,Andre,,Kukla,339977,0,zero,TEACHER,PROFESSOR,N/A
+Management,4919,University of Toronto at Scarborough,Karen,,Kurdyak,1245020,1,poor,TEACHER,PROFESSOR,2.0
+Geography,4919,University of Toronto at Scarborough,Min-Jung,,Kwak,1606432,4,average,TEACHER,PROFESSOR,3.2
+Humanities,4919,University of Toronto at Scarborough,Will,,Kwan,1618326,4,good,TEACHER,PROFESSOR,4.7
+Women's Studies,4919,University of Toronto at Scarborough,Dani,,Lafond,1549906,1,poor,TEACHER,PROFESSOR,1.0
+Computer Science,4919,University of Toronto at Scarborough,Albert,,Lai,2349963,13,poor,TEACHER,PROFESSOR,1.2
+English,4919,University of Toronto at Scarborough,Mark,,Laliberte,2384783,1,poor,TEACHER,PROFESSOR,2.0
+Humanities,4919,University of Toronto at Scarborough,Susan,,Lamb,273044,19,poor,TEACHER,PROFESSOR,1.4
+Management,4919,University of Toronto at Scarborough,D.,,Lamb,1188238,0,zero,TEACHER,PROFESSOR,N/A
+Theater,4919,University of Toronto at Scarborough,Trisha,,Lamie,340355,11,good,TEACHER,PROFESSOR,4.6
+Health Science,4919,University of Toronto at Scarborough,Beth,,Landau,1986050,0,zero,TEACHER,PROFESSOR,N/A
+Sociology,4919,University of Toronto at Scarborough,P.,,Landolt,842417,6,good,TEACHER,PROFESSOR,3.9
+Languages,4919,University of Toronto at Scarborough,Andrew,,Lane,1329544,1,good,TEACHER,PROFESSOR,4.5
+English,4919,University of Toronto at Scarborough,Katherine,,Larson,1160447,5,good,TEACHER,PROFESSOR,4.3
+Management,4919,University of Toronto at Scarborough,H,,Laurence,858539,19,average,TEACHER,PROFESSOR,3.2
+Theater,4919,University of Toronto at Scarborough,Allison ,,Leadley ,2076737,2,average,TEACHER,PROFESSOR,3.3
+Science,4919,University of Toronto at Scarborough,Janelle,,Leboutillier,1303905,21,good,TEACHER,PROFESSOR,4.1
+Physics,4919,University of Toronto at Scarborough,Martin,,Lee,738158,6,poor,TEACHER,PROFESSOR,2.4
+Political Science,4919,University of Toronto at Scarborough,Daniel,,Lee,1742094,5,good,TEACHER,PROFESSOR,5.0
+Music,4919,University of Toronto at Scarborough,Sherry,,Lee,1786169,1,average,TEACHER,PROFESSOR,3.0
+Psychology,4919,University of Toronto at Scarborough,Andy,,Lee,1807406,10,good,TEACHER,PROFESSOR,4.3
+English,4919,University of Toronto at Scarborough,Garry,,Leonard,256698,190,good,TEACHER,PROFESSOR,4.3
+Music,4919,University of Toronto at Scarborough,Tony,,Leong,2501391,1,good,TEACHER,PROFESSOR,5.0
+English,4919,University of Toronto at Scarborough,Andrew,,Lesk,2024757,0,zero,TEACHER,PROFESSOR,N/A
+Health Science,4919,University of Toronto at Scarborough,Michelle,,Letchumanan,2267948,8,poor,TEACHER,PROFESSOR,1.6
+Political Science,4919,University of Toronto at Scarborough,Renan,,Levine,1997555,12,average,TEACHER,PROFESSOR,3.0
+Sociology,4919,University of Toronto at Scarborough,Kathy,,Liddle,711027,22,good,TEACHER,PROFESSOR,4.2
+Theater,4919,University of Toronto at Scarborough,Shelley,,Liebembuk,1921950,2,good,TEACHER,PROFESSOR,4.2
+Management,4919,University of Toronto at Scarborough,Raquel,,Lindsay,1810828,1,poor,TEACHER,PROFESSOR,1.0
+Business,4919,University of Toronto at Scarborough,John,,Linney,2414849,0,zero,TEACHER,PROFESSOR,N/A
+Management,4919,University of Toronto at Scarborough,Xuefeng,,Liu,1953107,1,poor,TEACHER,PROFESSOR,1.0
+Psychology,4919,University of Toronto at Scarborough,Steve,,Livingston,1063125,24,average,TEACHER,PROFESSOR,3.2
+English,4919,University of Toronto at Scarborough,Jessica,,Lockhart,2356906,1,good,TEACHER,PROFESSOR,5.0
+Anthropology,4919,University of Toronto at Scarborough,Sergi,,Lopez-Torres,2223012,6,good,TEACHER,PROFESSOR,5.0
+Physics,4919,University of Toronto at Scarborough,Gyula,,Lorincz,1807688,8,average,TEACHER,PROFESSOR,2.8
+Science,4919,University of Toronto at Scarborough,Julian,,Lowman,810770,5,good,TEACHER,PROFESSOR,3.8
+International Studies,4919,University of Toronto at Scarborough,Caizhen,,LU,1802630,2,poor,TEACHER,PROFESSOR,2.0
+Management,4919,University of Toronto at Scarborough,Michelle,,Lum,1617838,0,zero,TEACHER,PROFESSOR,N/A
+Languages,4919,University of Toronto at Scarborough,Jingsong,,Ma,2040757,6,poor,TEACHER,PROFESSOR,1.8
+Geography,4919,University of Toronto at Scarborough,Kenneth,,MacDonald,401173,14,poor,TEACHER,PROFESSOR,2.2
+Management,4919,University of Toronto at Scarborough,Hugh,,MacDonald,1767678,2,average,TEACHER,PROFESSOR,3.2
+Biological Sciences,4919,University of Toronto at Scarborough,Scott,,MacIvor,2546755,3,average,TEACHER,PROFESSOR,3.0
+Philosophy,4919,University of Toronto at Scarborough,Doug,,MacKay,944564,5,good,TEACHER,PROFESSOR,5.0
+Sociology,4919,University of Toronto at Scarborough,Malcolm,,MacKinnon,256673,95,average,TEACHER,PROFESSOR,3.4
+Environmental Science,4919,University of Toronto at Scarborough,Jim,,MacLellan,1964286,9,average,TEACHER,PROFESSOR,2.6
+Science,4919,University of Toronto at Scarborough,James,,MacLellan,2405722,1,poor,TEACHER,PROFESSOR,2.0
+Biological Sciences,4919,University of Toronto at Scarborough,Emily,,MacLeod,1892750,2,good,TEACHER,PROFESSOR,4.2
+Biological Sciences,4919,University of Toronto at Scarborough,James,Scott,Maclvor,2504969,1,good,TEACHER,PROFESSOR,4.0
+English,4919,University of Toronto at Scarborough,Ian,,MacRae,913865,5,good,TEACHER,PROFESSOR,4.7
+Sociology,4919,University of Toronto at Scarborough,Neda,,Magbouleh,1844223,3,good,TEACHER,PROFESSOR,4.3
+Sociology,4919,University of Toronto at Scarborough,Neda,,Maghbouleh,1838911,7,good,TEACHER,PROFESSOR,3.5
+Management,4919,University of Toronto at Scarborough,Sam,J,Maglio,1916039,9,good,TEACHER,PROFESSOR,5.0
+Computer Science,4919,University of Toronto at Scarborough,Kaveh,,Mahdaviani,2501751,0,zero,TEACHER,PROFESSOR,N/A
+Journalism,4919,University of Toronto at Scarborough,M,,Mahtani,647625,10,good,TEACHER,PROFESSOR,4.4
+Geography,4919,University of Toronto at Scarborough,Michelle,,Majeed,1685136,12,good,TEACHER,PROFESSOR,3.5
+Psychology,4919,University of Toronto at Scarborough,Diane,,Mangalindan,1815307,7,good,TEACHER,PROFESSOR,3.6
+Mathematics,4919,University of Toronto at Scarborough,Liviu,,Mare,339664,0,zero,TEACHER,PROFESSOR,N/A
+Fine Arts,4919,University of Toronto at Scarborough,Tanya,,Mars,468587,8,average,TEACHER,PROFESSOR,3.2
+Mathematics,4919,University of Toronto at Scarborough,J,,Martens,698146,14,average,TEACHER,PROFESSOR,3.3
+Environmental Science,4919,University of Toronto at Scarborough,Adam,,Martin,2045276,19,good,TEACHER,PROFESSOR,4.9
+Management,4919,University of Toronto at Scarborough,Charles,,Martineau,2327838,3,good,TEACHER,PROFESSOR,4.7
+Languages,4919,University of Toronto at Scarborough,Marina,,Marukhnyak,2087214,4,good,TEACHER,PROFESSOR,4.7
+Biological Sciences,4919,University of Toronto at Scarborough,Andrew,,Mason,255589,69,average,TEACHER,PROFESSOR,3.1
+Management,4919,University of Toronto at Scarborough,Anjomshoa,,Masoud,1207265,3,poor,TEACHER,PROFESSOR,2.0
+English,4919,University of Toronto at Scarborough,A,,Maurice,638994,6,average,TEACHER,PROFESSOR,3.1
+Economics,4919,University of Toronto at Scarborough,A.,,Mazaheri,1337349,16,good,TEACHER,PROFESSOR,3.7
+Economics,4919,University of Toronto at Scarborough,Ataollah,,Mazaheri,2122800,5,average,TEACHER,PROFESSOR,3.4
+Political Science,4919,University of Toronto at Scarborough,James,,McAllister,1735356,1,good,TEACHER,PROFESSOR,4.0
+Management,4919,University of Toronto at Scarborough,Julie,,McCarthy,449327,25,good,TEACHER,PROFESSOR,4.0
+Art History,4919,University of Toronto at Scarborough,Roger,,McCleary,445849,6,good,TEACHER,PROFESSOR,4.3
+Management,4919,University of Toronto at Scarborough,Bill,,McConkey,257474,29,good,TEACHER,PROFESSOR,3.8
+Languages,4919,University of Toronto at Scarborough,Karen,,McCrindle,335191,14,good,TEACHER,PROFESSOR,4.9
+Accounting,4919,University of Toronto at Scarborough,Julie,,McDonald,1828106,5,poor,TEACHER,PROFESSOR,1.1
+Science,4919,University of Toronto at Scarborough,Tom,,McElwain,1613975,0,zero,TEACHER,PROFESSOR,N/A
+English,4919,University of Toronto at Scarborough,Brandon,,McFarlane,1701586,5,average,TEACHER,PROFESSOR,2.9
+History,4919,University of Toronto at Scarborough,Karen,,McFarlene,1338091,2,good,TEACHER,PROFESSOR,3.5
+Biological Sciences,4919,University of Toronto at Scarborough,Patrick,,McGowan,1809545,21,average,TEACHER,PROFESSOR,3.4
+Physics,4919,University of Toronto at Scarborough,Patrick,,McGraw,2457774,1,poor,TEACHER,PROFESSOR,2.0
+Philosophy,4919,University of Toronto at Scarborough,Lisa,,McKeown,2246190,4,good,TEACHER,PROFESSOR,3.5
+Music,4919,University of Toronto at Scarborough,Ken,,McLeod,1786172,4,average,TEACHER,PROFESSOR,3.4
+Social Science,4919,University of Toronto at Scarborough,Colin,,McMahon,1554498,0,zero,TEACHER,PROFESSOR,N/A
+Human Geography amp City Studies,4919,University of Toronto at Scarborough,Rebecca,,McMillan,2402613,1,good,TEACHER,PROFESSOR,5.0
+Management,4919,University of Toronto at Scarborough,Dwayne,,McMulkin,1168243,7,average,TEACHER,PROFESSOR,3.0
+Social Science,4919,University of Toronto at Scarborough,Scott,,McRoberts,1919827,3,average,TEACHER,PROFESSOR,3.3
+Theater,4919,University of Toronto at Scarborough,Scott,,Mealey,2518700,1,good,TEACHER,PROFESSOR,5.0
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Eric,,Mendelsohn,602274,3,average,TEACHER,PROFESSOR,3.0
+Physics,4919,University of Toronto at Scarborough,Kristen,,Menou,2221320,2,poor,TEACHER,PROFESSOR,2.0
+Environmental Science,4919,University of Toronto at Scarborough,Mandy,,Meriano,2409982,0,zero,TEACHER,PROFESSOR,N/A
+Science,4919,University of Toronto at Scarborough,Mandy,,Meriano,884403,8,average,TEACHER,PROFESSOR,2.5
+Human Geography amp City Studies,4919,University of Toronto at Scarborough,Joe,,Mihevc,2468269,3,poor,TEACHER,PROFESSOR,1.0
+Chemistry,4919,University of Toronto at Scarborough,Svetlana (lana),,Mikhaylichenko,1432506,3,average,TEACHER,PROFESSOR,3.3
+Chemistry,4919,University of Toronto at Scarborough,Lana,,Mikhaylichenko,1424480,19,good,TEACHER,PROFESSOR,4.3
+English,4919,University of Toronto at Scarborough,Anne,,Milne,1855908,13,poor,TEACHER,PROFESSOR,2.3
+Geography,4919,University of Toronto at Scarborough,John,,Miron,639793,27,average,TEACHER,PROFESSOR,3.0
+Science,4919,University of Toronto at Scarborough,Carl,,Mitchell,1508045,15,good,TEACHER,PROFESSOR,3.5
+Languages,4919,University of Toronto at Scarborough,Sylvia,,Mittler,2273436,1,good,TEACHER,PROFESSOR,4.0
+Humanities,4919,University of Toronto at Scarborough,Sylvia,,Mittler,420337,15,poor,TEACHER,PROFESSOR,2.2
+Management,4919,University of Toronto at Scarborough,Ted,,Mock,1577992,4,poor,TEACHER,PROFESSOR,2.2
+Languages,4919,University of Toronto at Scarborough,Safieh,,Moghaddam,2418188,12,good,TEACHER,PROFESSOR,3.7
+Psychology,4919,University of Toronto at Scarborough,Fatuma,,Mohamed,2330161,0,zero,TEACHER,PROFESSOR,N/A
+Science,4919,University of Toronto at Scarborough,Tanzina,,Mohsin,1508044,27,poor,TEACHER,PROFESSOR,2.2
+Human Geography  City Studies,4919,University of Toronto at Scarborough,Sharlene,,Mollett,1986335,8,average,TEACHER,PROFESSOR,2.8
+Biological Sciences,4919,University of Toronto at Scarborough,Péter,K,Molnár,2151526,13,poor,TEACHER,PROFESSOR,1.8
+Languages,4919,University of Toronto at Scarborough,Philip,,Monahan,2565425,0,zero,TEACHER,PROFESSOR,N/A
+Management,4919,University of Toronto at Scarborough,Samantha,,Montes,1072077,5,good,TEACHER,PROFESSOR,4.2
+Anthropology,4919,University of Toronto at Scarborough,Hollis,,Moore,1910787,2,good,TEACHER,PROFESSOR,3.8
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Eric,,Moore,629011,38,average,TEACHER,PROFESSOR,2.5
+Political Science,4919,University of Toronto at Scarborough,Toby,,Moorsoom,1476880,1,good,TEACHER,PROFESSOR,4.0
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Michael,,Moras,1506780,7,average,TEACHER,PROFESSOR,2.9
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Mike,,Moras,1604139,2,good,TEACHER,PROFESSOR,4.0
+Health Science,4919,University of Toronto at Scarborough,Rob,,Moriarity,2215605,1,good,TEACHER,PROFESSOR,5.0
+Science,4919,University of Toronto at Scarborough,Robert,Joseph,Moriarity,2397681,1,poor,TEACHER,PROFESSOR,1.0
+Psychology,4919,University of Toronto at Scarborough,Mark,,Morrissey,2564637,1,good,TEACHER,PROFESSOR,5.0
+Anthropology,4919,University of Toronto at Scarborough,Lena,,Mortensen,972202,6,good,TEACHER,PROFESSOR,3.8
+Languages,4919,University of Toronto at Scarborough,Francoise,,Mugnier,795494,13,average,TEACHER,PROFESSOR,2.8
+Sociology,4919,University of Toronto at Scarborough,Ann,,Mullen,297311,32,average,TEACHER,PROFESSOR,3.3
+English,4919,University of Toronto at Scarborough,Katie,,Mullins,1832080,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4919,University of Toronto at Scarborough,Maureen,,Murney,1978402,11,good,TEACHER,PROFESSOR,3.5
+Health Science,4919,University of Toronto at Scarborough,Maureen,,Murphy,2106454,0,zero,TEACHER,PROFESSOR,N/A
+English,4919,University of Toronto at Scarborough,Nathan,,Murray,2161581,7,average,TEACHER,PROFESSOR,2.6
+Psychology,4919,University of Toronto at Scarborough,Anna,,Nagy,1002689,36,average,TEACHER,PROFESSOR,3.4
+Linguistics,4919,University of Toronto at Scarborough,Chandan,,Narayan,1154022,37,good,TEACHER,PROFESSOR,3.9
+Geography,4919,University of Toronto at Scarborough,Rajyashree,,Narayanareddy,1683077,19,poor,TEACHER,PROFESSOR,2.5
+Anthropology,4919,University of Toronto at Scarborough,Mariam,,Nargolwalla,946396,3,good,TEACHER,PROFESSOR,5.0
+Biological Sciences,4919,University of Toronto at Scarborough,Joanne,,Nash,2269693,6,poor,TEACHER,PROFESSOR,1.5
+Languages,4919,University of Toronto at Scarborough,Juvenal,,Ndayiragije,376397,13,good,TEACHER,PROFESSOR,3.7
+Classics,4919,University of Toronto at Scarborough,Jaclyn,,Neel,1478521,2,average,TEACHER,PROFESSOR,2.5
+Philosophy,4919,University of Toronto at Scarborough,Julia,,Nefsky,2261541,3,good,TEACHER,PROFESSOR,4.3
+History,4919,University of Toronto at Scarborough,William,,Nelson,1684280,11,good,TEACHER,PROFESSOR,4.0
+Languages,4919,University of Toronto at Scarborough,Linda,,Ness,1181999,4,good,TEACHER,PROFESSOR,4.8
+Psychology,4919,University of Toronto at Scarborough,Adrian,,Nestor,1891839,12,average,TEACHER,PROFESSOR,2.8
+Women's Studies,4919,University of Toronto at Scarborough,Zoe,,Newman,511893,9,average,TEACHER,PROFESSOR,3.4
+Psychology,4919,University of Toronto at Scarborough,Matthias,,Niemeier,452347,59,good,TEACHER,PROFESSOR,3.7
+English,4919,University of Toronto at Scarborough,Sonja,,Nikkila,1282147,35,good,TEACHER,PROFESSOR,4.3
+Biological Sciences,4919,University of Toronto at Scarborough,Pria,,Nippak,1127190,1,poor,TEACHER,PROFESSOR,1.0
+Computer Science,4919,University of Toronto at Scarborough,Naureen,,Nizam,2416607,3,average,TEACHER,PROFESSOR,3.3
+Political Science,4919,University of Toronto at Scarborough,Carla,,Norrlof,516691,20,poor,TEACHER,PROFESSOR,2.3
+Biological Sciences,4919,University of Toronto at Scarborough,Hossein,,Noyan,2539213,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4919,University of Toronto at Scarborough,David,,Nussbaum,890128,28,good,TEACHER,PROFESSOR,3.6
+Sociology,4919,University of Toronto at Scarborough,Kriste,,O'Neil,1961566,4,good,TEACHER,PROFESSOR,3.9
+Accounting,4919,University of Toronto at Scarborough,Susan,,O'Reilly,705715,0,zero,TEACHER,PROFESSOR,N/A
+Health Science,4919,University of Toronto at Scarborough,Maya,,Obadia,2097357,7,poor,TEACHER,PROFESSOR,1.9
+English,4919,University of Toronto at Scarborough,Kathleen,,Ogden,2267384,1,good,TEACHER,PROFESSOR,5.0
+Biological Sciences,4919,University of Toronto at Scarborough,Mary,,Olaveson,265786,79,good,TEACHER,PROFESSOR,4.2
+History,4919,University of Toronto at Scarborough,Vanessa,,Oliveira,2365384,0,zero,TEACHER,PROFESSOR,N/A
+Political Science,4919,University of Toronto at Scarborough,David,,Onley,2167572,3,good,TEACHER,PROFESSOR,4.0
+Film,4919,University of Toronto at Scarborough,MIDI,,ONODERA,2472451,1,poor,TEACHER,PROFESSOR,1.0
+Anthropology,4919,University of Toronto at Scarborough,Trevor,,Orchard,1248246,3,good,TEACHER,PROFESSOR,4.0
+Management,4919,University of Toronto at Scarborough,Peter,,Ostrowski,969164,3,poor,TEACHER,PROFESSOR,1.0
+Psychology,4919,University of Toronto at Scarborough,Elizabeth,,Page-Gould,1512422,18,good,TEACHER,PROFESSOR,4.8
+Computer Science,4919,University of Toronto at Scarborough,Richard,,Pancer,1760735,5,average,TEACHER,PROFESSOR,2.6
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Richard,,Pancer,265622,71,average,TEACHER,PROFESSOR,3.0
+Health Science,4919,University of Toronto at Scarborough,Celeste,,Pang,2511959,2,good,TEACHER,PROFESSOR,5.0
+History,4919,University of Toronto at Scarborough,Neville,,Panthaki,979037,8,good,TEACHER,PROFESSOR,4.8
+Psychology,4919,University of Toronto at Scarborough,Angelina,,Paolozza,2172674,13,average,TEACHER,PROFESSOR,3.0
+English,4919,University of Toronto at Scarborough,Natalie,,Papoutsis,935232,5,good,TEACHER,PROFESSOR,4.3
+Psychology,4919,University of Toronto at Scarborough,Dwayne,,Pare,1801559,43,good,TEACHER,PROFESSOR,4.2
+Anthropology,4919,University of Toronto at Scarborough,Joyce,,Parga,1174704,7,good,TEACHER,PROFESSOR,4.9
+Humanities,4919,University of Toronto at Scarborough,Jin,,Park,1576116,2,poor,TEACHER,PROFESSOR,2.2
+Management,4919,University of Toronto at Scarborough,John,,Parkinson,2383763,0,zero,TEACHER,PROFESSOR,N/A
+Economics,4919,University of Toronto at Scarborough,John,,Parkinson,2271531,2,average,TEACHER,PROFESSOR,3.0
+Economics,4919,University of Toronto at Scarborough,Jack,,Parkinson,457273,54,average,TEACHER,PROFESSOR,3.0
+Biological Sciences,4919,University of Toronto at Scarborough,Rajit,,Patankar,1952778,7,good,TEACHER,PROFESSOR,4.6
+Women's Studies,4919,University of Toronto at Scarborough,Shaista,,Patel,2156177,5,good,TEACHER,PROFESSOR,5.0
+English,4919,University of Toronto at Scarborough,Andrew,,Patenall,337891,33,average,TEACHER,PROFESSOR,3.2
+Geography,4919,University of Toronto at Scarborough,Kamal,,Paudel,2150088,3,average,TEACHER,PROFESSOR,3.0
+Anthropology,4919,University of Toronto at Scarborough,Alejandro,,Paz,2211916,6,average,TEACHER,PROFESSOR,3.0
+English,4919,University of Toronto at Scarborough,Alexandra,,Peat,727728,20,good,TEACHER,PROFESSOR,4.5
+History,4919,University of Toronto at Scarborough,C,,Pennington,705948,22,good,TEACHER,PROFESSOR,4.7
+Religion,4919,University of Toronto at Scarborough,David,,Perley,1460330,20,good,TEACHER,PROFESSOR,3.8
+Biological Sciences,4919,University of Toronto at Scarborough,Kamini,,Persaud,1564041,3,good,TEACHER,PROFESSOR,4.3
+Psychology,4919,University of Toronto at Scarborough,Ted,,Petit,472817,59,good,TEACHER,PROFESSOR,3.8
+Humanities,4919,University of Toronto at Scarborough,Michael,,Petit,1476953,32,good,TEACHER,PROFESSOR,3.9
+Psychology,4919,University of Toronto at Scarborough,Laura-Ann,,Petitto,1121011,5,good,TEACHER,PROFESSOR,4.9
+Science,4919,University of Toronto at Scarborough,Dennis,,Phil,1613977,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4919,University of Toronto at Scarborough,Brian,,Pike,1693280,4,good,TEACHER,PROFESSOR,3.9
+History,4919,University of Toronto at Scarborough,Jeffrey,,Pilcher,2142986,6,average,TEACHER,PROFESSOR,2.9
+Humanities,4919,University of Toronto at Scarborough,Maud,,Pillet,1466268,24,good,TEACHER,PROFESSOR,4.3
+Sociology,4919,University of Toronto at Scarborough,Laura,,Pitkanen,1930579,4,good,TEACHER,PROFESSOR,5.0
+Mathematics,4919,University of Toronto at Scarborough,G.,,Pitt,1194291,2,good,TEACHER,PROFESSOR,5.0
+Psychology,4919,University of Toronto at Scarborough,Franca,,Placenza,1129748,9,good,TEACHER,PROFESSOR,4.2
+English,4919,University of Toronto at Scarborough,Judy,,Pocock,1719763,2,good,TEACHER,PROFESSOR,4.2
+Psychology,4919,University of Toronto at Scarborough,Olivia,,Podolak,2368901,6,good,TEACHER,PROFESSOR,4.7
+Classics,4919,University of Toronto at Scarborough,Alexandra,,Pohlod,1883853,1,poor,TEACHER,PROFESSOR,2.0
+Chemistry,4919,University of Toronto at Scarborough,Janet,,Potter,559760,7,good,TEACHER,PROFESSOR,4.0
+Languages,4919,University of Toronto at Scarborough,Kristopher,,Poulin-Thibault,2404082,2,good,TEACHER,PROFESSOR,5.0
+Economics,4919,University of Toronto at Scarborough,Vinh,,Quan,1424030,20,average,TEACHER,PROFESSOR,2.6
+Management,4919,University of Toronto at Scarborough,George,,Quan Fun,458848,65,good,TEACHER,PROFESSOR,3.7
+Computer amp Math. Sciences,4919,University of Toronto at Scarborough,Mustafa,,Quraish,2568114,0,zero,TEACHER,PROFESSOR,N/A
+Business,4919,University of Toronto at Scarborough,Phanikiran,,Radhakrishnan,2299396,1,good,TEACHER,PROFESSOR,5.0
+Management,4919,University of Toronto at Scarborough,Phani,,Radhakrishnan,592666,26,poor,TEACHER,PROFESSOR,2.3
+Languages,4919,University of Toronto at Scarborough,Pavlina,,Radia,253766,25,good,TEACHER,PROFESSOR,3.6
+English,4919,University of Toronto at Scarborough,Ram,,Rahim,921406,0,zero,TEACHER,PROFESSOR,N/A
+Political Science,4919,University of Toronto at Scarborough,Robin,,Ramcharan,902475,13,poor,TEACHER,PROFESSOR,1.6
+Health Science,4919,University of Toronto at Scarborough,Jason,,Ramsay,985130,6,average,TEACHER,PROFESSOR,2.8
+Mathematics,4919,University of Toronto at Scarborough,Anja,,Randecker,2403035,8,average,TEACHER,PROFESSOR,3.2
+Music,4919,University of Toronto at Scarborough,Alexander,Sasha,Rapoport,1786176,4,good,TEACHER,PROFESSOR,5.0
+Business,4919,University of Toronto at Scarborough,Sathees,,Ratnam,1076881,5,good,TEACHER,PROFESSOR,4.8
+Mathematics,4919,University of Toronto at Scarborough,Steven,,Rayan,1855478,12,good,TEACHER,PROFESSOR,5.0
+Management,4919,University of Toronto at Scarborough,Linda,,Reeser,1414847,1,good,TEACHER,PROFESSOR,4.0
+Biological Sciences,4919,University of Toronto at Scarborough,Stephen,,Reid,369644,49,good,TEACHER,PROFESSOR,4.3
+Physics,4919,University of Toronto at Scarborough,Hanno,,Rein,2112953,2,average,TEACHER,PROFESSOR,2.8
+Geography,4919,University of Toronto at Scarborough,T,,Relph,418481,8,good,TEACHER,PROFESSOR,4.2
+Political Science,4919,University of Toronto at Scarborough,Stefan,,Renckens,2078903,4,average,TEACHER,PROFESSOR,3.3
+Chemistry,4919,University of Toronto at Scarborough,Wanda,,Restivo,482417,13,good,TEACHER,PROFESSOR,3.9
+Health Science,4919,University of Toronto at Scarborough,Mana,,Rezai,2398683,2,average,TEACHER,PROFESSOR,3.0
+Political Science,4919,University of Toronto at Scarborough,R,,Rice,1157501,23,good,TEACHER,PROFESSOR,4.8
+Biological Sciences,4919,University of Toronto at Scarborough,Blake,,Richards,1912168,22,average,TEACHER,PROFESSOR,3.5
+International Studies,4919,University of Toronto at Scarborough,W. Tim G.,,Richardson,802653,14,good,TEACHER,PROFESSOR,4.1
+Philosophy,4919,University of Toronto at Scarborough,Jon,,Rick,2291158,1,good,TEACHER,PROFESSOR,5.0
+Biological Sciences,4919,University of Toronto at Scarborough,Nicole,,Ricker,1222321,0,zero,TEACHER,PROFESSOR,N/A
+Humanities,4919,University of Toronto at Scarborough,Pascal,,Riendeau,345697,12,good,TEACHER,PROFESSOR,4.3
+Biological Sciences,4919,University of Toronto at Scarborough,Dan,,Riggs,346353,67,average,TEACHER,PROFESSOR,3.3
+Anthropology,4919,University of Toronto at Scarborough,Diane,,Riskedahl,2040014,5,good,TEACHER,PROFESSOR,4.4
+Geography,4919,University of Toronto at Scarborough,David,,Roberts,1808140,0,zero,TEACHER,PROFESSOR,N/A
+History,4919,University of Toronto at Scarborough,Ian,,Robertson,639803,7,average,TEACHER,PROFESSOR,3.2
+History,4919,University of Toronto at Scarborough,Steven,,Rockel,300435,27,average,TEACHER,PROFESSOR,3.0
+English,4919,University of Toronto at Scarborough,Joel,,Rodgers,2103202,6,good,TEACHER,PROFESSOR,5.0
+English,4919,University of Toronto at Scarborough,Robert,,Romeo,873651,0,zero,TEACHER,PROFESSOR,N/A
+English,4919,University of Toronto at Scarborough,Natalie,,Rose,941454,16,good,TEACHER,PROFESSOR,3.5
+Political Science,4919,University of Toronto at Scarborough,Evan,,Rosevear,2555207,1,poor,TEACHER,PROFESSOR,2.0
+Political Science,4919,University of Toronto at Scarborough,Evan,,Roseveer,2448542,3,average,TEACHER,PROFESSOR,2.7
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Alan,,Rosselet,802452,4,good,TEACHER,PROFESSOR,3.9
+History,4919,University of Toronto at Scarborough,Natalie,,Rothman,955354,13,average,TEACHER,PROFESSOR,3.3
+Languages,4919,University of Toronto at Scarborough,Anne,,Rover,1890910,7,average,TEACHER,PROFESSOR,3.2
+Political Science,4919,University of Toronto at Scarborough,Arthur,,Rubinoff,704933,13,average,TEACHER,PROFESSOR,2.6
+English,4919,University of Toronto at Scarborough,Majorie,,Rubright,1157644,5,good,TEACHER,PROFESSOR,4.3
+Psychology,4919,University of Toronto at Scarborough,Anthony,,Ruocco,1700101,9,good,TEACHER,PROFESSOR,4.5
+Physics,4919,University of Toronto at Scarborough,Matt,,Russo,2098145,7,good,TEACHER,PROFESSOR,4.4
+Biological Sciences,4919,University of Toronto at Scarborough,Stefan,,Rusyniak,655055,27,average,TEACHER,PROFESSOR,3.2
+English,4919,University of Toronto at Scarborough,Brandy,,Ryan,1316351,1,average,TEACHER,PROFESSOR,3.0
+Geography,4919,University of Toronto at Scarborough,Parastou,,Saberi,2164579,2,good,TEACHER,PROFESSOR,4.5
+English,4919,University of Toronto at Scarborough,Manpreet,,Sahota,2134522,0,zero,TEACHER,PROFESSOR,N/A
+Languages,4919,University of Toronto at Scarborough,Nida,,Sajid,1187584,7,good,TEACHER,PROFESSOR,4.0
+Management,4919,University of Toronto at Scarborough,Alan,,Saks,1253154,1,good,TEACHER,PROFESSOR,4.0
+Sociology,4919,University of Toronto at Scarborough,Rania,,Salem,1837493,20,average,TEACHER,PROFESSOR,2.6
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Mahinda,,Samarakoon,636973,60,good,TEACHER,PROFESSOR,4.3
+Anthropology,4919,University of Toronto at Scarborough,Scott,,Sams,1858918,2,good,TEACHER,PROFESSOR,5.0
+Music,4919,University of Toronto at Scarborough,Annette,,Sanger,253763,18,good,TEACHER,PROFESSOR,3.6
+Art History,4919,University of Toronto at Scarborough,Annette,,Sanger,2070379,0,zero,TEACHER,PROFESSOR,N/A
+Computer  Math. Sciences,4919,University of Toronto at Scarborough,Thierry,,Sans,2278578,8,good,TEACHER,PROFESSOR,3.7
+Languages,4919,University of Toronto at Scarborough,Camelia,,Sararu,2280723,1,good,TEACHER,PROFESSOR,5.0
+Chemistry,4919,University of Toronto at Scarborough,Effiette,,Sauer,1264016,26,good,TEACHER,PROFESSOR,4.2
+Biological Sciences,4919,University of Toronto at Scarborough,Monica,,Sauer,2079374,4,average,TEACHER,PROFESSOR,2.9
+Anthropology,4919,University of Toronto at Scarborough,Lawrence,,Sawchuk,2246191,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4919,University of Toronto at Scarborough,Larry,,Sawchuk,256678,112,good,TEACHER,PROFESSOR,4.3
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,John,,Scherk,1317129,1,good,TEACHER,PROFESSOR,4.0
+Political Science,4919,University of Toronto at Scarborough,Robert,,Schertzer,1855312,4,good,TEACHER,PROFESSOR,4.5
+Anthropology,4919,University of Toronto at Scarborough,Michael,,Schillaci,270919,60,good,TEACHER,PROFESSOR,3.5
+Psychology,4919,University of Toronto at Scarborough,Mark,,Schmuckler,424037,68,average,TEACHER,PROFESSOR,2.7
+Computer Science,4919,University of Toronto at Scarborough,Bianca,,Schroeder,2199043,5,good,TEACHER,PROFESSOR,4.8
+Mathematics,4919,University of Toronto at Scarborough,Geoffrey,,Scott,2279164,5,good,TEACHER,PROFESSOR,4.8
+Philosophy,4919,University of Toronto at Scarborough,William,,Seager,585990,27,good,TEACHER,PROFESSOR,4.3
+Psychology,4919,University of Toronto at Scarborough,Zindel,V.,Segal,1897210,1,average,TEACHER,PROFESSOR,3.0
+Sociology,4919,University of Toronto at Scarborough,Aysan,,Sev'Er,257202,40,poor,TEACHER,PROFESSOR,2.5
+Marketing,4919,University of Toronto at Scarborough,Avni,,Shah,2386236,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4919,University of Toronto at Scarborough,Zohreh,,Shahbazi,1617892,8,good,TEACHER,PROFESSOR,3.9
+Accounting,4919,University of Toronto at Scarborough,Ron,,Shalev,2429163,3,average,TEACHER,PROFESSOR,3.3
+Political Science,4919,University of Toronto at Scarborough,Torrey,,Shanks,2213471,4,good,TEACHER,PROFESSOR,5.0
+History,4919,University of Toronto at Scarborough,J,,Sharma,1438345,10,poor,TEACHER,PROFESSOR,2.3
+Social Science,4919,University of Toronto at Scarborough,Umesh,,Sharma,2281213,0,zero,TEACHER,PROFESSOR,N/A
+History,4919,University of Toronto at Scarborough,Jayeeta,,Sharma,2402994,0,zero,TEACHER,PROFESSOR,N/A
+Not Specified,4919,University of Toronto at Scarborough,Eric,,Shaver,970962,8,poor,TEACHER,PROFESSOR,2.0
+Religion,4919,University of Toronto at Scarborough,Henry,,Shiu,1043311,30,average,TEACHER,PROFESSOR,2.7
+Anthropology,4919,University of Toronto at Scarborough,Merav,,Shohet,1906552,4,poor,TEACHER,PROFESSOR,2.1
+Political Science,4919,University of Toronto at Scarborough,Igor,,Shoikhedbrod,2384544,13,good,TEACHER,PROFESSOR,4.7
+Health Science,4919,University of Toronto at Scarborough,Suzanne,,Sicchia,1834590,27,good,TEACHER,PROFESSOR,4.0
+Anthropology,4919,University of Toronto at Scarborough,Mary,,Silcox,72792,32,good,TEACHER,PROFESSOR,4.3
+Sociology,4919,University of Toronto at Scarborough,Dan,,Silver,1189012,16,good,TEACHER,PROFESSOR,4.0
+Health Science,4919,University of Toronto at Scarborough,Michelle,,Silver,1529914,17,good,TEACHER,PROFESSOR,4.2
+Biological Sciences,4919,University of Toronto at Scarborough,Lorelei Gavrilla,,Silverman,1455965,2,good,TEACHER,PROFESSOR,4.2
+Science,4919,University of Toronto at Scarborough,Wauchop,,Simon,770866,0,zero,TEACHER,PROFESSOR,N/A
+Geography,4919,University of Toronto at Scarborough,Myrna,,Simpson,313278,12,average,TEACHER,PROFESSOR,3.3
+Chemistry,4919,University of Toronto at Scarborough,Andre,,Simpson,800596,5,good,TEACHER,PROFESSOR,4.1
+Political Science,4919,University of Toronto at Scarborough,G.,,Skogstad,757988,11,good,TEACHER,PROFESSOR,4.0
+Anthropology,4919,University of Toronto at Scarborough,Peter,,Skrivanic,1527803,8,average,TEACHER,PROFESSOR,3.3
+Political Science,4919,University of Toronto at Scarborough,Waldemar,,Skrobacki,1094058,27,good,TEACHER,PROFESSOR,4.1
+Humanities,4919,University of Toronto at Scarborough,C.C.,,Smith,752738,5,average,TEACHER,PROFESSOR,2.8
+History,4919,University of Toronto at Scarborough,David,,Smith,1812355,0,zero,TEACHER,PROFESSOR,N/A
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Kathleen,,Smith,1625297,45,good,TEACHER,PROFESSOR,5.0
+Philosophy,4919,University of Toronto at Scarborough,Rodney,,Snooks,815460,2,average,TEACHER,PROFESSOR,2.5
+Human Geography  City Studies,4919,University of Toronto at Scarborough,Kelly,,Snow,2001634,5,good,TEACHER,PROFESSOR,3.6
+Biological Sciences,4919,University of Toronto at Scarborough,Fraser,,Soares,2469851,3,good,TEACHER,PROFESSOR,4.3
+Political Science,4919,University of Toronto at Scarborough,Susan,,Solomon,496669,19,good,TEACHER,PROFESSOR,3.6
+Mathematics,4919,University of Toronto at Scarborough,Mohsen,,Soltanifar,2280651,28,average,TEACHER,PROFESSOR,2.5
+Anthropology,4919,University of Toronto at Scarborough,R,,Song,639397,17,average,TEACHER,PROFESSOR,3.5
+Languages,4919,University of Toronto at Scarborough,Snejina,,Sonina,1037234,11,good,TEACHER,PROFESSOR,4.6
+Geography,4919,University of Toronto at Scarborough,Andre,,Sorensen,531648,16,good,TEACHER,PROFESSOR,3.5
+Anthropology,4919,University of Toronto at Scarborough,Antonio,,Sorge,2312513,1,good,TEACHER,PROFESSOR,4.0
+Biological Sciences,4919,University of Toronto at Scarborough,Connie,,Soros,555005,40,poor,TEACHER,PROFESSOR,2.4
+History,4919,University of Toronto at Scarborough,Ronald,De,Sousa,2504430,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4919,University of Toronto at Scarborough,Michael,,Souza,2176692,37,good,TEACHER,PROFESSOR,4.7
+Sociology,4919,University of Toronto at Scarborough,Jennifer,,Sparks,2486515,2,average,TEACHER,PROFESSOR,3.0
+Sociology,4919,University of Toronto at Scarborough,Nicholas,,Spence,2387981,0,zero,TEACHER,PROFESSOR,N/A
+Health Science,4919,University of Toronto at Scarborough,Nicholas,,Spence,2454369,1,good,TEACHER,PROFESSOR,5.0
+Theater,4919,University of Toronto at Scarborough,Paula,,Sperdakos,372458,10,average,TEACHER,PROFESSOR,3.0
+Sociology,4919,University of Toronto at Scarborough,Lauren,,Spring,2332046,1,good,TEACHER,PROFESSOR,5.0
+Classics,4919,University of Toronto at Scarborough,Tracy,L.,Spurrier,2091985,13,good,TEACHER,PROFESSOR,4.5
+Humanities,4919,University of Toronto at Scarborough,Alan,,Stanbridge,324987,6,average,TEACHER,PROFESSOR,3.4
+English,4919,University of Toronto at Scarborough,Rachel,,Stapleton,2255975,1,good,TEACHER,PROFESSOR,4.0
+Leadership,4919,University of Toronto at Scarborough,A.,,Stark,1006589,0,zero,TEACHER,PROFESSOR,N/A
+Management,4919,University of Toronto at Scarborough,Andrew,,Stawinoga,388942,13,good,TEACHER,PROFESSOR,3.7
+Geography,4919,University of Toronto at Scarborough,Silvija,,Stefanovic,1039639,29,average,TEACHER,PROFESSOR,3.2
+Science,4919,University of Toronto at Scarborough,Jovan,,Stefanovic,1508054,8,average,TEACHER,PROFESSOR,2.8
+Environmental Science,4919,University of Toronto at Scarborough,Silvija,,Stefanovic,2576939,0,zero,TEACHER,PROFESSOR,N/A
+Biological Sciences,4919,University of Toronto at Scarborough,Ivana,,Stehlik,1792243,19,good,TEACHER,PROFESSOR,4.3
+Geography,4919,University of Toronto at Scarborough,Lindsay,,Stephens,1812992,4,good,TEACHER,PROFESSOR,3.9
+Philosophy,4919,University of Toronto at Scarborough,Dustin,,Stokes,1328579,18,good,TEACHER,PROFESSOR,4.3
+Health Science,4919,University of Toronto at Scarborough,Alyson,,Stone,583691,5,average,TEACHER,PROFESSOR,2.7
+Sociology,4919,University of Toronto at Scarborough,Katherine,,Stuart,1664480,2,good,TEACHER,PROFESSOR,4.8
+Philosophy,4919,University of Toronto at Scarborough,Jacob,,Stump,2413887,20,good,TEACHER,PROFESSOR,5.0
+Biological Sciences,4919,University of Toronto at Scarborough,Rachel,,Sturge,2216453,12,average,TEACHER,PROFESSOR,3.2
+Chemistry,4919,University of Toronto at Scarborough,Ruby,,Sullan,2437951,12,poor,TEACHER,PROFESSOR,1.6
+Mathematics,4919,University of Toronto at Scarborough,Qiang,,Sun,2475671,3,poor,TEACHER,PROFESSOR,1.0
+History,4919,University of Toronto at Scarborough,Robin,,Sutherland-Harris,1425182,3,good,TEACHER,PROFESSOR,5.0
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Michael,,Szamosi,468375,21,average,TEACHER,PROFESSOR,2.5
+Mathematics,4919,University of Toronto at Scarborough,Balazs,,Szegedy,1341299,3,average,TEACHER,PROFESSOR,2.8
+Computer amp Math. Sciences,4919,University of Toronto at Scarborough,David,,Szeto,2419701,1,good,TEACHER,PROFESSOR,4.0
+Sociology,4919,University of Toronto at Scarborough,Vanina,,Sztainbok,1735669,2,good,TEACHER,PROFESSOR,4.0
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Anya,,Tafliovich,1807750,18,good,TEACHER,PROFESSOR,3.6
+Sociology,4919,University of Toronto at Scarborough,Victoria,,Tahmasebi,1142613,9,good,TEACHER,PROFESSOR,3.9
+Linguistics,4919,University of Toronto at Scarborough,Eri,,Takahashi,1836232,25,good,TEACHER,PROFESSOR,3.7
+Humanities,4919,University of Toronto at Scarborough,Al-Kasey,,Tamara,1236097,1,good,TEACHER,PROFESSOR,3.5
+Geography,4919,University of Toronto at Scarborough,Shaun,,Tanaka,1186263,9,good,TEACHER,PROFESSOR,3.9
+Sociology,4919,University of Toronto at Scarborough,Julian,,Tanner,488989,32,average,TEACHER,PROFESSOR,3.2
+Fine Arts,4919,University of Toronto at Scarborough,Evan,,Tapper,1651951,3,average,TEACHER,PROFESSOR,3.0
+Physics,4919,University of Toronto at Scarborough,Salam,,Tawfiq,469344,42,average,TEACHER,PROFESSOR,2.5
+Philosophy,4919,University of Toronto at Scarborough,Evan,,Taylor,2361428,0,zero,TEACHER,PROFESSOR,N/A
+Political Science,4919,University of Toronto at Scarborough,Judith,,Teichman,591783,16,average,TEACHER,PROFESSOR,3.5
+Anthropology,4919,University of Toronto at Scarborough,Julie,,Teichroeb,2234517,2,good,TEACHER,PROFESSOR,4.5
+English,4919,University of Toronto at Scarborough,Neil,,Ten Kortenaar,563423,7,good,TEACHER,PROFESSOR,4.2
+Psychology,4919,University of Toronto at Scarborough,Rimma,,Teper,2129461,8,good,TEACHER,PROFESSOR,3.8
+Biological Sciences,4919,University of Toronto at Scarborough,Mauricio,R,Terebiznik,1831709,4,good,TEACHER,PROFESSOR,3.6
+Geography,4919,University of Toronto at Scarborough,Danielle,,Tessaro,2289193,13,good,TEACHER,PROFESSOR,4.5
+Chemistry,4919,University of Toronto at Scarborough,Nirusha,,Thavarajah,465148,79,good,TEACHER,PROFESSOR,3.9
+Biological Sciences,4919,University of Toronto at Scarborough,Jeneni,,Thiagavel,2553971,3,good,TEACHER,PROFESSOR,5.0
+History,4919,University of Toronto at Scarborough,Fabrizio,,Titone,1412580,1,poor,TEACHER,PROFESSOR,1.0
+Computer  Math. Sciences,4919,University of Toronto at Scarborough,Jabed,,Tomal,1929498,15,average,TEACHER,PROFESSOR,2.8
+Management,4919,University of Toronto at Scarborough,Jincheng,,Tong,2555791,1,good,TEACHER,PROFESSOR,5.0
+Management,4919,University of Toronto at Scarborough,Arif,,Toor,2358487,9,average,TEACHER,PROFESSOR,2.8
+Psychology,4919,University of Toronto at Scarborough,Sisi,,Tran,1504710,38,average,TEACHER,PROFESSOR,3.0
+Philosophy,4919,University of Toronto at Scarborough,Nick,,Treanor,1077800,2,good,TEACHER,PROFESSOR,4.5
+Biological Sciences,4919,University of Toronto at Scarborough,Bebhinn,,Treanor,1749948,16,good,TEACHER,PROFESSOR,3.9
+Political Science,4919,University of Toronto at Scarborough,Phil,,Triadafilopoulos,838748,33,good,TEACHER,PROFESSOR,3.7
+Anthropology,4919,University of Toronto at Scarborough,Lianne,,Tripp,2156875,2,poor,TEACHER,PROFESSOR,1.5
+Management,4919,University of Toronto at Scarborough,Gerhard,,Trippen,1341995,11,good,TEACHER,PROFESSOR,4.7
+Psychology,4919,University of Toronto at Scarborough,Shona,,Tritt,2329862,8,good,TEACHER,PROFESSOR,3.5
+Management,4919,University of Toronto at Scarborough,John,,Trougakos,1133135,13,good,TEACHER,PROFESSOR,4.7
+Languages,4919,University of Toronto at Scarborough,Malama,,Tsimenis,1675941,12,average,TEACHER,PROFESSOR,3.2
+Mathematics,4919,University of Toronto at Scarborough,Jenkin,,Tsui,2239829,2,good,TEACHER,PROFESSOR,3.5
+Music,4919,University of Toronto at Scarborough,Lynn,,Tucker,1278093,2,good,TEACHER,PROFESSOR,5.0
+English,4919,University of Toronto at Scarborough,Daniel,,Tysdal,1366962,20,good,TEACHER,PROFESSOR,4.6
+English,4919,University of Toronto at Scarborough,Tom,,Ue,2217066,3,good,TEACHER,PROFESSOR,4.3
+Psychology,4919,University of Toronto at Scarborough,Amanda,,Uliaszek,1631040,17,good,TEACHER,PROFESSOR,3.8
+Sociology,4919,University of Toronto at Scarborough,Shelly,,Ungar,255586,25,good,TEACHER,PROFESSOR,3.6
+Sociology,4919,University of Toronto at Scarborough,Sheldon,,Ungar,257356,83,good,TEACHER,PROFESSOR,3.5
+Physics,4919,University of Toronto at Scarborough,Diana,,Valencia,2221317,3,good,TEACHER,PROFESSOR,4.0
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,B,,Valko,698144,14,average,TEACHER,PROFESSOR,3.2
+Biological Sciences,4919,University of Toronto at Scarborough,Greg,,Vanlerberghe,345960,35,average,TEACHER,PROFESSOR,3.4
+Management,4919,University of Toronto at Scarborough,Sujay,,Vardhmane,1601155,2,good,TEACHER,PROFESSOR,4.0
+Humanities,4919,University of Toronto at Scarborough,Theofanis,,Verinakis,1393608,6,good,TEACHER,PROFESSOR,3.8
+Chemistry,4919,University of Toronto at Scarborough,Ann,,Verner,335192,41,average,TEACHER,PROFESSOR,3.2
+English,4919,University of Toronto at Scarborough,Karina,,Vernon,2255702,1,good,TEACHER,PROFESSOR,5.0
+Sociology,4919,University of Toronto at Scarborough,Francisco,,Villegas,1892063,18,good,TEACHER,PROFESSOR,4.9
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Balint,,Virag,947956,2,poor,TEACHER,PROFESSOR,1.0
+Humanities,4919,University of Toronto at Scarborough,Curie,,Virag,1684281,3,poor,TEACHER,PROFESSOR,2.3
+English,4919,University of Toronto at Scarborough,Vikki,,Visvis,488632,10,good,TEACHER,PROFESSOR,4.8
+Chemistry,4919,University of Toronto at Scarborough,Oleksandr,,Voznyy,2437953,3,good,TEACHER,PROFESSOR,3.7
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Kersti,,Wain-Bantin,295017,16,poor,TEACHER,PROFESSOR,2.1
+Sociology,4919,University of Toronto at Scarborough,Ingrid,,Waldron,894968,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4919,University of Toronto at Scarborough,Amber,,Walker-Bolton,2310689,2,poor,TEACHER,PROFESSOR,2.0
+Sociology,4919,University of Toronto at Scarborough,Denis,,Wall,687858,20,good,TEACHER,PROFESSOR,3.5
+Classics,4919,University of Toronto at Scarborough,Chris,,Wallace,1576114,5,good,TEACHER,PROFESSOR,3.8
+Geology,4919,University of Toronto at Scarborough,Kathy,,Wallace,1816309,1,good,TEACHER,PROFESSOR,5.0
+Health Science,4919,University of Toronto at Scarborough,Anna,,Walsh,1048825,22,good,TEACHER,PROFESSOR,4.1
+Law,4919,University of Toronto at Scarborough,Jason,,Wang,1152044,2,good,TEACHER,PROFESSOR,4.8
+Chemistry,4919,University of Toronto at Scarborough,Frank,,Wania,345598,28,average,TEACHER,PROFESSOR,3.3
+History,4919,University of Toronto at Scarborough,Ronda,,Ward,271015,6,good,TEACHER,PROFESSOR,3.8
+Health Science,4919,University of Toronto at Scarborough,Marina,,Wasilewski,2361787,2,good,TEACHER,PROFESSOR,3.5
+Political Science,4919,University of Toronto at Scarborough,Lucan,,Way,927790,17,good,TEACHER,PROFESSOR,3.7
+Management,4919,University of Toronto at Scarborough,Craig,,Weaver,1339336,6,good,TEACHER,PROFESSOR,4.0
+Physics,4919,University of Toronto at Scarborough,Dan,,Weaver,2474607,10,average,TEACHER,PROFESSOR,2.9
+International Studies,4919,University of Toronto at Scarborough,Christopher,,Webb,2293421,6,good,TEACHER,PROFESSOR,5.0
+Humanities,4919,University of Toronto at Scarborough,Erin,,Webster,784258,12,good,TEACHER,PROFESSOR,4.2
+Finance,4919,University of Toronto at Scarborough,Jason,,Wei,695663,12,good,TEACHER,PROFESSOR,4.0
+Biological Sciences,4919,University of Toronto at Scarborough,Jason,,Weir,1852338,5,good,TEACHER,PROFESSOR,4.7
+Biological Sciences,4919,University of Toronto at Scarborough,Kenneth,,Welch,1557997,9,poor,TEACHER,PROFESSOR,2.4
+English,4919,University of Toronto at Scarborough,Michael,,Wells,1175489,6,good,TEACHER,PROFESSOR,4.9
+English,4919,University of Toronto at Scarborough,Andrew,,Westoll,1874640,7,good,TEACHER,PROFESSOR,4.9
+English,4919,University of Toronto at Scarborough,Laura Jane,,Wey,1500609,11,good,TEACHER,PROFESSOR,3.8
+Music,4919,University of Toronto at Scarborough,Lenard,,Whiting,257375,23,average,TEACHER,PROFESSOR,3.4
+English,4919,University of Toronto at Scarborough,Robin,,Whittaker,791998,8,good,TEACHER,PROFESSOR,3.5
+English,4919,University of Toronto at Scarborough,Georgia,,Wilder,323878,10,good,TEACHER,PROFESSOR,3.9
+Political Science,4919,University of Toronto at Scarborough,Matt,,Wilder,2572562,1,good,TEACHER,PROFESSOR,5.0
+Psychology,4919,University of Toronto at Scarborough,Charmaine,C.,Williams,2127373,1,good,TEACHER,PROFESSOR,5.0
+Sociology,4919,University of Toronto at Scarborough,Lawrence,,Williams,2428898,3,good,TEACHER,PROFESSOR,4.7
+Biological Sciences,4919,University of Toronto at Scarborough,Karen,,Williams,1779918,38,poor,TEACHER,PROFESSOR,1.8
+Physics,4919,University of Toronto at Scarborough,Brian,,Wilson,1489556,13,good,TEACHER,PROFESSOR,4.6
+Philosophy,4919,University of Toronto at Scarborough,Jessica,,Wilson,544970,16,good,TEACHER,PROFESSOR,4.6
+Political Science,4919,University of Toronto at Scarborough,Joerg,,Wittenbrinck,923771,3,good,TEACHER,PROFESSOR,3.5
+Music,4919,University of Toronto at Scarborough,Alexa,,Woloshyn,1786163,2,good,TEACHER,PROFESSOR,4.5
+Health Science,4919,University of Toronto at Scarborough,Christine,,Wong,1960702,21,poor,TEACHER,PROFESSOR,2.0
+Chemistry,4919,University of Toronto at Scarborough,Gwen,,Woods,1632718,1,poor,TEACHER,PROFESSOR,1.0
+Theater,4919,University of Toronto at Scarborough,Kevin,,Wright,334352,7,good,TEACHER,PROFESSOR,4.0
+Accounting,4919,University of Toronto at Scarborough,Andrew,,WU,1740917,0,zero,TEACHER,PROFESSOR,N/A
+Languages,4919,University of Toronto at Scarborough,Helen,,Wu,253756,17,average,TEACHER,PROFESSOR,2.6
+English,4919,University of Toronto at Scarborough,Kyle,,Wyatt,1175490,3,good,TEACHER,PROFESSOR,3.6
+Philosophy,4919,University of Toronto at Scarborough,Jinfen,,Yan,256846,23,average,TEACHER,PROFESSOR,3.2
+Physics,4919,University of Toronto at Scarborough,Bernard,,Yang,2431385,4,good,TEACHER,PROFESSOR,4.0
+International Studies,4919,University of Toronto at Scarborough,Emma,,Yasui,2481954,1,poor,TEACHER,PROFESSOR,1.0
+Biological Sciences,4919,University of Toronto at Scarborough,Maral,,Yazdandoost,1760115,4,poor,TEACHER,PROFESSOR,1.9
+Women's Studies,4919,University of Toronto at Scarborough,Shana,,Ye,2455602,1,good,TEACHER,PROFESSOR,5.0
+Biological Sciences,4919,University of Toronto at Scarborough,Tae,,Yi,2517530,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4919,University of Toronto at Scarborough,Donna,,Young,532074,25,average,TEACHER,PROFESSOR,3.4
+Mathematics,4919,University of Toronto at Scarborough,Ryan,,Young,1894846,1,good,TEACHER,PROFESSOR,3.5
+Journalism,4919,University of Toronto at Scarborough,Sherry,S,Yu,2376615,2,average,TEACHER,PROFESSOR,3.0
+Mathematics,4919,University of Toronto at Scarborough,William,,Yu,2522438,2,poor,TEACHER,PROFESSOR,2.0
+Mathematics,4919,University of Toronto at Scarborough,Yun William,,Yu,2549999,1,good,TEACHER,PROFESSOR,4.0
+Economics,4919,University of Toronto at Scarborough,Victor,,Yu,341975,46,good,TEACHER,PROFESSOR,4.5
+Physics,4919,University of Toronto at Scarborough,Jian,,Yuan,2358334,1,poor,TEACHER,PROFESSOR,1.0
+Psychology,4919,University of Toronto at Scarborough,Konstantine,,Zakzanis,327720,207,good,TEACHER,PROFESSOR,4.4
+English,4919,University of Toronto at Scarborough,Beth,,Zdriluk,966295,0,zero,TEACHER,PROFESSOR,N/A
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Dubravko,,Zgrablic,1158076,2,poor,TEACHER,PROFESSOR,1.8
+Science,4919,University of Toronto at Scarborough,Yuexia,,Zhang,2522993,5,poor,TEACHER,PROFESSOR,1.0
+Chemistry,4919,University of Toronto at Scarborough,Xiao-An,,Zhang,1664924,18,good,TEACHER,PROFESSOR,4.0
+Computer & Math. Sciences,4919,University of Toronto at Scarborough,Xincheng,,Zhang,2563331,2,average,TEACHER,PROFESSOR,3.0
+Biological Sciences,4919,University of Toronto at Scarborough,Rongmin,,Zhao,1188178,14,average,TEACHER,PROFESSOR,2.5
+Women's Studies,4919,University of Toronto at Scarborough,Sandra,,Zichermann,1371249,1,good,TEACHER,PROFESSOR,4.5
+Biological Sciences,4919,University of Toronto at Scarborough,Joanna,,Zigouris,2504297,1,good,TEACHER,PROFESSOR,5.0
+Chemistry,4919,University of Toronto at Scarborough,Marco,,Zimmer-de Iuliis,2410665,12,average,TEACHER,PROFESSOR,3.4
+Geography,4919,University of Toronto at Scarborough,Austin,,Zwick,2267287,2,good,TEACHER,PROFESSOR,5.0
