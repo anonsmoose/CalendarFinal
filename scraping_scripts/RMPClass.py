@@ -74,7 +74,7 @@ class RateMyProfScraper:
 
         def WriteProfessorListToCSV(self):
             csv_columns = ['tDept', 'tSid', 'institution_name', 'tFname', 'tMiddlename', 'tLname', 'tid', 'tNumRatings', 'rating_class', 'contentType', 'categoryType', 'overall_rating']
-            csv_file = "SchoolID_" + str(self.UniversityId) + "UTM" + ".csv"
+            csv_file = "SchoolID_" + str(self.UniversityId) + "st_george" + ".csv"
             with open(csv_file, 'w') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
                 writer.writeheader()
@@ -109,7 +109,7 @@ class RateMyProfScraper:
 
         def WriteReviewsListToCSV(self, rlist, tid):
             csv_columns = ['attendance', 'clarityColor', 'easyColor', 'helpColor', 'helpCount', 'id', 'notHelpCount', 'onlineClass', 'quality', 'rClarity', 'rClass', 'rComments', 'rDate', 'rEasy', 'rEasyString', 'rErrorMsg', 'rHelpful', 'rInterest', 'rOverall', 'rOverallString', 'rStatus', 'rTextBookUse', 'rTimestamp', 'rWouldTakeAgain', 'sId', 'takenForCredit', 'teacher', 'teacherGrade', 'teacherRatingTags', 'unUsefulGrouping', 'usefulGrouping']
-            csv_file = "./SchoolID_" + str(self.UniversityId) + "UTM" + "/TeacherID_" + str(tid) + ".csv"
+            csv_file = "./SchoolID_" + str(self.UniversityId) + "st_george" + "/TeacherID_" + str(tid) + ".csv"
             with open(csv_file, 'w') as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
                 writer.writeheader()

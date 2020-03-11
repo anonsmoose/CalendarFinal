@@ -1,0 +1,4 @@
+attendance,clarityColor,easyColor,helpColor,helpCount,id,notHelpCount,onlineClass,quality,rClarity,rClass,rComments,rDate,rEasy,rEasyString,rErrorMsg,rHelpful,rInterest,rOverall,rOverallString,rStatus,rTextBookUse,rTimestamp,rWouldTakeAgain,sId,takenForCredit,teacher,teacherGrade,teacherRatingTags,unUsefulGrouping,usefulGrouping
+Not Mandatory,good,average,good,0,28430099,0,,awesome,5,PHY100,Awesome,06/07/2017,2.0,2.0,,5,N/A,5.0,5.0,1,Yes,1496802522000,Yes,1484,Yes,,N/A,"['Inspirational', 'Gives good feedback', 'Respected']",people,people
+N/A,poor,good,poor,0,11346246,0,,awful,1,ENG110,No Comments,01/11/2006,5.0,5.0,,1,Meh,1.0,1.0,3,N/A,1136993124000,N/A,1484,N/A,,N/A,[],people,people
+N/A,average,good,poor,0,11154252,0,,poor,2,PHY100,"kindof helpfull at the beginning, but she got cranky:(",12/14/2005,4.0,4.0,,1,Meh,1.5,1.5,1,N/A,1134569818000,N/A,1484,N/A,,N/A,[],people,people

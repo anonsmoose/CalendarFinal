@@ -1,0 +1,4 @@
+attendance,clarityColor,easyColor,helpColor,helpCount,id,notHelpCount,onlineClass,quality,rClarity,rClass,rComments,rDate,rEasy,rEasyString,rErrorMsg,rHelpful,rInterest,rOverall,rOverallString,rStatus,rTextBookUse,rTimestamp,rWouldTakeAgain,sId,takenForCredit,teacher,teacherGrade,teacherRatingTags,unUsefulGrouping,usefulGrouping
+Mandatory,good,poor,good,0,23620818,0,,awesome,5,PHY1101,"AMAZING PROFESSOR, A+++++",09/30/2014,1.0,1.0,,5,Really into it,5.0,5.0,1,Yes,1412104033000,N/A,1484,Yes,,B+,[],people,people
+Not Mandatory,good,poor,good,0,22333661,0,,awesome,5,ANAESTHESIA,amazing,11/17/2013,1.0,1.0,,5,It's my life,5.0,5.0,1,Yes,1384720645000,N/A,1484,N/A,,A+,[],people,people
+N/A,good,poor,good,0,10064462,0,,awesome,5,ANAESTHESIA,No Comments,07/27/2005,1.0,1.0,,5,Really into it,5.0,5.0,1,N/A,1122455540000,N/A,1484,N/A,,N/A,[],people,people
