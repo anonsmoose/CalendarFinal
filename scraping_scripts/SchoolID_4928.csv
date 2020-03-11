@@ -1,0 +1,903 @@
+tDept,tSid,institution_name,tFname,tMiddlename,tLname,tid,tNumRatings,rating_class,contentType,categoryType,overall_rating
+Biology,4928,University of Toronto at Mississauga,Nagham,,Abdalahad,1860988,58,good,TEACHER,PROFESSOR,3.8
+Women's Studies,4928,University of Toronto at Mississauga,Shahad,,Abdulnour,2090131,3,good,TEACHER,PROFESSOR,3.5
+Sociology,4928,University of Toronto at Mississauga,Salina,,Abji,2121854,1,good,TEACHER,PROFESSOR,5.0
+Business,4928,University of Toronto at Mississauga,Clara,,Addo-Bekoe,1898434,7,average,TEACHER,PROFESSOR,3.0
+Mathematics,4928,University of Toronto at Mississauga,Parker,Glynn,Adey,2449813,1,good,TEACHER,PROFESSOR,5.0
+Economics,4928,University of Toronto at Mississauga,Varouj,,Aivazian,343017,16,good,TEACHER,PROFESSOR,3.9
+Psychology,4928,University of Toronto at Mississauga,Emis,,Akbari,1704690,17,good,TEACHER,PROFESSOR,3.5
+Finance,4928,University of Toronto at Mississauga,Patrick,,Akey,2354980,1,good,TEACHER,PROFESSOR,5.0
+Mathematics,4928,University of Toronto at Mississauga,Buddhima,Kasun,Akurugodage,2576087,0,zero,TEACHER,PROFESSOR,N/A
+Statistics,4928,University of Toronto at Mississauga,Luai,,Al Labadi,2548235,1,good,TEACHER,PROFESSOR,5.0
+Sociology,4928,University of Toronto at Mississauga,Katelin,,Albert,2315534,1,good,TEACHER,PROFESSOR,5.0
+Mathematics,4928,University of Toronto at Mississauga,John,,Alexander,300270,136,average,TEACHER,PROFESSOR,2.7
+Writing,4928,University of Toronto at Mississauga,Guy,,Allen,340621,37,good,TEACHER,PROFESSOR,4.3
+Psychology,4928,University of Toronto at Mississauga,Thomas,,Alloway,271721,25,poor,TEACHER,PROFESSOR,2.2
+Geography,4928,University of Toronto at Mississauga,Andrew,,Almas,1891309,6,good,TEACHER,PROFESSOR,4.9
+Political Science,4928,University of Toronto at Mississauga,Aslan,,Amani,2002384,14,good,TEACHER,PROFESSOR,4.5
+Psychology,4928,University of Toronto at Mississauga,Judith,,Andersen,1864818,4,average,TEACHER,PROFESSOR,3.1
+Biology,4928,University of Toronto at Mississauga,Jim,,Anderson,340283,57,average,TEACHER,PROFESSOR,3.0
+Economics,4928,University of Toronto at Mississauga,Gordon,,Anderson,343018,47,good,TEACHER,PROFESSOR,3.5
+Political Science,4928,University of Toronto at Mississauga,Noel,,Anderson,2298557,8,good,TEACHER,PROFESSOR,3.9
+Fine Arts,4928,University of Toronto at Mississauga,Lois,,Andison,470141,6,poor,TEACHER,PROFESSOR,2.2
+Economics,4928,University of Toronto at Mississauga,Masoud,,Anjomshoa,784379,18,average,TEACHER,PROFESSOR,3.1
+Management,4928,University of Toronto at Mississauga,James,,Appleyard,437092,47,good,TEACHER,PROFESSOR,4.2
+Management,4928,University of Toronto at Mississauga,Ann,,Armstrong,835981,7,poor,TEACHER,PROFESSOR,2.5
+Sociology,4928,University of Toronto at Mississauga,Paul,,Armstrong,1260031,17,average,TEACHER,PROFESSOR,3.2
+Chemistry,4928,University of Toronto at Mississauga,David,Brian,Armstrong,2329804,1,good,TEACHER,PROFESSOR,5.0
+Business,4928,University of Toronto at Mississauga,Mohit,,Arora,1504106,51,good,TEACHER,PROFESSOR,4.7
+Biology,4928,University of Toronto at Mississauga,Maria,,Arts,884665,60,average,TEACHER,PROFESSOR,3.2
+Geology,4928,University of Toronto at Mississauga,Paul,,Ashwell,2476462,1,good,TEACHER,PROFESSOR,5.0
+Science,4928,University of Toronto at Mississauga,Paul,Allan,Ashwell,2510043,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4928,University of Toronto at Mississauga,Nadya,,Askaripour,2168811,10,good,TEACHER,PROFESSOR,4.0
+Computer Science,4928,University of Toronto at Mississauga,Abbas ,,Attarwala,2033708,13,average,TEACHER,PROFESSOR,2.9
+Geography,4928,University of Toronto at Mississauga,Carlos,,Avendano,2401469,4,good,TEACHER,PROFESSOR,5.0
+Geography,4928,University of Toronto at Mississauga,Joseph,,Aversa,2259496,0,zero,TEACHER,PROFESSOR,N/A
+Computer Science,4928,University of Toronto at Mississauga,Tariq,,Azad,1691286,1,good,TEACHER,PROFESSOR,4.0
+Sociology,4928,University of Toronto at Mississauga,Zaheer,,Baber,829861,33,good,TEACHER,PROFESSOR,4.0
+Physics,4928,University of Toronto at Mississauga,Abdullah,,Bahram,1712314,0,zero,TEACHER,PROFESSOR,N/A
+Communication,4928,University of Toronto at Mississauga,Rolla,,Bahsous,1695903,5,good,TEACHER,PROFESSOR,5.0
+Economics,4928,University of Toronto at Mississauga,Lee,,Bailey,257347,673,average,TEACHER,PROFESSOR,3.2
+Women's Studies,4928,University of Toronto at Mississauga,Beverly,,Bain,1910626,7,good,TEACHER,PROFESSOR,3.9
+English,4928,University of Toronto at Mississauga,Deirdre,,Baker,2388429,0,zero,TEACHER,PROFESSOR,N/A
+Sociology,4928,University of Toronto at Mississauga,Jayne,,Baker,1799315,54,good,TEACHER,PROFESSOR,3.7
+Psychology,4928,University of Toronto at Mississauga,Tyler,,Bancroft,1948936,4,good,TEACHER,PROFESSOR,4.8
+Anthropology,4928,University of Toronto at Mississauga,Victor,,Barac,298854,51,average,TEACHER,PROFESSOR,3.2
+Business,4928,University of Toronto at Mississauga,Thomas (Tom),,Barker,1809719,2,poor,TEACHER,PROFESSOR,2.2
+Sociology,4928,University of Toronto at Mississauga,Reza,,Barmaki,1616968,21,poor,TEACHER,PROFESSOR,2.1
+Theater,4928,University of Toronto at Mississauga,Bruce,,Barton,712677,2,good,TEACHER,PROFESSOR,4.2
+Physics,4928,University of Toronto at Mississauga,Virgis,,Barzda,344722,9,average,TEACHER,PROFESSOR,3.0
+Geography,4928,University of Toronto at Mississauga,Nathan,,Basiliko,1009723,10,good,TEACHER,PROFESSOR,4.7
+Economics,4928,University of Toronto at Mississauga,Natalie,,Bau,2223386,1,good,TEACHER,PROFESSOR,5.0
+Sociology,4928,University of Toronto at Mississauga,Shyon,,Baumann,649329,19,good,TEACHER,PROFESSOR,4.1
+History,4928,University of Toronto at Mississauga,Ariel,,Beaujot,1069194,6,average,TEACHER,PROFESSOR,3.2
+Chemistry,4928,University of Toronto at Mississauga,Andrew,,Beharry,2249654,8,good,TEACHER,PROFESSOR,4.6
+Political Science,4928,University of Toronto at Mississauga,Ronald,,Beiner,915588,5,poor,TEACHER,PROFESSOR,2.3
+Political Science,4928,University of Toronto at Mississauga,Teresa,,Bejan,1921061,4,good,TEACHER,PROFESSOR,3.8
+Political Science,4928,University of Toronto at Mississauga,Maria,,Bejarno,457646,15,poor,TEACHER,PROFESSOR,2.4
+Languages,4928,University of Toronto at Mississauga,Sophia,,Bello,2466685,3,good,TEACHER,PROFESSOR,3.7
+Psychology,4928,University of Toronto at Mississauga,Boaz,,Ben-David,1144605,6,average,TEACHER,PROFESSOR,3.2
+Psychology,4928,University of Toronto at Mississauga,Marcus,,Benayon,1383323,16,good,TEACHER,PROFESSOR,4.8
+Classics,4928,University of Toronto at Mississauga,Andreas,,Bendlin,828084,11,good,TEACHER,PROFESSOR,4.8
+Communication,4928,University of Toronto at Mississauga,Gail,,Benick,497937,10,poor,TEACHER,PROFESSOR,2.0
+Political Science,4928,University of Toronto at Mississauga,Jeffrey,,Bercuson,2032216,4,good,TEACHER,PROFESSOR,4.8
+Languages,4928,University of Toronto at Mississauga,Paola,,Bernardini,2555725,0,zero,TEACHER,PROFESSOR,N/A
+Political Science,4928,University of Toronto at Mississauga,Steven,,Bernstein,457649,9,good,TEACHER,PROFESSOR,4.2
+Sociology,4928,University of Toronto at Mississauga,Ellen,,Berrey,2287094,5,good,TEACHER,PROFESSOR,3.6
+Geography,4928,University of Toronto at Mississauga,Laurel,,Besco,2394833,2,good,TEACHER,PROFESSOR,3.5
+Political Science,4928,University of Toronto at Mississauga,Randy,,Besco,2184148,5,good,TEACHER,PROFESSOR,5.0
+Psychology,4928,University of Toronto at Mississauga,Brett,,Beston,1962669,45,good,TEACHER,PROFESSOR,4.1
+History,4928,University of Toronto at Mississauga,Arun,,Bhrambhatt,1720175,1,good,TEACHER,PROFESSOR,4.0
+Languages,4928,University of Toronto at Mississauga,Agnieszka,,Bijos,2275610,10,good,TEACHER,PROFESSOR,3.5
+Mathematics,4928,University of Toronto at Mississauga,Ilia,,Binder,517880,9,average,TEACHER,PROFESSOR,3.3
+Sociology,4928,University of Toronto at Mississauga,Gregory,,Bird,1575558,26,good,TEACHER,PROFESSOR,4.2
+English,4928,University of Toronto at Mississauga,Liza,,Blake,1919214,11,good,TEACHER,PROFESSOR,4.4
+Psychology,4928,University of Toronto at Mississauga,Kirk Robert,,Blankstein,271722,76,average,TEACHER,PROFESSOR,3.3
+Mathematics,4928,University of Toronto at Mississauga,Valentin,,Blomer,1133611,2,good,TEACHER,PROFESSOR,5.0
+English,4928,University of Toronto at Mississauga,Justin,,Blum,1923016,0,zero,TEACHER,PROFESSOR,N/A
+Sociology,4928,University of Toronto at Mississauga,Marion,,Blute,1252128,3,poor,TEACHER,PROFESSOR,1.2
+Communication,4928,University of Toronto at Mississauga,Jeffrey,,Boase,2197494,3,average,TEACHER,PROFESSOR,3.0
+Geography,4928,University of Toronto at Mississauga,Paul,,Bocking,2320872,4,poor,TEACHER,PROFESSOR,2.2
+History,4928,University of Toronto at Mississauga,Mansour,,Bonakdarian,1114428,11,average,TEACHER,PROFESSOR,3.3
+Computer Science,4928,University of Toronto at Mississauga,Anthony,,Bonner,1658039,2,average,TEACHER,PROFESSOR,3.0
+Mathematics,4928,University of Toronto at Mississauga,Sylvain,,Bonnot,1480354,3,good,TEACHER,PROFESSOR,4.5
+History,4928,University of Toronto at Mississauga,Jerzy,,Borzecki,1556222,6,good,TEACHER,PROFESSOR,3.7
+Languages,4928,University of Toronto at Mississauga,Patritzia,,Bottoni,1438230,2,poor,TEACHER,PROFESSOR,1.8
+Geology,4928,University of Toronto at Mississauga,Terry,,Bottrill,1031017,10,good,TEACHER,PROFESSOR,3.8
+Mathematics,4928,University of Toronto at Mississauga,Maxime,Fortier,Bourque,2169472,2,average,TEACHER,PROFESSOR,3.0
+Communication,4928,University of Toronto at Mississauga,Tracey,,Bowen,880641,5,good,TEACHER,PROFESSOR,4.4
+Biology,4928,University of Toronto at Mississauga,Katharina,,Braeutigam,2395370,3,poor,TEACHER,PROFESSOR,1.3
+Chemistry,4928,University of Toronto at Mississauga,Verena,,Brand,1755829,17,average,TEACHER,PROFESSOR,3.3
+Geography,4928,University of Toronto at Mississauga,Brian,,Branfireun,1028882,11,poor,TEACHER,PROFESSOR,2.3
+Political Science,4928,University of Toronto at Mississauga,Aurel,,Braun,852200,12,average,TEACHER,PROFESSOR,3.0
+Anthropology,4928,University of Toronto at Mississauga,Gregory,,Braun,1760165,5,good,TEACHER,PROFESSOR,4.4
+Economics,4928,University of Toronto at Mississauga,Leah,,Brooks,1196651,3,poor,TEACHER,PROFESSOR,2.2
+Geography,4928,University of Toronto at Mississauga,Laura,,Brown,2366330,0,zero,TEACHER,PROFESSOR,N/A
+History,4928,University of Toronto at Mississauga,Elspeth,,Brown,1965221,5,good,TEACHER,PROFESSOR,4.8
+Sociology,4928,University of Toronto at Mississauga,David,,Brownfield,419342,26,good,TEACHER,PROFESSOR,4.0
+Statistics,4928,University of Toronto at Mississauga,Jerry,,Brunner,2444731,3,average,TEACHER,PROFESSOR,2.7
+Philosophy,4928,University of Toronto at Mississauga,Jaqueline,,Brunning,457648,38,good,TEACHER,PROFESSOR,3.8
+Philosophy,4928,University of Toronto at Mississauga,Rachel,,Bryant,1727410,5,good,TEACHER,PROFESSOR,3.7
+Geography,4928,University of Toronto at Mississauga,Ron,,Buliung,1173310,12,poor,TEACHER,PROFESSOR,2.0
+Political Science,4928,University of Toronto at Mississauga,Katherine,,Bullock,1680200,4,good,TEACHER,PROFESSOR,4.5
+Political Science,4928,University of Toronto at Mississauga,Justin,,Bumgardner,979104,23,good,TEACHER,PROFESSOR,4.2
+Mathematics,4928,University of Toronto at Mississauga,Andie,,Burazin,2040414,19,good,TEACHER,PROFESSOR,4.2
+Mathematics,4928,University of Toronto at Mississauga,Andrijana,,Burazin,2388166,4,good,TEACHER,PROFESSOR,4.8
+Mathematics,4928,University of Toronto at Mississauga,Craig,,Burkett,1872619,14,good,TEACHER,PROFESSOR,4.1
+Biology,4928,University of Toronto at Mississauga,McIntyre,,Burnham,1919580,1,good,TEACHER,PROFESSOR,4.0
+Psychology,4928,University of Toronto at Mississauga,Christine,,Burton,1298362,44,good,TEACHER,PROFESSOR,4.3
+Mathematics,4928,University of Toronto at Mississauga,Adrian,,Butscher,344022,0,zero,TEACHER,PROFESSOR,N/A
+Statistics,4928,University of Toronto at Mississauga,Samantha,,Caetano,2444584,1,good,TEACHER,PROFESSOR,5.0
+Humanities,4928,University of Toronto at Mississauga,Joel,,Cahn,2277797,12,average,TEACHER,PROFESSOR,2.6
+Business,4928,University of Toronto at Mississauga,Ron,,Caldwell,2409904,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4928,University of Toronto at Mississauga,Elisabetta,,Campagnola,2463555,1,poor,TEACHER,PROFESSOR,1.0
+Communication,4928,University of Toronto at Mississauga,Brett,,Caraway,1776211,28,good,TEACHER,PROFESSOR,4.7
+Psychology,4928,University of Toronto at Mississauga,Erika,,Carlson,1864824,11,poor,TEACHER,PROFESSOR,2.3
+Mathematics,4928,University of Toronto at Mississauga,Jeffrey,,Carlson,2232844,7,poor,TEACHER,PROFESSOR,2.2
+Writing,4928,University of Toronto at Mississauga,Claudio,,Carosi,2510421,2,good,TEACHER,PROFESSOR,5.0
+History,4928,University of Toronto at Mississauga,Sandy,,Carpenter,1785243,8,good,TEACHER,PROFESSOR,4.5
+English,4928,University of Toronto at Mississauga,Maria,,Casas,1460832,1,poor,TEACHER,PROFESSOR,2.0
+Sociology,4928,University of Toronto at Mississauga,Suzanne,,Casimiro,1482479,30,average,TEACHER,PROFESSOR,2.5
+Art History,4928,University of Toronto at Mississauga,Jill,,Caskey,1124969,9,good,TEACHER,PROFESSOR,4.6
+Women's Studies,4928,University of Toronto at Mississauga,Courtney,,Cauthon,1850474,4,good,TEACHER,PROFESSOR,4.0
+Political Science,4928,University of Toronto at Mississauga,Kristin,,Cavoukian,2503895,1,average,TEACHER,PROFESSOR,3.0
+Psychology,4928,University of Toronto at Mississauga,Craig,,Chambers,795250,22,good,TEACHER,PROFESSOR,4.0
+Chemistry,4928,University of Toronto at Mississauga,Savitri,,Chandrasekhar,1051893,0,zero,TEACHER,PROFESSOR,N/A
+Philosophy,4928,University of Toronto at Mississauga,Nate,,Charlow,1651731,26,good,TEACHER,PROFESSOR,4.1
+Biology,4928,University of Toronto at Mississauga,Steven,,Chatfield ,1973746,14,good,TEACHER,PROFESSOR,3.7
+Languages,4928,University of Toronto at Mississauga,Derong,,Chen,1578626,8,good,TEACHER,PROFESSOR,3.6
+Accounting,4928,University of Toronto at Mississauga,Feng,,Chen,1073394,13,average,TEACHER,PROFESSOR,3.0
+Biology,4928,University of Toronto at Mississauga,Hai-Ying Mary,,Cheng,2262095,3,average,TEACHER,PROFESSOR,2.7
+Science,4928,University of Toronto at Mississauga,Aurel,C,Ches,2140513,0,zero,TEACHER,PROFESSOR,N/A
+Management,4928,University of Toronto at Mississauga,Rafael,,Chiuzi,2295533,4,good,TEACHER,PROFESSOR,5.0
+Sociology,4928,University of Toronto at Mississauga,Phillipa,,Chong,1704068,1,average,TEACHER,PROFESSOR,3.0
+Sociology,4928,University of Toronto at Mississauga,Hae,Yeon,Choo,1847351,6,good,TEACHER,PROFESSOR,4.3
+Languages,4928,University of Toronto at Mississauga,Ivan,,Chow,1773697,14,good,TEACHER,PROFESSOR,4.4
+Classics,4928,University of Toronto at Mississauga,Boris,,Chrubasik,2174825,10,good,TEACHER,PROFESSOR,3.7
+Fine Arts,4928,University of Toronto at Mississauga,Moyra,,Clark,470146,12,poor,TEACHER,PROFESSOR,1.4
+Philosophy,4928,University of Toronto at Mississauga,Philip,,Clark,906249,8,good,TEACHER,PROFESSOR,4.3
+Anthropology,4928,University of Toronto at Mississauga,Dylan,,Clark,909698,63,good,TEACHER,PROFESSOR,4.2
+Anthropology,4928,University of Toronto at Mississauga,Frank,,Cody,1452499,11,good,TEACHER,PROFESSOR,3.8
+Economics,4928,University of Toronto at Mississauga,Avi,,Cohen,458442,19,average,TEACHER,PROFESSOR,3.3
+Mathematics,4928,University of Toronto at Mississauga,Shai,,Cohen,1680570,2,good,TEACHER,PROFESSOR,4.2
+Communication,4928,University of Toronto at Mississauga,Nicole,,Cohen,1901954,8,good,TEACHER,PROFESSOR,4.5
+History,4928,University of Toronto at Mississauga,Kevin,P.,Coleman,1801217,13,good,TEACHER,PROFESSOR,4.1
+Communication,4928,University of Toronto at Mississauga,Beth,Malaika,Coleman,2520033,9,poor,TEACHER,PROFESSOR,1.8
+Biology,4928,University of Toronto at Mississauga,Nicholas C,,Collins,438722,19,average,TEACHER,PROFESSOR,3.0
+Sociology,4928,University of Toronto at Mississauga,Randol,,Contreras,2074215,2,good,TEACHER,PROFESSOR,5.0
+Geography,4928,University of Toronto at Mississauga,T,,Conway,613522,14,good,TEACHER,PROFESSOR,3.9
+Geography,4928,University of Toronto at Mississauga,Tenley,,Conway,2445048,0,zero,TEACHER,PROFESSOR,N/A
+Geography,4928,University of Toronto at Mississauga,Jason,,Cooke,1972788,5,good,TEACHER,PROFESSOR,3.9
+Biology,4928,University of Toronto at Mississauga,Anne,,Cordon,470308,36,average,TEACHER,PROFESSOR,3.0
+Philosophy,4928,University of Toronto at Mississauga,Wille,,Costello,2496633,1,good,TEACHER,PROFESSOR,5.0
+Philosophy,4928,University of Toronto at Mississauga,Willie,,Costello,2518138,1,good,TEACHER,PROFESSOR,5.0
+Education,4928,University of Toronto at Mississauga,Liz,,Coulson,2397101,2,good,TEACHER,PROFESSOR,5.0
+Languages,4928,University of Toronto at Mississauga,Photini,,Coutsougera,2553977,0,zero,TEACHER,PROFESSOR,N/A
+History,4928,University of Toronto at Mississauga,Mairi,,Cowan,1428100,48,good,TEACHER,PROFESSOR,4.0
+Computer Science,4928,University of Toronto at Mississauga,Michelle,,Craig,272821,18,good,TEACHER,PROFESSOR,3.8
+Sociology,4928,University of Toronto at Mississauga,Cynthia,,Cranford,602683,19,average,TEACHER,PROFESSOR,2.5
+Anthropology,4928,University of Toronto at Mississauga,Gary,,Crawford,411425,33,good,TEACHER,PROFESSOR,3.5
+English,4928,University of Toronto at Mississauga,Mark,,Crimmins,764653,33,good,TEACHER,PROFESSOR,4.2
+Writing,4928,University of Toronto at Mississauga,John,,Currie,1152994,15,average,TEACHER,PROFESSOR,3.5
+Economics,4928,University of Toronto at Mississauga,Christopher,,D'Souza,2333253,1,average,TEACHER,PROFESSOR,3.0
+Biology,4928,University of Toronto at Mississauga,Rosa,,Da Silva,1561928,6,good,TEACHER,PROFESSOR,4.0
+Biology,4928,University of Toronto at Mississauga,Sara,,da Silva,2181256,5,good,TEACHER,PROFESSOR,5.0
+Ethnic Studies,4928,University of Toronto at Mississauga,David,,Daghelian,2521631,0,zero,TEACHER,PROFESSOR,N/A
+Science,4928,University of Toronto at Mississauga,Ivana,,Damjanov,2228292,4,poor,TEACHER,PROFESSOR,2.3
+Languages,4928,University of Toronto at Mississauga,Johanna,,Danciu,1813298,1,poor,TEACHER,PROFESSOR,1.0
+Mathematics,4928,University of Toronto at Mississauga,Zsuzsanna,,Dancso,1701398,4,good,TEACHER,PROFESSOR,4.8
+Psychology,4928,University of Toronto at Mississauga,Meredyth,,Daneman,271723,33,good,TEACHER,PROFESSOR,3.5
+Education,4928,University of Toronto at Mississauga,Beverly,,Daniel,1516656,1,good,TEACHER,PROFESSOR,5.0
+Geography,4928,University of Toronto at Mississauga,Amrita,,Daniere,1502780,3,good,TEACHER,PROFESSOR,3.8
+Education,4928,University of Toronto at Mississauga,Ilan,,Danjoux,2330909,6,good,TEACHER,PROFESSOR,4.7
+Philosophy,4928,University of Toronto at Mississauga,James,,Davies,2155986,7,good,TEACHER,PROFESSOR,4.1
+Political Science,4928,University of Toronto at Mississauga,R,,Day,378941,10,good,TEACHER,PROFESSOR,4.5
+Nursing,4928,University of Toronto at Mississauga,Francesca,,De Franco,1451957,1,average,TEACHER,PROFESSOR,3.0
+Communication,4928,University of Toronto at Mississauga,Debbie,,De Lange,1097752,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4928,University of Toronto at Mississauga,Jacopo,,De Simoi,2487075,3,poor,TEACHER,PROFESSOR,1.0
+Physics,4928,University of Toronto at Mississauga,Marc,,DeBenedetti,2223662,3,good,TEACHER,PROFESSOR,4.7
+Biology,4928,University of Toronto at Mississauga,Michael,,deBraga,2163267,13,average,TEACHER,PROFESSOR,3.4
+Biology,4928,University of Toronto at Mississauga,Alex,,Dececchi,1673997,1,poor,TEACHER,PROFESSOR,2.0
+Languages,4928,University of Toronto at Mississauga,hansa,,deep,2516439,1,average,TEACHER,PROFESSOR,3.0
+Management,4928,University of Toronto at Mississauga,Gus,,Defranco,457375,11,good,TEACHER,PROFESSOR,4.0
+Communication,4928,University of Toronto at Mississauga,Alessandro ,,Delfanti,2051156,10,good,TEACHER,PROFESSOR,4.9
+English,4928,University of Toronto at Mississauga,J,,Delombard,389888,13,average,TEACHER,PROFESSOR,2.8
+Computer Science,4928,University of Toronto at Mississauga,Ilir,,Dema,2040611,16,average,TEACHER,PROFESSOR,3.0
+Political Science,4928,University of Toronto at Mississauga,Steven,,Denney,2284969,9,average,TEACHER,PROFESSOR,3.1
+Management,4928,University of Toronto at Mississauga,Laura,,Derksen,2349941,0,zero,TEACHER,PROFESSOR,N/A
+Religion,4928,University of Toronto at Mississauga,Kenneth,,Derry,1553505,66,good,TEACHER,PROFESSOR,4.3
+Geography,4928,University of Toronto at Mississauga,Pierre,,Desrochers,599131,27,average,TEACHER,PROFESSOR,2.9
+Management,4928,University of Toronto at Mississauga,Tarun,,Dewan,1314697,1,poor,TEACHER,PROFESSOR,1.5
+Communication,4928,University of Toronto at Mississauga,Heather,,Diack,1176898,2,good,TEACHER,PROFESSOR,4.5
+Communication,4928,University of Toronto at Mississauga,Michael,,Dick,1810085,90,good,TEACHER,PROFESSOR,4.6
+Science,4928,University of Toronto at Mississauga,Marko,,Dimovic,2521507,0,zero,TEACHER,PROFESSOR,N/A
+Sociology,4928,University of Toronto at Mississauga,Ronit,,Dinovitzer,1278635,7,good,TEACHER,PROFESSOR,4.3
+English,4928,University of Toronto at Mississauga,Cary,,Dipietro,808659,14,good,TEACHER,PROFESSOR,3.5
+Writing,4928,University of Toronto at Mississauga,Joshua,,Dittrich,1619561,7,good,TEACHER,PROFESSOR,4.1
+Biology,4928,University of Toronto at Mississauga,Susan,,Dixon,2136828,2,good,TEACHER,PROFESSOR,4.5
+Economics,4928,University of Toronto at Mississauga,Sid,,Dolgoy,1503636,0,zero,TEACHER,PROFESSOR,N/A
+Communication,4928,University of Toronto at Mississauga,Ann,,Donar,1459179,6,good,TEACHER,PROFESSOR,4.3
+Chemistry,4928,University of Toronto at Mississauga,Samer,,Doughan,2191985,3,good,TEACHER,PROFESSOR,5.0
+Classics,4928,University of Toronto at Mississauga,Aj,,Droge,880412,4,good,TEACHER,PROFESSOR,4.0
+Languages,4928,University of Toronto at Mississauga,Vedran,,Dronjic,1840710,1,average,TEACHER,PROFESSOR,2.5
+Biology,4928,University of Toronto at Mississauga,Yen,,DU,1462807,3,good,TEACHER,PROFESSOR,3.7
+Economics,4928,University of Toronto at Mississauga,Margarida,,Duarte,1507000,8,average,TEACHER,PROFESSOR,2.5
+Communication,4928,University of Toronto at Mississauga,Samuel,,Dumcum,2326126,6,good,TEACHER,PROFESSOR,3.7
+Geography,4928,University of Toronto at Mississauga,Tim,,Duval,1619365,14,average,TEACHER,PROFESSOR,3.1
+Psychology,4928,University of Toronto at Mississauga,Sebasitan,,Dys,2516398,0,zero,TEACHER,PROFESSOR,N/A
+Sociology,4928,University of Toronto at Mississauga,Mark,,Easton,2218712,4,good,TEACHER,PROFESSOR,4.5
+Chemistry,4928,University of Toronto at Mississauga,Alon,,Eisenstein,2035324,0,zero,TEACHER,PROFESSOR,N/A
+English,4928,University of Toronto at Mississauga,J. Daniel,,Elam,2245444,4,good,TEACHER,PROFESSOR,4.2
+Languages,4928,University of Toronto at Mississauga,Charles,,Elkabas,452785,8,good,TEACHER,PROFESSOR,3.8
+Women's Studies,4928,University of Toronto at Mississauga,Jordache,,Ellapen,2561648,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4928,University of Toronto at Mississauga,Norhan,,Elsaadawy,2560891,0,zero,TEACHER,PROFESSOR,N/A
+Religion,4928,University of Toronto at Mississauga,Christoph,,Emmrich,1827840,13,good,TEACHER,PROFESSOR,4.1
+Computer Science,4928,University of Toronto at Mississauga,Steve,,Engels,387647,23,good,TEACHER,PROFESSOR,3.9
+Biology,4928,University of Toronto at Mississauga,Ingo,,Ensminger,1489120,6,average,TEACHER,PROFESSOR,3.0
+Statistics,4928,University of Toronto at Mississauga,Reihaneh,,Entezari,2409192,4,average,TEACHER,PROFESSOR,2.8
+Biology,4928,University of Toronto at Mississauga,Ted,,Erclik,2155798,14,good,TEACHER,PROFESSOR,3.7
+Biology,4928,University of Toronto at Mississauga,George S,,Espie,438724,42,average,TEACHER,PROFESSOR,3.5
+Languages,4928,University of Toronto at Mississauga,Claude,,Evans,396838,7,good,TEACHER,PROFESSOR,3.5
+Information Science,4928,University of Toronto at Mississauga,Max,,Evans,1633310,2,good,TEACHER,PROFESSOR,5.0
+History,4928,University of Toronto at Mississauga,Yonatan,,Eyal,1038287,12,good,TEACHER,PROFESSOR,3.9
+Religion,4928,University of Toronto at Mississauga,Dina,,Eylon,1229192,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4928,University of Toronto at Mississauga,Tall,,F.,1305034,0,zero,TEACHER,PROFESSOR,N/A
+Accounting,4928,University of Toronto at Mississauga,Kathy,,Falk,995555,18,average,TEACHER,PROFESSOR,3.5
+Psychology,4928,University of Toronto at Mississauga,Norman,,Farb,1940670,22,good,TEACHER,PROFESSOR,4.0
+History,4928,University of Toronto at Mississauga,Abdullah,,Farooqi,2314192,2,good,TEACHER,PROFESSOR,4.5
+Languages,4928,University of Toronto at Mississauga,Sima,,Farsandaj,1575353,24,good,TEACHER,PROFESSOR,5.0
+Chemistry,4928,University of Toronto at Mississauga,Ulrich,,Fekl,361940,16,good,TEACHER,PROFESSOR,3.9
+Sociology,4928,University of Toronto at Mississauga,Lingqin,,Feng,1857073,10,poor,TEACHER,PROFESSOR,1.3
+Economics,4928,University of Toronto at Mississauga,Javier,,Fernandez,2502508,0,zero,TEACHER,PROFESSOR,N/A
+Communication,4928,University of Toronto at Mississauga,Jeremy,,Fernie,1951141,0,zero,TEACHER,PROFESSOR,N/A
+Political Science,4928,University of Toronto at Mississauga,L.,,Ferry,1156866,9,poor,TEACHER,PROFESSOR,1.5
+Computer Science,4928,University of Toronto at Mississauga,Sanja,,Fidler,2364337,1,poor,TEACHER,PROFESSOR,1.0
+Psychology,4928,University of Toronto at Mississauga,Alison,,Fleming,271727,11,good,TEACHER,PROFESSOR,3.7
+Finance,4928,University of Toronto at Mississauga,Louis,,Florence,631691,14,average,TEACHER,PROFESSOR,3.1
+Sociology,4928,University of Toronto at Mississauga,Jerry,,Flores,2384235,7,good,TEACHER,PROFESSOR,3.5
+Economics,4928,University of Toronto at Mississauga,John E,,Floyd,343022,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4928,University of Toronto at Mississauga,Crystal,,Forrest,1503166,1,poor,TEACHER,PROFESSOR,1.0
+Biology,4928,University of Toronto at Mississauga,Noah,,Frank,1622616,1,good,TEACHER,PROFESSOR,5.0
+Philosophy,4928,University of Toronto at Mississauga,Paul,,Franks,942901,4,good,TEACHER,PROFESSOR,3.6
+Languages,4928,University of Toronto at Mississauga,Paolo,,Frascagrave,2356806,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4928,University of Toronto at Mississauga,Olga,,Fraser,339649,34,average,TEACHER,PROFESSOR,2.8
+Mathematics,4928,University of Toronto at Mississauga,E.,,Friedgut,1301725,0,zero,TEACHER,PROFESSOR,N/A
+Sociology,4928,University of Toronto at Mississauga,Harriet,,Friedmann,1243724,3,average,TEACHER,PROFESSOR,2.5
+Mathematics,4928,University of Toronto at Mississauga,Shay,,Fuchs,1006007,61,good,TEACHER,PROFESSOR,3.8
+Political Science,4928,University of Toronto at Mississauga,LA,,Fuji,1688881,10,average,TEACHER,PROFESSOR,3.3
+Political Science,4928,University of Toronto at Mississauga,Lee Ann,,Fuji ,1995863,1,good,TEACHER,PROFESSOR,5.0
+Psychology,4928,University of Toronto at Mississauga,Keisuke,,Fukuda,2234834,11,good,TEACHER,PROFESSOR,4.7
+Anthropology,4928,University of Toronto at Mississauga,Sherry,,Fukuzawa,344680,71,good,TEACHER,PROFESSOR,4.3
+Biology,4928,University of Toronto at Mississauga,James,,Fullard,436967,18,average,TEACHER,PROFESSOR,3.5
+Management,4928,University of Toronto at Mississauga,Keith,,Fuller,1330868,3,good,TEACHER,PROFESSOR,3.8
+Classics,4928,University of Toronto at Mississauga,Carrie,,Fulton,2383464,2,good,TEACHER,PROFESSOR,4.5
+Management,4928,University of Toronto at Mississauga,Ruben,,Gaetani,2347715,2,average,TEACHER,PROFESSOR,3.0
+Economics,4928,University of Toronto at Mississauga,Gregory,,Gagnon,461085,22,average,TEACHER,PROFESSOR,3.4
+Mathematics,4928,University of Toronto at Mississauga,Denis,,Gaidashev,409550,11,average,TEACHER,PROFESSOR,3.0
+Theater,4928,University of Toronto at Mississauga,Jacob,,Gallagher-Ross,2449802,4,good,TEACHER,PROFESSOR,5.0
+Mathematics,4928,University of Toronto at Mississauga,Elisheva,,Gamse,2316038,2,good,TEACHER,PROFESSOR,5.0
+Philosophy,4928,University of Toronto at Mississauga,Mihai,,Ganea,2357098,1,poor,TEACHER,PROFESSOR,2.0
+Classics,4928,University of Toronto at Mississauga,Jay,,Gearey,1036187,13,good,TEACHER,PROFESSOR,4.7
+Communication,4928,University of Toronto at Mississauga,Alison,,Gelata,2400184,0,zero,TEACHER,PROFESSOR,N/A
+Chemistry,4928,University of Toronto at Mississauga,Michael,,Georges,427620,17,good,TEACHER,PROFESSOR,4.2
+Psychology,4928,University of Toronto at Mississauga,Judith,,Gere,1549506,1,poor,TEACHER,PROFESSOR,1.5
+Psychology,4928,University of Toronto at Mississauga,Robert,,Gerlai,446460,51,good,TEACHER,PROFESSOR,3.8
+History,4928,University of Toronto at Mississauga,Brian,,Gettler,2072307,7,average,TEACHER,PROFESSOR,3.2
+Communication,4928,University of Toronto at Mississauga,Gennadi,,Gevorgyan,2405094,0,zero,TEACHER,PROFESSOR,N/A
+Physics,4928,University of Toronto at Mississauga,Wagih,,Ghobriel,344729,80,good,TEACHER,PROFESSOR,4.1
+Psychology,4928,University of Toronto at Mississauga,Moraglia,,Giampaolo,66527,24,average,TEACHER,PROFESSOR,2.8
+Biology,4928,University of Toronto at Mississauga,David L,,Gibo,438725,8,good,TEACHER,PROFESSOR,3.8
+English,4928,University of Toronto at Mississauga,Alexandria,,Gillespie,597145,16,good,TEACHER,PROFESSOR,4.6
+Mathematics,4928,University of Toronto at Mississauga,Parker,,Glynn-Adey,2449814,3,good,TEACHER,PROFESSOR,5.0
+English,4928,University of Toronto at Mississauga,Melissa,,Gniadek,2105377,3,good,TEACHER,PROFESSOR,5.0
+Marketing,4928,University of Toronto at Mississauga,Daniel,,Goetz,2327074,1,good,TEACHER,PROFESSOR,5.0
+Mathematics,4928,University of Toronto at Mississauga,Leo,,Goldmakher,1387170,4,good,TEACHER,PROFESSOR,4.7
+Economics,4928,University of Toronto at Mississauga,Jim,,Goldman,2525711,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4928,University of Toronto at Mississauga,Andrea,,Gonzalez,339341,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4928,University of Toronto at Mississauga,Columba,,Gonzalez,2479399,0,zero,TEACHER,PROFESSOR,N/A
+Sociology,4928,University of Toronto at Mississauga,Philip,,Goodman,1513326,20,good,TEACHER,PROFESSOR,4.2
+Economics,4928,University of Toronto at Mississauga,Anderson,,Gordon,1807197,0,zero,TEACHER,PROFESSOR,N/A
+Physics,4928,University of Toronto at Mississauga,Claudiu,,Gradinaru,1254462,10,good,TEACHER,PROFESSOR,4.8
+Psychology,4928,University of Toronto at Mississauga,Jeff,,Graham,271728,62,good,TEACHER,PROFESSOR,4.3
+Classics,4928,University of Toronto at Mississauga,Andrew,,Graham,459742,23,good,TEACHER,PROFESSOR,3.5
+Literature,4928,University of Toronto at Mississauga,Joanne,,Granata,2042851,1,good,TEACHER,PROFESSOR,4.5
+Sociology,4928,University of Toronto at Mississauga,Garry,,Gray,1278629,3,good,TEACHER,PROFESSOR,4.0
+Accounting,4928,University of Toronto at Mississauga,Else,,Grech,1832276,3,good,TEACHER,PROFESSOR,4.5
+English,4928,University of Toronto at Mississauga,Richard,,Greene,316832,11,good,TEACHER,PROFESSOR,3.8
+Anthropology,4928,University of Toronto at Mississauga,Michael,,Gregg,2563584,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4928,University of Toronto at Mississauga,Alexander,,Grigo,1468364,2,average,TEACHER,PROFESSOR,3.2
+Languages,4928,University of Toronto at Mississauga,Ariana,,Grimaldi,529132,4,good,TEACHER,PROFESSOR,5.0
+Languages,4928,University of Toronto at Mississauga,Adriana,,Grimaldi,2434726,1,poor,TEACHER,PROFESSOR,2.0
+Psychology,4928,University of Toronto at Mississauga,Anna,,Grivas Matejka,1813110,16,average,TEACHER,PROFESSOR,3.3
+Economics,4928,University of Toronto at Mississauga,Mo,,Gu,2151496,0,zero,TEACHER,PROFESSOR,N/A
+Economics,4928,University of Toronto at Mississauga,Jiaying,,Gu,2171856,1,poor,TEACHER,PROFESSOR,2.0
+History,4928,University of Toronto at Mississauga,Daniel,,Guadagnolo,2070262,7,good,TEACHER,PROFESSOR,4.1
+Religion,4928,University of Toronto at Mississauga,Shaftolu,,Gulamadov,2078510,0,zero,TEACHER,PROFESSOR,N/A
+Chemistry,4928,University of Toronto at Mississauga,Patrick,,Gunning,1031019,22,good,TEACHER,PROFESSOR,4.2
+Biology,4928,University of Toronto at Mississauga,Darryl,,Gwynne,349741,27,good,TEACHER,PROFESSOR,3.7
+Criminal Justice,4928,University of Toronto at Mississauga,Julius,,Haag,2547618,0,zero,TEACHER,PROFESSOR,N/A
+Classics,4928,University of Toronto at Mississauga,Marielle,,Haase,961689,4,poor,TEACHER,PROFESSOR,2.2
+Classics,4928,University of Toronto at Mississauga,Patrick,,Hadley,1721043,3,good,TEACHER,PROFESSOR,4.3
+Sociology,4928,University of Toronto at Mississauga,Choo,,Hae Yeon,1812818,10,average,TEACHER,PROFESSOR,3.5
+Religion,4928,University of Toronto at Mississauga,Alireza,,Haghighi,889185,42,good,TEACHER,PROFESSOR,4.0
+Geology,4928,University of Toronto at Mississauga,Jochen,,Halfar,1398962,4,good,TEACHER,PROFESSOR,3.9
+Political Science,4928,University of Toronto at Mississauga,Todd,,Hall,1528137,12,good,TEACHER,PROFESSOR,4.7
+Religion,4928,University of Toronto at Mississauga,Usman,,Hamid,2209466,7,good,TEACHER,PROFESSOR,4.0
+English,4928,University of Toronto at Mississauga,Geoffrey,,Hamilton,1415668,5,good,TEACHER,PROFESSOR,5.0
+Sociology,4928,University of Toronto at Mississauga,Kelly,,Hannah-Moffat,861764,5,poor,TEACHER,PROFESSOR,2.3
+History,4928,University of Toronto at Mississauga,Jens,,Hanssen,895668,10,poor,TEACHER,PROFESSOR,1.8
+Sociology,4928,University of Toronto at Mississauga,Bahar,,Hashemi,2510415,1,good,TEACHER,PROFESSOR,4.0
+History,4928,University of Toronto at Mississauga,Helen,,Hatton,599146,29,good,TEACHER,PROFESSOR,4.0
+Biology,4928,University of Toronto at Mississauga,Monika,,Havelka,340286,94,good,TEACHER,PROFESSOR,4.5
+Biology,4928,University of Toronto at Mississauga,Jessica,,Hawthorn,1954117,6,poor,TEACHER,PROFESSOR,1.6
+Biology,4928,University of Toronto at Mississauga,Jason,,Head,1038713,13,good,TEACHER,PROFESSOR,4.3
+Communication,4928,University of Toronto at Mississauga,Kathleen,,Hearn,648056,7,poor,TEACHER,PROFESSOR,2.1
+Biology,4928,University of Toronto at Mississauga,Bryan,,Henderson,688055,0,zero,TEACHER,PROFESSOR,N/A
+English,4928,University of Toronto at Mississauga,Jessica,,Henderson,2382177,4,good,TEACHER,PROFESSOR,4.5
+Mathematics,4928,University of Toronto at Mississauga,Jonathan,,Herman,2498791,3,good,TEACHER,PROFESSOR,3.7
+Communication,4928,University of Toronto at Mississauga,Jeff,,Heydon,2098452,1,good,TEACHER,PROFESSOR,4.0
+Mathematics,4928,University of Toronto at Mississauga,Peter,,Hill,1951232,0,zero,TEACHER,PROFESSOR,N/A
+English,4928,University of Toronto at Mississauga,Colin,,Hill,2559282,0,zero,TEACHER,PROFESSOR,N/A
+English,4928,University of Toronto at Mississauga,Collin,,Hill,508032,36,good,TEACHER,PROFESSOR,4.0
+Biology,4928,University of Toronto at Mississauga,Sanja ,,Hinic-Frlog,1924634,49,average,TEACHER,PROFESSOR,2.9
+History,4928,University of Toronto at Mississauga,Edward,,Ho,2140471,4,good,TEACHER,PROFESSOR,3.8
+Economics,4928,University of Toronto at Mississauga,Michael,,HO,1436821,52,average,TEACHER,PROFESSOR,3.4
+English,4928,University of Toronto at Mississauga,Marion,,Hohener,1310142,1,poor,TEACHER,PROFESSOR,1.0
+Mathematics,4928,University of Toronto at Mississauga,Tyler,,Holden,2170614,43,good,TEACHER,PROFESSOR,4.3
+Psychology,4928,University of Toronto at Mississauga,Melissa,,Holmes,1415799,7,good,TEACHER,PROFESSOR,3.5
+Languages,4928,University of Toronto at Mississauga,"Kim, J.",,Hong,1394579,10,average,TEACHER,PROFESSOR,2.5
+Information Science,4928,University of Toronto at Mississauga,Sheril,,Hook,601195,5,good,TEACHER,PROFESSOR,4.2
+Management,4928,University of Toronto at Mississauga,Tanjim,,Hossain,1408378,6,average,TEACHER,PROFESSOR,3.2
+Business,4928,University of Toronto at Mississauga,Tanjim,,Hossnin,1376491,1,poor,TEACHER,PROFESSOR,1.5
+Geography,4928,University of Toronto at Mississauga,Chuck,,Hostovsky,1246821,3,good,TEACHER,PROFESSOR,5.0
+Philosophy,4928,University of Toronto at Mississauga,Scott,,Howard,1808815,4,good,TEACHER,PROFESSOR,4.6
+Management,4928,University of Toronto at Mississauga,William,,Huggins,1253300,19,average,TEACHER,PROFESSOR,3.4
+Psychology,4928,University of Toronto at Mississauga,Will,,Huggon,1160082,29,good,TEACHER,PROFESSOR,3.8
+Physics,4928,University of Toronto at Mississauga,Gideon,,Humphrey,1730574,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4928,University of Toronto at Mississauga,Tobias ,,Hurth,1977811,3,good,TEACHER,PROFESSOR,4.8
+Management,4928,University of Toronto at Mississauga,Mitchell,,Huynh,2277308,4,average,TEACHER,PROFESSOR,3.2
+Art History,4928,University of Toronto at Mississauga,Bernice,,Iarocci,952049,9,good,TEACHER,PROFESSOR,4.4
+Psychology,4928,University of Toronto at Mississauga,Emily,,Impett,1567703,10,good,TEACHER,PROFESSOR,4.4
+Mathematics,4928,University of Toronto at Mississauga,John,,Incuira,944848,14,poor,TEACHER,PROFESSOR,2.3
+Sociology,4928,University of Toronto at Mississauga,Nathan ,,Innocente,1947752,78,good,TEACHER,PROFESSOR,4.3
+Psychology,4928,University of Toronto at Mississauga,Nathan,,Insel,1852909,5,poor,TEACHER,PROFESSOR,2.0
+Accounting,4928,University of Toronto at Mississauga,Abraham,,Iqbal,2108134,12,good,TEACHER,PROFESSOR,4.3
+Languages,4928,University of Toronto at Mississauga,Monica-Alexandrina,,Irimia,1046900,4,good,TEACHER,PROFESSOR,3.8
+Anthropology,4928,University of Toronto at Mississauga,Jennifer,,Jackson,1460752,8,good,TEACHER,PROFESSOR,4.4
+Humanities,4928,University of Toronto at Mississauga,Kajri,,Jain,2344483,0,zero,TEACHER,PROFESSOR,N/A
+Art History,4928,University of Toronto at Mississauga,Kajri,,Jain,1815350,13,poor,TEACHER,PROFESSOR,2.0
+Biology,4928,University of Toronto at Mississauga,Anderson,,James,788805,8,average,TEACHER,PROFESSOR,2.8
+English,4928,University of Toronto at Mississauga,Daniela,,Janes,889577,49,good,TEACHER,PROFESSOR,4.5
+Communication,4928,University of Toronto at Mississauga,Eva,,Jansen,2567144,1,poor,TEACHER,PROFESSOR,1.0
+Chemistry,4928,University of Toronto at Mississauga,Buddhi,,Jayasekera,2293133,0,zero,TEACHER,PROFESSOR,N/A
+History,4928,University of Toronto at Mississauga,Elizabeth,,Jewett,2010376,1,good,TEACHER,PROFESSOR,3.5
+Statistics,4928,University of Toronto at Mississauga,Samantha,,Jo-Caetano,2309161,10,good,TEACHER,PROFESSOR,3.8
+Political Science,4928,University of Toronto at Mississauga,Michael,,Johns,931881,13,good,TEACHER,PROFESSOR,4.8
+History,4928,University of Toronto at Mississauga,Robert,,Johnson,599145,11,good,TEACHER,PROFESSOR,4.2
+Psychology,4928,University of Toronto at Mississauga,Elizabeth,,Johnson,1369815,15,good,TEACHER,PROFESSOR,4.3
+Biology,4928,University of Toronto at Mississauga,Marc,,Johnson,1692467,11,good,TEACHER,PROFESSOR,4.3
+Sociology,4928,University of Toronto at Mississauga,Josee,,Johnston,999612,14,good,TEACHER,PROFESSOR,4.2
+Geography,4928,University of Toronto at Mississauga,John,,Johnston,1551389,10,average,TEACHER,PROFESSOR,3.0
+History,4928,University of Toronto at Mississauga,Peter,,Jones,2045811,2,good,TEACHER,PROFESSOR,4.0
+Biology,4928,University of Toronto at Mississauga,Duncan,,Jones,2424182,0,zero,TEACHER,PROFESSOR,N/A
+Communication,4928,University of Toronto at Mississauga,David,,Jorjani,2478642,1,good,TEACHER,PROFESSOR,4.0
+Languages,4928,University of Toronto at Mississauga,Arsalan,,Kahnemuyipour,1707645,9,good,TEACHER,PROFESSOR,3.6
+Economics,4928,University of Toronto at Mississauga,Gueorgui,,Kambourov,2279992,1,good,TEACHER,PROFESSOR,5.0
+Psychology,4928,University of Toronto at Mississauga,Stuart,,Kamenetsky,271729,61,good,TEACHER,PROFESSOR,4.3
+Art History,4928,University of Toronto at Mississauga,Ruba,,Kanan,2468217,1,good,TEACHER,PROFESSOR,4.0
+Education,4928,University of Toronto at Mississauga,Ahmed,,Kandil,2471554,1,good,TEACHER,PROFESSOR,5.0
+Chemistry,4928,University of Toronto at Mississauga,Voula,,Kanelis,1255183,12,average,TEACHER,PROFESSOR,3.5
+Economics,4928,University of Toronto at Mississauga,Jasmin,,Kantarevic,981636,4,good,TEACHER,PROFESSOR,4.4
+Communication,4928,University of Toronto at Mississauga,Louis,,Kaplan,1302081,2,good,TEACHER,PROFESSOR,4.0
+Communication,4928,University of Toronto at Mississauga,Tero,,Karppi,2541663,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4928,University of Toronto at Mississauga,Yael,,Karshon,2197320,2,average,TEACHER,PROFESSOR,3.0
+Sociology,4928,University of Toronto at Mississauga,Nick,,Kaschuk,2431680,2,good,TEACHER,PROFESSOR,5.0
+History,4928,University of Toronto at Mississauga,Gabriela,,Kasprzak,2140474,4,average,TEACHER,PROFESSOR,3.3
+History,4928,University of Toronto at Mississauga,Malavika,,Kasturi,599149,9,average,TEACHER,PROFESSOR,3.1
+Philosophy,4928,University of Toronto at Mississauga,Bernard,,Katz,821505,16,good,TEACHER,PROFESSOR,4.7
+Sociology,4928,University of Toronto at Mississauga,Brenna,,Keatinge,2153659,1,good,TEACHER,PROFESSOR,4.0
+Sociology,4928,University of Toronto at Mississauga,John,,Kervin,387930,27,average,TEACHER,PROFESSOR,3.3
+Management,4928,University of Toronto at Mississauga,Samah,,Khalil,2471139,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4928,University of Toronto at Mississauga,Ayesha,,Khan,1101581,47,good,TEACHER,PROFESSOR,4.3
+Women's Studies,4928,University of Toronto at Mississauga,Muhammad,,Khan,2001683,1,average,TEACHER,PROFESSOR,2.5
+Accounting,4928,University of Toronto at Mississauga,Michael,,Khan,1273728,20,average,TEACHER,PROFESSOR,3.5
+Chemistry,4928,University of Toronto at Mississauga,Richard,,Kil,2356445,5,average,TEACHER,PROFESSOR,3.4
+Management,4928,University of Toronto at Mississauga,Tanya,,Kirsch,1865325,15,average,TEACHER,PROFESSOR,2.8
+Accounting,4928,University of Toronto at Mississauga,Joan,,Kitunen,1919723,4,good,TEACHER,PROFESSOR,4.8
+Sociology,4928,University of Toronto at Mississauga,Amy,,Klassen,1695560,30,good,TEACHER,PROFESSOR,4.2
+Women's Studies,4928,University of Toronto at Mississauga,Patricia,,Kmiec,1854148,8,good,TEACHER,PROFESSOR,4.5
+Criminal Justice,4928,University of Toronto at Mississauga,Wade,,Knaap,2226742,12,average,TEACHER,PROFESSOR,3.3
+Sociology,4928,University of Toronto at Mississauga,Ivanka,,Knezevic,1557803,18,poor,TEACHER,PROFESSOR,2.2
+Mathematics,4928,University of Toronto at Mississauga,Sasa,,Kocic,1268367,5,good,TEACHER,PROFESSOR,4.2
+English,4928,University of Toronto at Mississauga,Chris,,Koenig-Woodyard,412961,52,good,TEACHER,PROFESSOR,4.2
+Writing,4928,University of Toronto at Mississauga,Duncan,,Koerber,1334398,1,good,TEACHER,PROFESSOR,5.0
+Geography,4928,University of Toronto at Mississauga,Dieter,,Kogler,1455183,1,good,TEACHER,PROFESSOR,4.0
+Biology,4928,University of Toronto at Mississauga,Linda,,Kohn,298211,15,average,TEACHER,PROFESSOR,3.0
+Mathematics,4928,University of Toronto at Mississauga,Alexander,,Kolpakov,2045249,5,good,TEACHER,PROFESSOR,4.5
+Mathematics,4928,University of Toronto at Mississauga,Jonathan,,Korman,1863945,4,good,TEACHER,PROFESSOR,4.4
+Sociology,4928,University of Toronto at Mississauga,Anna,,Korteweg,796878,8,average,TEACHER,PROFESSOR,3.4
+Biology,4928,University of Toronto at Mississauga,Peter M,,Kotanen,438727,14,average,TEACHER,PROFESSOR,3.1
+Political Science,4928,University of Toronto at Mississauga,Spyridon ,,Kotsovilis,2039954,28,good,TEACHER,PROFESSOR,4.2
+Geography,4928,University of Toronto at Mississauga,Jason,,Kovacs,2149487,0,zero,TEACHER,PROFESSOR,N/A
+Finance,4928,University of Toronto at Mississauga,,,Koziol,525475,7,good,TEACHER,PROFESSOR,4.8
+Psychology,4928,University of Toronto at Mississauga,Gary,,Kraemer,446461,8,good,TEACHER,PROFESSOR,3.8
+Management,4928,University of Toronto at Mississauga,Lisa,,Kramer,949549,12,good,TEACHER,PROFESSOR,3.9
+Religion,4928,University of Toronto at Mississauga,Marianna,,Kravets,1300813,3,good,TEACHER,PROFESSOR,4.2
+History,4928,University of Toronto at Mississauga,KK,,Krishnamurti,1808547,2,good,TEACHER,PROFESSOR,5.0
+Mathematics,4928,University of Toronto at Mississauga,Eugene,,Kritchevski,1583493,1,good,TEACHER,PROFESSOR,4.0
+Psychology,4928,University of Toronto at Mississauga,Katherine,,Krpan,1710270,3,good,TEACHER,PROFESSOR,3.8
+Chemistry,4928,University of Toronto at Mississauga,Ulrich,,Krull,307728,11,good,TEACHER,PROFESSOR,4.6
+Mathematics,4928,University of Toronto at Mississauga,Iurii,,Kudriashov,2537566,0,zero,TEACHER,PROFESSOR,N/A
+Philosophy,4928,University of Toronto at Mississauga,Kevin,,Kuhl,2174160,5,average,TEACHER,PROFESSOR,3.2
+History,4928,University of Toronto at Mississauga,Jedediah,,Kuhn,2412752,0,zero,TEACHER,PROFESSOR,N/A
+Women's Studies,4928,University of Toronto at Mississauga,Karen,,Kus,1889580,0,zero,TEACHER,PROFESSOR,N/A
+Health Science,4928,University of Toronto at Mississauga,Vincent,,Kuuire,2410315,1,good,TEACHER,PROFESSOR,5.0
+Political Science,4928,University of Toronto at Mississauga,Erick,,Lachapelle,1341558,1,good,TEACHER,PROFESSOR,4.0
+Geology,4928,University of Toronto at Mississauga,Michael,,Laflamme,2048669,7,good,TEACHER,PROFESSOR,3.5
+Geography,4928,University of Toronto at Mississauga,Nicole,,Laliberte,1833779,20,good,TEACHER,PROFESSOR,4.3
+History,4928,University of Toronto at Mississauga,Tong,,Lam,790129,16,average,TEACHER,PROFESSOR,3.4
+Sociology,4928,University of Toronto at Mississauga,Erick,,Laming,2557964,0,zero,TEACHER,PROFESSOR,N/A
+History,4928,University of Toronto at Mississauga,Chris,,Landon,2225470,1,average,TEACHER,PROFESSOR,3.0
+Management,4928,University of Toronto at Mississauga,Peter,,Landry,2150373,2,good,TEACHER,PROFESSOR,5.0
+Biology,4928,University of Toronto at Mississauga,Angela B,,Lange,438728,17,good,TEACHER,PROFESSOR,4.5
+Sociology,4928,University of Toronto at Mississauga,James,,Lannigan,2152936,2,good,TEACHER,PROFESSOR,4.5
+Social Science,4928,University of Toronto at Mississauga,James,,Lannigan,2458216,1,good,TEACHER,PROFESSOR,5.0
+Languages,4928,University of Toronto at Mississauga,Andrea,,Lanza,2350539,6,average,TEACHER,PROFESSOR,3.0
+Philosophy,4928,University of Toronto at Mississauga,Rasmus,Rosenberg,Larsen,2384827,5,good,TEACHER,PROFESSOR,5.0
+Marketing,4928,University of Toronto at Mississauga,Robert,,Latimer,2402554,0,zero,TEACHER,PROFESSOR,N/A
+English,4928,University of Toronto at Mississauga,Thomas,,Laughlin,2386463,1,good,TEACHER,PROFESSOR,4.0
+English,4928,University of Toronto at Mississauga,Justine,,Leach,1807975,1,good,TEACHER,PROFESSOR,5.0
+Languages,4928,University of Toronto at Mississauga,Caroline,,Lebrec,2153675,6,good,TEACHER,PROFESSOR,3.8
+Economics,4928,University of Toronto at Mississauga,Bailey,,Lee,2462606,2,poor,TEACHER,PROFESSOR,1.5
+Mathematics,4928,University of Toronto at Mississauga,Martin,,Leguil,2403930,4,average,TEACHER,PROFESSOR,2.5
+Geography,4928,University of Toronto at Mississauga,Igor,,Lehnherr,2061275,5,good,TEACHER,PROFESSOR,4.8
+Religion,4928,University of Toronto at Mississauga,Adam,,Lehto,1507080,8,good,TEACHER,PROFESSOR,4.5
+Science,4928,University of Toronto at Mississauga,John,,Lester,329135,33,good,TEACHER,PROFESSOR,3.7
+English,4928,University of Toronto at Mississauga,Mark,,Levene,1891419,3,good,TEACHER,PROFESSOR,3.7
+English,4928,University of Toronto at Mississauga,M,,Levine,389898,17,average,TEACHER,PROFESSOR,2.9
+Biology,4928,University of Toronto at Mississauga,J,,Levine,438729,14,average,TEACHER,PROFESSOR,3.4
+Sociology,4928,University of Toronto at Mississauga,Zachary,,Levinsky,1678310,21,average,TEACHER,PROFESSOR,3.0
+Art History,4928,University of Toronto at Mississauga,Evonne,,Levy,714281,26,average,TEACHER,PROFESSOR,2.8
+Geography,4928,University of Toronto at Mississauga,Nathaniel,,Lewis,1827847,0,zero,TEACHER,PROFESSOR,N/A
+Geography,4928,University of Toronto at Mississauga,J.,,Leydon,1305134,16,good,TEACHER,PROFESSOR,4.2
+Management,4928,University of Toronto at Mississauga,Yue,,Li,309717,9,average,TEACHER,PROFESSOR,3.1
+Economics,4928,University of Toronto at Mississauga,Nicholas,,Li,2234671,1,average,TEACHER,PROFESSOR,3.0
+Computer Science,4928,University of Toronto at Mississauga,Joe,,Lim,2071834,9,average,TEACHER,PROFESSOR,3.0
+Political Science,4928,University of Toronto at Mississauga,Mark,,Lippincott,446755,98,good,TEACHER,PROFESSOR,3.6
+Communication,4928,University of Toronto at Mississauga,E,,Littlejohn,453000,12,good,TEACHER,PROFESSOR,3.6
+Sociology,4928,University of Toronto at Mississauga,Sida,,Liu,2515909,10,good,TEACHER,PROFESSOR,3.8
+Computer Science,4928,University of Toronto at Mississauga,Michael,,Liut,2331043,11,good,TEACHER,PROFESSOR,4.0
+Languages,4928,University of Toronto at Mississauga,Teresa,,Lobalsamo,1460121,14,good,TEACHER,PROFESSOR,4.6
+History,4928,University of Toronto at Mississauga,Alexandra,,Logue,2417466,1,good,TEACHER,PROFESSOR,5.0
+Statistics,4928,University of Toronto at Mississauga,Armend,,Lokku,2158724,1,good,TEACHER,PROFESSOR,5.0
+Psychology,4928,University of Toronto at Mississauga,Anna,,Lomanowska,2324828,3,good,TEACHER,PROFESSOR,4.7
+English,4928,University of Toronto at Mississauga,Prathna,,Lor,2561897,0,zero,TEACHER,PROFESSOR,N/A
+Languages,4928,University of Toronto at Mississauga,Michel,,Lord,1811678,4,average,TEACHER,PROFESSOR,3.0
+Women's Studies,4928,University of Toronto at Mississauga,Cassandra,,Lord,2082884,8,average,TEACHER,PROFESSOR,2.6
+Languages,4928,University of Toronto at Mississauga,Marie-Paule,,Lory,2505548,1,poor,TEACHER,PROFESSOR,1.0
+Communication,4928,University of Toronto at Mississauga,Ramtin,,Lotfabadi,2514362,4,good,TEACHER,PROFESSOR,5.0
+History,4928,University of Toronto at Mississauga,Mark,,Loudon,1242572,3,average,TEACHER,PROFESSOR,3.3
+Management,4928,University of Toronto at Mississauga,Gordon,,Lucas,943441,29,average,TEACHER,PROFESSOR,2.8
+Physics,4928,University of Toronto at Mississauga,James,,Luckett,344730,4,good,TEACHER,PROFESSOR,4.8
+Communication,4928,University of Toronto at Mississauga,Michelle,,Lui,2402502,3,good,TEACHER,PROFESSOR,3.7
+Science,4928,University of Toronto at Mississauga,Vivienne,,Luk,2270896,8,good,TEACHER,PROFESSOR,4.9
+Women's Studies,4928,University of Toronto at Mississauga,Michelle ,,MacArthur,2081834,3,good,TEACHER,PROFESSOR,3.7
+Computer Science,4928,University of Toronto at Mississauga,Vincent,,Maccio,2317876,8,good,TEACHER,PROFESSOR,4.4
+Chemistry,4928,University of Toronto at Mississauga,Peter,,MacDonald,338683,10,average,TEACHER,PROFESSOR,3.4
+History,4928,University of Toronto at Mississauga,Laurel,,MacDowell,1745941,1,good,TEACHER,PROFESSOR,4.5
+Mathematics,4928,University of Toronto at Mississauga,Blake,,Madill,2276659,16,good,TEACHER,PROFESSOR,5.0
+Sociology,4928,University of Toronto at Mississauga,Neda,,Maghbouleh,2107770,10,good,TEACHER,PROFESSOR,4.6
+Psychology,4928,University of Toronto at Mississauga,Samantha,,Mahabir,2325084,2,average,TEACHER,PROFESSOR,3.0
+Communication,4928,University of Toronto at Mississauga,Radha,,Maharaj,2145692,9,good,TEACHER,PROFESSOR,4.8
+Communication,4928,University of Toronto at Mississauga,Divya,,Maharajh,1791701,13,good,TEACHER,PROFESSOR,4.7
+Economics,4928,University of Toronto at Mississauga,Zachary,,Mahone,2169473,25,good,TEACHER,PROFESSOR,4.9
+Sociology,4928,University of Toronto at Mississauga,Elise,,Maiolino,1937602,7,poor,TEACHER,PROFESSOR,1.9
+Physics,4928,University of Toronto at Mississauga,Arkady,,Major,833530,1,good,TEACHER,PROFESSOR,4.5
+Mathematics,4928,University of Toronto at Mississauga,Jose,,Malagon Lopez,1916457,1,good,TEACHER,PROFESSOR,4.0
+Psychology,4928,University of Toronto at Mississauga,Tina,,Malti,1603795,23,good,TEACHER,PROFESSOR,4.1
+History,4928,University of Toronto at Mississauga,Bertie,,Mandelblatt,1706707,3,good,TEACHER,PROFESSOR,3.6
+History,4928,University of Toronto at Mississauga,Neil,,Marshall,1590444,5,good,TEACHER,PROFESSOR,4.5
+Psychology,4928,University of Toronto at Mississauga,Loren,,Martin,2383256,3,good,TEACHER,PROFESSOR,4.3
+Languages,4928,University of Toronto at Mississauga,Arturo,V,Martinez,1875363,6,good,TEACHER,PROFESSOR,3.9
+Chemistry,4928,University of Toronto at Mississauga,Jan,,Matejovic,1907495,12,good,TEACHER,PROFESSOR,3.5
+Philosophy,4928,University of Toronto at Mississauga,Thomas,,Mathien,906251,9,good,TEACHER,PROFESSOR,4.1
+Philosophy,4928,University of Toronto at Mississauga,Mohan,,Matthen,2070770,3,good,TEACHER,PROFESSOR,5.0
+English,4928,University of Toronto at Mississauga,Christopher,,Matusiak,1088275,7,good,TEACHER,PROFESSOR,5.0
+Sociology,4928,University of Toronto at Mississauga,Paula,,Maurutto,794448,20,good,TEACHER,PROFESSOR,4.5
+Management,4928,University of Toronto at Mississauga,Andrew,,Maxwell,1666901,2,good,TEACHER,PROFESSOR,3.5
+Geography,4928,University of Toronto at Mississauga,Jeffrey,,May,2034761,8,good,TEACHER,PROFESSOR,4.3
+Management,4928,University of Toronto at Mississauga,Anthony,,Mayadunne,2094319,13,average,TEACHER,PROFESSOR,3.0
+Management,4928,University of Toronto at Mississauga,Ata,,Mazaheri,456053,6,good,TEACHER,PROFESSOR,3.8
+Biology,4928,University of Toronto at Mississauga,Dave,,Mazierski,2090922,3,good,TEACHER,PROFESSOR,4.5
+Mathematics,4928,University of Toronto at Mississauga,Elio,,Mazzeo,1754935,10,good,TEACHER,PROFESSOR,4.5
+Biology,4928,University of Toronto at Mississauga,Shannon,,McCauley,2362781,1,good,TEACHER,PROFESSOR,4.0
+Fine Arts,4928,University of Toronto at Mississauga,Roger,,McCleary,470140,11,good,TEACHER,PROFESSOR,3.9
+Management,4928,University of Toronto at Mississauga,Julie,,McDonald,1457613,1,poor,TEACHER,PROFESSOR,1.0
+Communication,4928,University of Toronto at Mississauga,Rhonda,,McEwen,1621152,12,good,TEACHER,PROFESSOR,4.7
+Anthropology,4928,University of Toronto at Mississauga,Keriann,,McGoogan,2270575,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4928,University of Toronto at Mississauga,Margaret,,McKinnon,846760,8,average,TEACHER,PROFESSOR,3.4
+English,4928,University of Toronto at Mississauga,Randall,,McLeod,842219,8,good,TEACHER,PROFESSOR,3.5
+Economics,4928,University of Toronto at Mississauga,Robert,,McMillan,257351,6,average,TEACHER,PROFESSOR,2.5
+Chemistry,4928,University of Toronto at Mississauga,David,,McMillen,954394,9,good,TEACHER,PROFESSOR,3.8
+Anthropology,4928,University of Toronto at Mississauga,N F,,McMullin,344716,0,zero,TEACHER,PROFESSOR,N/A
+Business,4928,University of Toronto at Mississauga,James,,McNamara,1836921,8,poor,TEACHER,PROFESSOR,2.0
+Anthropology,4928,University of Toronto at Mississauga,Linda,,McNenly,1747373,9,poor,TEACHER,PROFESSOR,2.3
+English,4928,University of Toronto at Mississauga,Zubin,,Meer,998738,4,average,TEACHER,PROFESSOR,3.0
+Economics,4928,University of Toronto at Mississauga,Angelo,,Melino,651399,6,poor,TEACHER,PROFESSOR,1.6
+History,4928,University of Toronto at Mississauga,Milena,,Methodieva,1785245,4,good,TEACHER,PROFESSOR,4.5
+Religion,4928,University of Toronto at Mississauga,Sarianna,,Metso,1833557,2,good,TEACHER,PROFESSOR,4.2
+Management,4928,University of Toronto at Mississauga,Sergio,,Meza,835983,8,poor,TEACHER,PROFESSOR,2.2
+Communication,4928,University of Toronto at Mississauga,Pascal,,Michelucci,295979,22,average,TEACHER,PROFESSOR,3.4
+Theology,4928,University of Toronto at Mississauga,David,,Miller,282168,30,average,TEACHER,PROFESSOR,3.3
+Anthropology,4928,University of Toronto at Mississauga,Heather,,Miller,353870,16,good,TEACHER,PROFESSOR,4.3
+Political Science,4928,University of Toronto at Mississauga,Fiona,,Miller,1469369,3,good,TEACHER,PROFESSOR,3.8
+Physics,4928,University of Toronto at Mississauga,Joshua,,Milstein,1746727,9,good,TEACHER,PROFESSOR,4.3
+Political Science,4928,University of Toronto at Mississauga,Faisal,,Mirza,2469671,0,zero,TEACHER,PROFESSOR,N/A
+Languages,4928,University of Toronto at Mississauga,Carmela,,Mishaiel,1424052,6,good,TEACHER,PROFESSOR,4.5
+Communication,4928,University of Toronto at Mississauga,Ryan,,Mitchell,2313366,7,average,TEACHER,PROFESSOR,2.5
+History,4928,University of Toronto at Mississauga,Leila,,Mitchell-Mckee,370301,21,average,TEACHER,PROFESSOR,2.9
+Philosophy,4928,University of Toronto at Mississauga,Donovan,,Miyasaki,572386,5,average,TEACHER,PROFESSOR,2.7
+English,4928,University of Toronto at Mississauga,Anupama,,Mohan,1377932,7,good,TEACHER,PROFESSOR,4.8
+Writing,4928,University of Toronto at Mississauga,Tracy,,Moniz,1006579,8,good,TEACHER,PROFESSOR,4.5
+Psychology,4928,University of Toronto at Mississauga,Ashley,,Monks,446463,41,average,TEACHER,PROFESSOR,2.7
+Communication,4928,University of Toronto at Mississauga,Joel,,Moody,389018,41,average,TEACHER,PROFESSOR,2.7
+Physics,4928,University of Toronto at Mississauga,Gwk,,Moore,1677041,3,good,TEACHER,PROFESSOR,4.0
+Mathematics,4928,University of Toronto at Mississauga,Mike,,Moras,375050,12,good,TEACHER,PROFESSOR,3.8
+Psychology,4928,University of Toronto at Mississauga,Hywel,,Morgan,1793640,27,average,TEACHER,PROFESSOR,3.0
+Religion,4928,University of Toronto at Mississauga,Sarah,,Morgan-Vandenberk,2510541,0,zero,TEACHER,PROFESSOR,N/A
+Art History,4928,University of Toronto at Mississauga,Amish,,Morrell,1588230,4,average,TEACHER,PROFESSOR,3.0
+Biology,4928,University of Toronto at Mississauga,Glenn,,Morris,1744888,2,good,TEACHER,PROFESSOR,4.2
+Mathematics,4928,University of Toronto at Mississauga,Seyed,Mehdi,Mousavi,1811148,4,poor,TEACHER,PROFESSOR,1.6
+Mathematics,4928,University of Toronto at Mississauga,Ali,,Mousavidehshikh,1969952,20,good,TEACHER,PROFESSOR,4.1
+Anthropology,4928,University of Toronto at Mississauga,Andrea,,Muehlebach,1673191,8,good,TEACHER,PROFESSOR,3.8
+Geography,4928,University of Toronto at Mississauga,Amy,,Mui,2133119,5,good,TEACHER,PROFESSOR,5.0
+Biology,4928,University of Toronto at Mississauga,Kit,,Muma,436969,0,zero,TEACHER,PROFESSOR,N/A
+Geography,4928,University of Toronto at Mississauga,Scott,,Munro,339768,7,average,TEACHER,PROFESSOR,3.3
+Science,4928,University of Toronto at Mississauga,Barbara,,Murck,358954,66,good,TEACHER,PROFESSOR,4.0
+History,4928,University of Toronto at Mississauga,A.,,Murray,1007796,7,poor,TEACHER,PROFESSOR,2.0
+Mathematics,4928,University of Toronto at Mississauga,Scott,Hanson,Murray,2515768,1,good,TEACHER,PROFESSOR,4.0
+Sociology,4928,University of Toronto at Mississauga,Nicole,,Myers,1765615,6,good,TEACHER,PROFESSOR,4.4
+Political Science,4928,University of Toronto at Mississauga,Emily,,Nacol,2336692,5,good,TEACHER,PROFESSOR,4.0
+Sociology,4928,University of Toronto at Mississauga,Mary Jo,,Nadeau,1482917,11,average,TEACHER,PROFESSOR,3.0
+Philosophy,4928,University of Toronto at Mississauga,Jennifer,,Nagel,520172,24,average,TEACHER,PROFESSOR,3.3
+Film,4928,University of Toronto at Mississauga,Neil,,Narine,1654334,8,good,TEACHER,PROFESSOR,5.0
+Biology,4928,University of Toronto at Mississauga,Rob,,Ness,2208533,2,good,TEACHER,PROFESSOR,4.5
+Languages,4928,University of Toronto at Mississauga,Ruhui,,Ni,2555710,0,zero,TEACHER,PROFESSOR,N/A
+Communication,4928,University of Toronto at Mississauga,Michael,,Nixon,2433040,1,poor,TEACHER,PROFESSOR,1.0
+History,4928,University of Toronto at Mississauga,Jan,,Noel,599144,6,good,TEACHER,PROFESSOR,4.5
+Mathematics,4928,University of Toronto at Mississauga,Raoul,,Normand,1747758,4,average,TEACHER,PROFESSOR,2.6
+Statistics,4928,University of Toronto at Mississauga,Alvaro,,Nosedal,2084799,12,good,TEACHER,PROFESSOR,4.2
+Management,4928,University of Toronto at Mississauga,Anthony,,Notenboom,2482694,6,good,TEACHER,PROFESSOR,4.0
+Biology,4928,University of Toronto at Mississauga,Danton,,O' Day,697899,10,good,TEACHER,PROFESSOR,4.2
+English,4928,University of Toronto at Mississauga,Siobhan,,O'Flynn,457530,28,good,TEACHER,PROFESSOR,3.5
+Political Science,4928,University of Toronto at Mississauga,Kristie,,O'Neill,1691845,5,average,TEACHER,PROFESSOR,3.2
+Political Science,4928,University of Toronto at Mississauga,Andrea,,Olive,2121820,6,good,TEACHER,PROFESSOR,4.9
+Biology,4928,University of Toronto at Mississauga,Ian,,Orchard,343168,1,average,TEACHER,PROFESSOR,3.0
+Sociology,4928,University of Toronto at Mississauga,Akwasi,,Owusu-Bempah,2383008,4,good,TEACHER,PROFESSOR,4.5
+Physics,4928,University of Toronto at Mississauga,Ozden,,Ozdemir,344733,0,zero,TEACHER,PROFESSOR,N/A
+Economics,4928,University of Toronto at Mississauga,Hakan,,Oztunc,2463414,0,zero,TEACHER,PROFESSOR,N/A
+Communication,4928,University of Toronto at Mississauga,Jeremy,,Packer,2210937,12,average,TEACHER,PROFESSOR,2.8
+Science,4928,University of Toronto at Mississauga,Caitlin,,Pakosh,2561357,0,zero,TEACHER,PROFESSOR,N/A
+Psychology,4928,University of Toronto at Mississauga,Konstantinos,,Papazoglou,2159787,6,good,TEACHER,PROFESSOR,5.0
+Psychology,4928,University of Toronto at Mississauga,Melissa,,Paquette-Smith,2059596,6,good,TEACHER,PROFESSOR,4.4
+Marketing,4928,University of Toronto at Mississauga,Jas,,Parhar,1455208,8,good,TEACHER,PROFESSOR,4.4
+Economics,4928,University of Toronto at Mississauga,Andreas,,Park,1262699,2,good,TEACHER,PROFESSOR,4.5
+Chemistry,4928,University of Toronto at Mississauga,Ji,,Park,2430819,1,good,TEACHER,PROFESSOR,5.0
+Art History,4928,University of Toronto at Mississauga,Elizabeth,,Parke,2460648,2,good,TEACHER,PROFESSOR,5.0
+Anthropology,4928,University of Toronto at Mississauga,Esteban,,Parra,405525,31,good,TEACHER,PROFESSOR,4.3
+Biology,4928,University of Toronto at Mississauga,KP,,Patel,1610535,5,good,TEACHER,PROFESSOR,3.8
+Mathematics,4928,University of Toronto at Mississauga,Mike,,Pawliuk,2533396,6,average,TEACHER,PROFESSOR,3.0
+Social Science,4928,University of Toronto at Mississauga,Elizabeth,,Peden,1633170,7,average,TEACHER,PROFESSOR,3.1
+Writing,4928,University of Toronto at Mississauga,David,,Penhale,809054,3,good,TEACHER,PROFESSOR,4.8
+Religion,4928,University of Toronto at Mississauga,David,,Penner,862617,10,good,TEACHER,PROFESSOR,4.0
+History,4928,University of Toronto at Mississauga,Chris,,Pennington,1720169,7,good,TEACHER,PROFESSOR,4.7
+Psychology,4928,University of Toronto at Mississauga,Diana,,Peragine,2510367,1,good,TEACHER,PROFESSOR,5.0
+History,4928,University of Toronto at Mississauga,Ruth,,Percy,1011226,2,good,TEACHER,PROFESSOR,4.0
+Philosophy,4928,University of Toronto at Mississauga,Z,,Perelmuter,404266,16,poor,TEACHER,PROFESSOR,2.4
+Religion,4928,University of Toronto at Mississauga,David,,Perley,905340,3,good,TEACHER,PROFESSOR,3.5
+Computer Science,4928,University of Toronto at Mississauga,Andrew,,Petersen,1078350,36,good,TEACHER,PROFESSOR,4.0
+Philosophy,4928,University of Toronto at Mississauga,Jonathan,,Peterson,573588,12,good,TEACHER,PROFESSOR,4.5
+Chemistry,4928,University of Toronto at Mississauga,Eleonora,,Petryayeva,2174843,3,good,TEACHER,PROFESSOR,3.7
+Sociology,4928,University of Toronto at Mississauga,David,,Pettinicchio,1927410,19,good,TEACHER,PROFESSOR,4.7
+Languages,4928,University of Toronto at Mississauga,Guillame,,Peureux,1184532,2,good,TEACHER,PROFESSOR,3.8
+Languages,4928,University of Toronto at Mississauga,Catherine,,Philips,470311,16,good,TEACHER,PROFESSOR,4.5
+Biology,4928,University of Toronto at Mississauga,Michael,,Phillips,2342950,5,good,TEACHER,PROFESSOR,4.8
+Languages,4928,University of Toronto at Mississauga,Catherine,,Phillips,2000202,6,good,TEACHER,PROFESSOR,4.0
+Psychology,4928,University of Toronto at Mississauga,Kathy,,Pichora-Fuller,446586,28,poor,TEACHER,PROFESSOR,2.2
+Philosophy,4928,University of Toronto at Mississauga,Belinda,,Piercy,2049753,7,good,TEACHER,PROFESSOR,4.4
+Languages,4928,University of Toronto at Mississauga,Mihaela,,Pirvulescu,536598,12,good,TEACHER,PROFESSOR,3.7
+Economics,4928,University of Toronto at Mississauga,Carolyn,,Pitchick,385394,7,poor,TEACHER,PROFESSOR,2.4
+Economics,4928,University of Toronto at Mississauga,Joanna,,Pitek,1741182,12,good,TEACHER,PROFESSOR,4.8
+Statistics,4928,University of Toronto at Mississauga,Greg,,Pitt,1598547,4,good,TEACHER,PROFESSOR,3.5
+Chemistry,4928,University of Toronto at Mississauga,Paul,,Piunno,613463,17,good,TEACHER,PROFESSOR,4.5
+Psychology,4928,University of Toronto at Mississauga,Judy,,Plantinga,1974269,3,poor,TEACHER,PROFESSOR,1.3
+Psychology,4928,University of Toronto at Mississauga,Judy,,Platinga,1958379,1,average,TEACHER,PROFESSOR,2.5
+Psychology,4928,University of Toronto at Mississauga,Amy,,Platt,1453300,2,good,TEACHER,PROFESSOR,4.2
+Psychology,4928,University of Toronto at Mississauga,Patricia,,Pliner,271731,27,good,TEACHER,PROFESSOR,3.5
+Chemistry,4928,University of Toronto at Mississauga,Judith C,,Poe,340281,183,good,TEACHER,PROFESSOR,3.5
+Psychology,4928,University of Toronto at Mississauga,Janet,,Polivy,271732,19,good,TEACHER,PROFESSOR,3.6
+History,4928,University of Toronto at Mississauga,Aleksandra,,Pomiecko,2358443,2,good,TEACHER,PROFESSOR,4.0
+Political Science,4928,University of Toronto at Mississauga,David,,Pond,595436,76,good,TEACHER,PROFESSOR,4.7
+Geography,4928,University of Toronto at Mississauga,Trevor,,Porter,2149745,7,good,TEACHER,PROFESSOR,4.4
+Physics,4928,University of Toronto at Mississauga,Nicole,,Prent,567205,4,average,TEACHER,PROFESSOR,3.4
+History,4928,University of Toronto at Mississauga,Lisa,,Prentice,1806862,0,zero,TEACHER,PROFESSOR,N/A
+Writing,4928,University of Toronto at Mississauga,Robert,,Price,1456466,34,good,TEACHER,PROFESSOR,4.0
+Economics,4928,University of Toronto at Mississauga,David,,Price,2439319,1,good,TEACHER,PROFESSOR,4.0
+Film,4928,University of Toronto at Mississauga,Brian,,Price,1623960,9,average,TEACHER,PROFESSOR,2.9
+Geography,4928,University of Toronto at Mississauga,Cameron,,Proctor,2433793,7,good,TEACHER,PROFESSOR,5.0
+Chemistry,4928,University of Toronto at Mississauga,Scott,,Prosser,285336,6,good,TEACHER,PROFESSOR,4.8
+Humanities,4928,University of Toronto at Mississauga,Carly,,Prusky,2455022,2,good,TEACHER,PROFESSOR,3.5
+Film,4928,University of Toronto at Mississauga,Guido,,Pugliese,842157,4,good,TEACHER,PROFESSOR,4.4
+Management,4928,University of Toronto at Mississauga,Lavan,,Puvaneswaran,2349942,1,good,TEACHER,PROFESSOR,5.0
+Sociology,4928,University of Toronto at Mississauga,Mariane,,Quirouette,2134719,0,zero,TEACHER,PROFESSOR,N/A
+Social Science,4928,University of Toronto at Mississauga,Marianne,,Quirouette,2150368,1,good,TEACHER,PROFESSOR,5.0
+English,4928,University of Toronto at Mississauga,Michael,,Raby,2385112,7,good,TEACHER,PROFESSOR,4.7
+Computer Science,4928,University of Toronto at Mississauga,Charlie,,Rackoff,426959,15,poor,TEACHER,PROFESSOR,2.1
+Chemistry,4928,University of Toronto at Mississauga,Thottackad,,Radhakrishnan,1268621,71,good,TEACHER,PROFESSOR,3.5
+Economics,4928,University of Toronto at Mississauga,Amal,,Radie,1921711,2,average,TEACHER,PROFESSOR,2.5
+English,4928,University of Toronto at Mississauga,Stanka,,Radovic,1828990,0,zero,TEACHER,PROFESSOR,N/A
+Religion,4928,University of Toronto at Mississauga,Enrico,,Raffaelli,1224088,17,good,TEACHER,PROFESSOR,4.5
+Philosophy,4928,University of Toronto at Mississauga,Diana,,Raffman,1078315,9,good,TEACHER,PROFESSOR,4.0
+Science,4928,University of Toronto at Mississauga,Hisham,,Ragab,1669740,5,good,TEACHER,PROFESSOR,4.1
+Management,4928,University of Toronto at Mississauga,Nav,,Rai,974268,3,good,TEACHER,PROFESSOR,4.7
+Mathematics,4928,University of Toronto at Mississauga,Hossein,Lamei,Ramandi,2402564,1,average,TEACHER,PROFESSOR,3.0
+Religion,4928,University of Toronto at Mississauga,Ajay,,Rao,905769,14,good,TEACHER,PROFESSOR,4.3
+Biology,4928,University of Toronto at Mississauga,John,,Ratcliffe,2284932,4,good,TEACHER,PROFESSOR,5.0
+Philosophy,4928,University of Toronto at Mississauga,Gurpreet,,Rattan,426449,19,good,TEACHER,PROFESSOR,3.8
+Communication,4928,University of Toronto at Mississauga,Jasmine,,Rault,2412128,2,good,TEACHER,PROFESSOR,5.0
+Biology,4928,University of Toronto at Mississauga,Fiona,,Rawle,1103620,116,good,TEACHER,PROFESSOR,4.2
+Philosophy,4928,University of Toronto at Mississauga,Paul,,Raymont,636247,7,poor,TEACHER,PROFESSOR,2.1
+Geography,4928,University of Toronto at Mississauga,Mark,,Reczkiewicz,1561868,22,good,TEACHER,PROFESSOR,4.8
+Languages,4928,University of Toronto at Mississauga,Katherine,,Rehner,1052319,4,good,TEACHER,PROFESSOR,4.8
+Economics,4928,University of Toronto at Mississauga,Frank,,Reid,682249,3,good,TEACHER,PROFESSOR,4.7
+Psychology,4928,University of Toronto at Mississauga,Eyal,,Reingold,446587,7,good,TEACHER,PROFESSOR,4.1
+Political Science,4928,University of Toronto at Mississauga,Alexander,,Reisenbichler,2493833,0,zero,TEACHER,PROFESSOR,N/A
+Biology,4928,University of Toronto at Mississauga,Robert,,Reisz,371578,15,good,TEACHER,PROFESSOR,3.8
+Mathematics,4928,University of Toronto at Mississauga,Alexander,,Rennet,2106461,31,good,TEACHER,PROFESSOR,3.7
+Classics,4928,University of Toronto at Mississauga,Martin,,Revermann,2277730,0,zero,TEACHER,PROFESSOR,N/A
+Biology,4928,University of Toronto at Mississauga,Ho-Sung,,Rhee,2545042,0,zero,TEACHER,PROFESSOR,N/A
+Art History,4928,University of Toronto at Mississauga,John,,Ricco,1115588,20,average,TEACHER,PROFESSOR,3.0
+Physical Education,4928,University of Toronto at Mississauga,Tim,,Richardson,960415,4,good,TEACHER,PROFESSOR,3.6
+Communication,4928,University of Toronto at Mississauga,Tim,,Richardson,2030448,3,good,TEACHER,PROFESSOR,3.7
+Religion,4928,University of Toronto at Mississauga,Sarah,,Richardson,2181473,7,poor,TEACHER,PROFESSOR,2.3
+Sociology,4928,University of Toronto at Mississauga,Zachary,,Richer,2520175,3,good,TEACHER,PROFESSOR,5.0
+Biology,4928,University of Toronto at Mississauga,Christoph,,Richter,1674945,91,average,TEACHER,PROFESSOR,3.1
+Economics,4928,University of Toronto at Mississauga,Barber,,Robert,2151495,8,good,TEACHER,PROFESSOR,4.4
+Geography,4928,University of Toronto at Mississauga,Vince,,Robinson,474353,14,average,TEACHER,PROFESSOR,2.8
+Management,4928,University of Toronto at Mississauga,Barbara,,Rockx,1087774,3,average,TEACHER,PROFESSOR,3.2
+Biology,4928,University of Toronto at Mississauga,Anuar,,Rodrigues,2001168,3,good,TEACHER,PROFESSOR,4.2
+Economics,4928,University of Toronto at Mississauga,Eduardo Augusto,Souza,Rodrigues,2328495,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4928,University of Toronto at Mississauga,Tracy,,Rogers,269738,16,good,TEACHER,PROFESSOR,4.0
+Mathematics,4928,University of Toronto at Mississauga,Christobal,,Rojas,1452198,2,poor,TEACHER,PROFESSOR,2.2
+Psychology,4928,University of Toronto at Mississauga,Caroline,,Roncadin,1719307,5,good,TEACHER,PROFESSOR,4.3
+Psychology,4928,University of Toronto at Mississauga,Samuel,,Ronfard,2487932,1,good,TEACHER,PROFESSOR,5.0
+Computer Science,4928,University of Toronto at Mississauga,Arnold,,Rosenbloom,272819,49,average,TEACHER,PROFESSOR,3.1
+Philosophy,4928,University of Toronto at Mississauga,Marleen,,Rozemond,2018356,2,average,TEACHER,PROFESSOR,3.0
+Sociology,4928,University of Toronto at Mississauga,Ashley,,Rubin,2300093,5,average,TEACHER,PROFESSOR,2.8
+Classics,4928,University of Toronto at Mississauga,Catherine,,Rubincam,823922,10,good,TEACHER,PROFESSOR,3.6
+Women's Studies,4928,University of Toronto at Mississauga,Karen,,Ruffle,1856632,7,average,TEACHER,PROFESSOR,2.5
+Art History,4928,University of Toronto at Mississauga,Kathleen,,Ruffo,761535,11,good,TEACHER,PROFESSOR,4.3
+Sociology,4928,University of Toronto at Mississauga,Carolina,,Ruiz-Austria,2022138,4,poor,TEACHER,PROFESSOR,1.8
+Languages,4928,University of Toronto at Mississauga,Vanessa,,Rukholm,952050,5,good,TEACHER,PROFESSOR,4.9
+Philosophy,4928,University of Toronto at Mississauga,Devlin,,Russell,2073601,17,average,TEACHER,PROFESSOR,3.2
+Women's Studies,4928,University of Toronto at Mississauga,Mari,,Ruti,465341,12,good,TEACHER,PROFESSOR,4.6
+Computer Science,4928,University of Toronto at Mississauga,Samar,,Sabie,2224979,1,good,TEACHER,PROFESSOR,4.0
+Computer Science,4928,University of Toronto at Mississauga,Sushant,,Sachdeva,2564022,0,zero,TEACHER,PROFESSOR,N/A
+Women's Studies,4928,University of Toronto at Mississauga,Pouneh,,Saeedi,1607185,6,good,TEACHER,PROFESSOR,3.6
+Sociology,4928,University of Toronto at Mississauga,Abigail,,Salole,2031739,15,good,TEACHER,PROFESSOR,4.3
+Anthropology,4928,University of Toronto at Mississauga,David,Ryan,Samson,2309923,15,good,TEACHER,PROFESSOR,5.0
+Sociology,4928,University of Toronto at Mississauga,Lina,,Samuel,1709110,18,good,TEACHER,PROFESSOR,4.2
+Mathematics,4928,University of Toronto at Mississauga,Nosedal,,Sanchez,2021743,6,good,TEACHER,PROFESSOR,3.6
+Economics,4928,University of Toronto at Mississauga,Ravdeep,,Sandal,2393133,6,good,TEACHER,PROFESSOR,5.0
+Anthropology,4928,University of Toronto at Mississauga,Todd,,Sanders,469848,26,good,TEACHER,PROFESSOR,4.2
+Languages,4928,University of Toronto at Mississauga,Suzanna,,Schafer,453851,19,good,TEACHER,PROFESSOR,4.9
+Anthropology,4928,University of Toronto at Mississauga,Stephen,,Scharper,1713666,9,good,TEACHER,PROFESSOR,5.0
+Political Science,4928,University of Toronto at Mississauga,ED,,Schatz,809591,9,good,TEACHER,PROFESSOR,4.0
+Psychology,4928,University of Toronto at Mississauga,E Glenn,,Schellenberg,271733,52,average,TEACHER,PROFESSOR,3.1
+Languages,4928,University of Toronto at Mississauga,Jessamyn,,Schertz,2227699,6,good,TEACHER,PROFESSOR,4.8
+Psychology,4928,University of Toronto at Mississauga,Ulrich,,Schimmack,276103,79,good,TEACHER,PROFESSOR,3.7
+Management,4928,University of Toronto at Mississauga,Manfred,,Schneider,510412,26,good,TEACHER,PROFESSOR,4.4
+Psychology,4928,University of Toronto at Mississauga,Bruce,,Schneider,298179,56,average,TEACHER,PROFESSOR,2.6
+Sociology,4928,University of Toronto at Mississauga,Erik,,Schneiderhan,1564293,31,good,TEACHER,PROFESSOR,4.2
+Geology,4928,University of Toronto at Mississauga,Lindsay,,Schoenbohm,1570120,18,good,TEACHER,PROFESSOR,4.8
+Anthropology,4928,University of Toronto at Mississauga,Lauren,,Schroeder,2546204,0,zero,TEACHER,PROFESSOR,N/A
+Geology,4928,University of Toronto at Mississauga,Daniel J,,Schulze,339656,16,good,TEACHER,PROFESSOR,4.3
+Accounting,4928,University of Toronto at Mississauga,Eckhard,,Schumann,2135554,4,good,TEACHER,PROFESSOR,4.8
+Sociology,4928,University of Toronto at Mississauga,Luisa,,Schwartzman,1448082,12,average,TEACHER,PROFESSOR,3.2
+Mathematics,4928,University of Toronto at Mississauga,Matthew,,Scicluna,2231605,2,average,TEACHER,PROFESSOR,3.0
+English,4928,University of Toronto at Mississauga,Chester,,Scoville,376615,42,good,TEACHER,PROFESSOR,4.6
+Religion,4928,University of Toronto at Mississauga,John,,Screnock,1918725,1,good,TEACHER,PROFESSOR,5.0
+Mathematics,4928,University of Toronto at Mississauga,Luis,,Seco,300761,14,average,TEACHER,PROFESSOR,3.5
+Biology,4928,University of Toronto at Mississauga,Laura,,Sedra,2277386,1,average,TEACHER,PROFESSOR,3.0
+Accounting,4928,University of Toronto at Mississauga,Catherine,,Seguin,269765,61,average,TEACHER,PROFESSOR,3.3
+Biology,4928,University of Toronto at Mississauga,Enid,K,Selkirk,2404403,0,zero,TEACHER,PROFESSOR,N/A
+Biology,4928,University of Toronto at Mississauga,Adriano,,Senatore,2098100,11,good,TEACHER,PROFESSOR,4.0
+English,4928,University of Toronto at Mississauga,Dimitry,,Senyshyn,1581886,8,good,TEACHER,PROFESSOR,4.2
+Philosophy,4928,University of Toronto at Mississauga,Andrew ,,Sepielli,2018357,10,good,TEACHER,PROFESSOR,3.6
+Economics,4928,University of Toronto at Mississauga,Michel,,Serafinelli,2223383,1,good,TEACHER,PROFESSOR,5.0
+Writing,4928,University of Toronto at Mississauga,Rahul,,Sethi,1456461,14,good,TEACHER,PROFESSOR,4.3
+Mathematics,4928,University of Toronto at Mississauga,Zohreh,,Shahbazi,887360,6,good,TEACHER,PROFESSOR,4.2
+Chemistry,4928,University of Toronto at Mississauga,Anna,,Shahmuradyan,2238265,1,average,TEACHER,PROFESSOR,3.0
+Mathematics,4928,University of Toronto at Mississauga,Arul,,Shankar,2197316,2,good,TEACHER,PROFESSOR,4.0
+Economics,4928,University of Toronto at Mississauga,Shalini,,Sharma,269097,61,average,TEACHER,PROFESSOR,2.5
+Communication,4928,University of Toronto at Mississauga,Sarah,,Sharma,2132133,5,good,TEACHER,PROFESSOR,4.6
+Computer Science,4928,University of Toronto at Mississauga,Sadia,,Sharmin,2048720,34,good,TEACHER,PROFESSOR,4.7
+Communication,4928,University of Toronto at Mississauga,Christine,,Shaw,1423134,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4928,University of Toronto at Mississauga,Kristin,,Shaw,1706275,3,good,TEACHER,PROFESSOR,5.0
+Sociology,4928,University of Toronto at Mississauga,Nikolay,,Shchitov,1665905,4,average,TEACHER,PROFESSOR,3.4
+Geography,4928,University of Toronto at Mississauga,Harvey,,Shear,1360616,12,average,TEACHER,PROFESSOR,3.3
+Languages,4928,University of Toronto at Mississauga,Carmela,,Shehadi-Mishaiel,1435238,4,good,TEACHER,PROFESSOR,5.0
+Management,4928,University of Toronto at Mississauga,Sadaf,,Sheikh,1636239,3,average,TEACHER,PROFESSOR,3.0
+English,4928,University of Toronto at Mississauga,Nabeela,,Sheikh,2258119,1,good,TEACHER,PROFESSOR,5.0
+Mathematics,4928,University of Toronto at Mississauga,Shiyu,,Shen,2516661,1,good,TEACHER,PROFESSOR,4.0
+Economics,4928,University of Toronto at Mississauga,Xianwen,,Shi,1507004,7,good,TEACHER,PROFESSOR,4.0
+Chemistry,4928,University of Toronto at Mississauga,Jumi,,Shin,300267,84,average,TEACHER,PROFESSOR,2.9
+Mathematics,4928,University of Toronto at Mississauga,Alex,,Shlakhter,1570627,4,average,TEACHER,PROFESSOR,3.2
+Biology,4928,University of Toronto at Mississauga,Steven M,,Short,1153030,19,good,TEACHER,PROFESSOR,3.8
+Geography,4928,University of Toronto at Mississauga,Namrata,,Shrestha,1833537,4,average,TEACHER,PROFESSOR,2.5
+Sociology,4928,University of Toronto at Mississauga,Alexander,,Shvarts,1301211,20,good,TEACHER,PROFESSOR,4.1
+Anthropology,4928,University of Toronto at Mississauga,Jack,,Sidnell,269284,55,good,TEACHER,PROFESSOR,4.0
+Computer Science,4928,University of Toronto at Mississauga,Jeremy,,Sills,271999,36,poor,TEACHER,PROFESSOR,1.9
+Women's Studies,4928,University of Toronto at Mississauga,Joan,,Simalchik,279569,21,good,TEACHER,PROFESSOR,4.3
+History,4928,University of Toronto at Mississauga,Marta,,Simidchieva,751718,5,average,TEACHER,PROFESSOR,2.7
+Computer Science,4928,University of Toronto at Mississauga,Bogdan,,Simion,2501457,3,good,TEACHER,PROFESSOR,5.0
+Geography,4928,University of Toronto at Mississauga,Jessica,,Slomka,2576953,1,good,TEACHER,PROFESSOR,5.0
+Anthropology,4928,University of Toronto at Mississauga,Karen,,Slonim,2362651,2,average,TEACHER,PROFESSOR,2.5
+Accounting,4928,University of Toronto at Mississauga,Christopher,,Small,2204822,2,good,TEACHER,PROFESSOR,4.0
+Communication,4928,University of Toronto at Mississauga,Peter,,Smit,2367686,2,poor,TEACHER,PROFESSOR,1.5
+Anthropology,4928,University of Toronto at Mississauga,David,,Smith,333014,24,good,TEACHER,PROFESSOR,4.3
+Political Science,4928,University of Toronto at Mississauga,Charles,,Smith,1304091,2,good,TEACHER,PROFESSOR,4.5
+Art History,4928,University of Toronto at Mississauga,Matthew,Ryan,Smith,2089198,5,average,TEACHER,PROFESSOR,3.0
+Theater,4928,University of Toronto at Mississauga,Grace,,Smith,2119151,0,zero,TEACHER,PROFESSOR,N/A
+Communication,4928,University of Toronto at Mississauga,Harrison,,Smith,2167796,1,good,TEACHER,PROFESSOR,4.0
+Political Science,4928,University of Toronto at Mississauga,Alison,,Smith,2360464,3,average,TEACHER,PROFESSOR,3.3
+Religion,4928,University of Toronto at Mississauga,Kyle,,Smith,1728520,19,good,TEACHER,PROFESSOR,4.2
+Psychology,4928,University of Toronto at Mississauga,Mary Lou,,Smith,339339,11,good,TEACHER,PROFESSOR,4.0
+Sociology,4928,University of Toronto at Mississauga,Christina,,Smith,2569898,7,poor,TEACHER,PROFESSOR,2.3
+History,4928,University of Toronto at Mississauga,Susan,Benson,Sokmen,2498630,0,zero,TEACHER,PROFESSOR,N/A
+Biology,4928,University of Toronto at Mississauga,Marla B.,,Sokolowski,520539,17,average,TEACHER,PROFESSOR,3.3
+Languages,4928,University of Toronto at Mississauga,Stefan,,Soldovieri,1733820,9,good,TEACHER,PROFESSOR,4.7
+English,4928,University of Toronto at Mississauga,Ella,,Soper-Jones,1593042,8,average,TEACHER,PROFESSOR,3.0
+Biology,4928,University of Toronto at Mississauga,Gary,,Sprules,771210,8,average,TEACHER,PROFESSOR,2.8
+Computer Science,4928,University of Toronto at Mississauga,Olivier,,St-Cyr,967661,2,good,TEACHER,PROFESSOR,5.0
+Economics,4928,University of Toronto at Mississauga,Kalina,,Staub,1839479,39,average,TEACHER,PROFESSOR,2.5
+Theater,4928,University of Toronto at Mississauga,Sam,,Stedman,1025073,3,average,TEACHER,PROFESSOR,3.3
+Biology,4928,University of Toronto at Mississauga,Sasa,,Stefanovic,600910,11,average,TEACHER,PROFESSOR,2.7
+Psychology,4928,University of Toronto at Mississauga,Jennifer,,Stellar,2432836,7,good,TEACHER,PROFESSOR,5.0
+Biology,4928,University of Toronto at Mississauga,B,,Stewart,814141,21,good,TEACHER,PROFESSOR,4.0
+Film,4928,University of Toronto at Mississauga,Matthew,,Stoddard,2204641,7,good,TEACHER,PROFESSOR,4.8
+History,4928,University of Toronto at Mississauga,John Edward,,Stowe,1327106,2,good,TEACHER,PROFESSOR,5.0
+Chemistry,4928,University of Toronto at Mississauga,Juris,,Strautmanis,582907,15,average,TEACHER,PROFESSOR,3.3
+Sociology,4928,University of Toronto at Mississauga,Gail,,Super,2281220,17,poor,TEACHER,PROFESSOR,1.8
+Communication,4928,University of Toronto at Mississauga,Meghan,,Sutherland,1554759,7,average,TEACHER,PROFESSOR,3.0
+Management,4928,University of Toronto at Mississauga,Dave,,Swanston,943432,104,average,TEACHER,PROFESSOR,2.8
+English,4928,University of Toronto at Mississauga,Lawrence,,Switzky,1558225,15,good,TEACHER,PROFESSOR,4.7
+Art History,4928,University of Toronto at Mississauga,Alison,,Syme,761538,17,good,TEACHER,PROFESSOR,4.2
+English,4928,University of Toronto at Mississauga,Holger,,Syme,810761,15,good,TEACHER,PROFESSOR,4.3
+Communication,4928,University of Toronto at Mississauga,Ann,,Szeto,771864,4,poor,TEACHER,PROFESSOR,1.9
+Information Science,4928,University of Toronto at Mississauga,Steve,,Szigeti,2296304,4,average,TEACHER,PROFESSOR,3.3
+Religion,4928,University of Toronto at Mississauga,Cary,,Takagaki,790132,8,average,TEACHER,PROFESSOR,3.3
+Languages,4928,University of Toronto at Mississauga,Azita,,Taleghani,1224095,12,average,TEACHER,PROFESSOR,2.5
+Sociology,4928,University of Toronto at Mississauga,Robert,,Tanha,2549835,1,poor,TEACHER,PROFESSOR,1.0
+Mathematics,4928,University of Toronto at Mississauga,Steve,,Tanny,387651,16,poor,TEACHER,PROFESSOR,2.3
+Geography,4928,University of Toronto at Mississauga,Teresa,,Tao,983944,0,zero,TEACHER,PROFESSOR,N/A
+Sociology,4928,University of Toronto at Mississauga,Chris,,Tatham,2023023,29,good,TEACHER,PROFESSOR,4.5
+Religion,4928,University of Toronto at Mississauga,Joel,,Tatleman,1711057,1,good,TEACHER,PROFESSOR,5.0
+Economics,4928,University of Toronto at Mississauga,Brian,,Tavares,1927160,4,poor,TEACHER,PROFESSOR,1.2
+Languages,4928,University of Toronto at Mississauga,Samia,,Tawwab,1637473,13,good,TEACHER,PROFESSOR,4.5
+English,4928,University of Toronto at Mississauga,David Francis,,Taylor,1688749,4,good,TEACHER,PROFESSOR,4.0
+Accounting,4928,University of Toronto at Mississauga,Heather,,Taylor,1884633,4,good,TEACHER,PROFESSOR,4.2
+Social Work,4928,University of Toronto at Mississauga,Laura,,Taylor,2190735,1,good,TEACHER,PROFESSOR,5.0
+Marketing,4928,University of Toronto at Mississauga,Andrew,,Temes,2351125,1,average,TEACHER,PROFESSOR,3.0
+Philosophy,4928,University of Toronto at Mississauga,Sergio,,Tenenbaum,568083,14,good,TEACHER,PROFESSOR,4.3
+Mathematics,4928,University of Toronto at Mississauga,Alexey,,Teplinsky,799368,2,good,TEACHER,PROFESSOR,3.5
+Communication,4928,University of Toronto at Mississauga,Rhon,,Teruelle,1684842,29,good,TEACHER,PROFESSOR,4.2
+Mathematics,4928,University of Toronto at Mississauga,Jaimal,,Thind,1636722,28,good,TEACHER,PROFESSOR,4.3
+Statistics,4928,University of Toronto at Mississauga,Ramya,,Thinniyam,1982546,20,average,TEACHER,PROFESSOR,2.8
+Languages,4928,University of Toronto at Mississauga,Danielle,,Thomas,1553267,3,good,TEACHER,PROFESSOR,4.3
+Accounting,4928,University of Toronto at Mississauga,Peter,,Thomas,1360607,36,average,TEACHER,PROFESSOR,3.4
+Sociology,4928,University of Toronto at Mississauga,Doug,,Thompson,1006958,12,good,TEACHER,PROFESSOR,4.0
+English,4928,University of Toronto at Mississauga,Leslie,,Thomson,546772,7,average,TEACHER,PROFESSOR,3.4
+Classics,4928,University of Toronto at Mississauga,Daniel,,Thornton,823621,10,good,TEACHER,PROFESSOR,4.8
+Biology,4928,University of Toronto at Mississauga,Joelle,,Thorpe,1741241,0,zero,TEACHER,PROFESSOR,N/A
+Economics,4928,University of Toronto at Mississauga,Xu,,Tian,2328492,1,good,TEACHER,PROFESSOR,5.0
+Management,4928,University of Toronto at Mississauga,Soo Min,,Toh,616421,12,poor,TEACHER,PROFESSOR,2.0
+History,4928,University of Toronto at Mississauga,Joseph ,,Tohill,1953519,0,zero,TEACHER,PROFESSOR,N/A
+English,4928,University of Toronto at Mississauga,Tyler,,Tokaryk,742429,12,good,TEACHER,PROFESSOR,3.8
+Political Science,4928,University of Toronto at Mississauga,Erin,,Tolley,2072338,15,good,TEACHER,PROFESSOR,4.1
+Psychology,4928,University of Toronto at Mississauga,Mike,,Tombu,1711843,1,good,TEACHER,PROFESSOR,4.5
+Management,4928,University of Toronto at Mississauga,Jason,,Tome,2121518,16,good,TEACHER,PROFESSOR,4.8
+Computer Science,4928,University of Toronto at Mississauga,Tiffany,,Tong,2104100,9,average,TEACHER,PROFESSOR,3.3
+Classics,4928,University of Toronto at Mississauga,Lisa,,Trentin,1897279,18,average,TEACHER,PROFESSOR,2.6
+Mathematics,4928,University of Toronto at Mississauga,Gerhard,,Trippen,1477314,1,good,TEACHER,PROFESSOR,5.0
+Computer Science,4928,University of Toronto at Mississauga,Gerhard,,Trippen,1478699,8,good,TEACHER,PROFESSOR,4.8
+Management,4928,University of Toronto at Mississauga,Gerhard,,Trippen,1967935,5,good,TEACHER,PROFESSOR,4.7
+Languages,4928,University of Toronto at Mississauga,Michelle,,Troberg,1599939,19,good,TEACHER,PROFESSOR,4.5
+Psychology,4928,University of Toronto at Mississauga,Cara,,Tsang,1696529,2,average,TEACHER,PROFESSOR,2.5
+Mathematics,4928,University of Toronto at Mississauga,Charles,,Tsang,1996727,3,good,TEACHER,PROFESSOR,5.0
+Economics,4928,University of Toronto at Mississauga,Laura,,Turner,2094322,11,average,TEACHER,PROFESSOR,2.5
+Mathematics,4928,University of Toronto at Mississauga,M,,Tvalavadze,1962032,4,average,TEACHER,PROFESSOR,2.6
+Mathematics,4928,University of Toronto at Mississauga,Marina,,Tvalavadze,2040643,11,good,TEACHER,PROFESSOR,4.0
+Psychology,4928,University of Toronto at Mississauga,Dax,,Urbszat,269090,262,good,TEACHER,PROFESSOR,4.5
+Religion,4928,University of Toronto at Mississauga,Rachel,,Urowitz,1053022,8,good,TEACHER,PROFESSOR,4.0
+Economics,4928,University of Toronto at Mississauga,Johannes,,Van Biesebroeck,1288676,1,poor,TEACHER,PROFESSOR,1.5
+Psychology,4928,University of Toronto at Mississauga,Doug,,VanderLaan,2226774,9,good,TEACHER,PROFESSOR,3.7
+Sociology,4928,University of Toronto at Mississauga,Paloma,,Villegas,1575562,12,average,TEACHER,PROFESSOR,3.2
+Writing,4928,University of Toronto at Mississauga,Joan,,Vinall-Cox,1632876,0,zero,TEACHER,PROFESSOR,N/A
+Geography,4928,University of Toronto at Mississauga,Tara,,Vinodrai,2556256,0,zero,TEACHER,PROFESSOR,N/A
+Finance,4928,University of Toronto at Mississauga,Gabor,,Virag,2557839,0,zero,TEACHER,PROFESSOR,N/A
+Religion,4928,University of Toronto at Mississauga,Shafique,,Virani,900482,19,good,TEACHER,PROFESSOR,4.3
+Anthropology,4928,University of Toronto at Mississauga,Alexander,,Von Gernet,279574,13,good,TEACHER,PROFESSOR,3.6
+Computer Science,4928,University of Toronto at Mississauga,Paul,,Vrbik,2428625,15,good,TEACHER,PROFESSOR,4.8
+Religion,4928,University of Toronto at Mississauga,Jonathan,,Vroom,1965723,4,good,TEACHER,PROFESSOR,5.0
+Management,4928,University of Toronto at Mississauga,Dushyantkumar,,Vyas,2436834,2,good,TEACHER,PROFESSOR,5.0
+Biology,4928,University of Toronto at Mississauga,Helene,,Wagner,1085268,18,good,TEACHER,PROFESSOR,3.8
+Accounting,4928,University of Toronto at Mississauga,Aida,Sijamic,Wahid,2118283,1,good,TEACHER,PROFESSOR,5.0
+Geography,4928,University of Toronto at Mississauga,Natalie ,,Waldbrook,1965925,2,good,TEACHER,PROFESSOR,4.5
+Psychology,4928,University of Toronto at Mississauga,Simone,,Walker,1160080,25,good,TEACHER,PROFESSOR,3.7
+Geography,4928,University of Toronto at Mississauga,Alan,,Walks,599143,9,good,TEACHER,PROFESSOR,4.2
+Computer Science,4928,University of Toronto at Mississauga,Andrew,,Wang,2096528,1,good,TEACHER,PROFESSOR,4.0
+Mathematics,4928,University of Toronto at Mississauga,Xinlij,,Wang,2282781,8,average,TEACHER,PROFESSOR,2.9
+Communication,4928,University of Toronto at Mississauga,Sheeraz,,Wania,1927864,1,average,TEACHER,PROFESSOR,3.0
+History,4928,University of Toronto at Mississauga,Rhonda,,Ward,466325,14,average,TEACHER,PROFESSOR,2.9
+Art History,4928,University of Toronto at Mississauga,Flora,,Ward,1996656,2,good,TEACHER,PROFESSOR,4.5
+Philosophy,4928,University of Toronto at Mississauga,Owen,,Ware,2305967,1,good,TEACHER,PROFESSOR,5.0
+Writing,4928,University of Toronto at Mississauga,Laurel,,Waterman,1427777,20,average,TEACHER,PROFESSOR,3.1
+Philosophy,4928,University of Toronto at Mississauga,Rodney,,Watkins,366830,4,good,TEACHER,PROFESSOR,4.2
+Mathematics,4928,University of Toronto at Mississauga,Jordan,,Watts,1711933,4,good,TEACHER,PROFESSOR,4.5
+Statistics,4928,University of Toronto at Mississauga,Allison,,Weir,261429,98,average,TEACHER,PROFESSOR,3.2
+Statistics,4928,University of Toronto at Mississauga,Alison,,Weir,2224068,10,poor,TEACHER,PROFESSOR,2.2
+Philosophy,4928,University of Toronto at Mississauga,Jonathan,,Weisberg,1106905,12,good,TEACHER,PROFESSOR,3.9
+Mathematics,4928,University of Toronto at Mississauga,William,,Weiss,339754,12,average,TEACHER,PROFESSOR,2.7
+English,4928,University of Toronto at Mississauga,Ira,,Wells,1688751,15,good,TEACHER,PROFESSOR,4.6
+History,4928,University of Toronto at Mississauga,Caleb,,Wellum,2358441,1,good,TEACHER,PROFESSOR,4.0
+Management,4928,University of Toronto at Mississauga,Anthony,,Wensley,338585,18,good,TEACHER,PROFESSOR,3.8
+Psychology,4928,University of Toronto at Mississauga,Cherie,,Werhun,1605997,1,good,TEACHER,PROFESSOR,5.0
+Mathematics,4928,University of Toronto at Mississauga,Maria,,Wesslen,1707572,26,good,TEACHER,PROFESSOR,4.3
+Biology,4928,University of Toronto at Mississauga,Tim,,Westwood,285327,8,average,TEACHER,PROFESSOR,3.4
+English,4928,University of Toronto at Mississauga,Amanda,,Wetmore,2268208,2,good,TEACHER,PROFESSOR,5.0
+Classics,4928,University of Toronto at Mississauga,Benjamin,,Wheaton,2209110,2,good,TEACHER,PROFESSOR,4.0
+Medicine,4928,University of Toronto at Mississauga,Daniel,Burke,Whelan,2164194,0,zero,TEACHER,PROFESSOR,N/A
+Political Science,4928,University of Toronto at Mississauga,Graham,,White,350316,22,good,TEACHER,PROFESSOR,4.3
+History,4928,University of Toronto at Mississauga,Richard,,White,1769052,4,good,TEACHER,PROFESSOR,4.6
+English,4928,University of Toronto at Mississauga,Dan,,White,333106,21,average,TEACHER,PROFESSOR,3.3
+Accounting,4928,University of Toronto at Mississauga,Irene,,Wiecek,385399,11,good,TEACHER,PROFESSOR,4.2
+Computer Science,4928,University of Toronto at Mississauga,Daniel,,Wigdor,1658038,2,good,TEACHER,PROFESSOR,4.5
+Mathematics,4928,University of Toronto at Mississauga,Any,,Wilk,469846,65,average,TEACHER,PROFESSOR,2.8
+History,4928,University of Toronto at Mississauga,Derek,,Williams,387643,16,average,TEACHER,PROFESSOR,3.5
+Anthropology,4928,University of Toronto at Mississauga,Brenda,,Williams,644103,6,poor,TEACHER,PROFESSOR,2.2
+Biology,4928,University of Toronto at Mississauga,Karen,,Williams,963329,13,poor,TEACHER,PROFESSOR,2.0
+Geography,4928,University of Toronto at Mississauga,Kathi,,Wilson,378627,13,good,TEACHER,PROFESSOR,4.4
+Geography,4928,University of Toronto at Mississauga,Dana,,Wilson,1547934,4,good,TEACHER,PROFESSOR,3.5
+History,4928,University of Toronto at Mississauga,Rebecca,,Wittmann,1506280,7,good,TEACHER,PROFESSOR,4.2
+Psychology,4928,University of Toronto at Mississauga,Susan,,Wnuk,1458447,2,average,TEACHER,PROFESSOR,3.2
+Theater,4928,University of Toronto at Mississauga,Graham,,Wolfe,1185992,3,good,TEACHER,PROFESSOR,3.7
+Political Science,4928,University of Toronto at Mississauga,David,Allen,Wolfe,1978559,2,average,TEACHER,PROFESSOR,2.8
+Mathematics,4928,University of Toronto at Mississauga,Zachary,,Wolske,2403229,3,poor,TEACHER,PROFESSOR,2.0
+Economics,4928,University of Toronto at Mississauga,Ronald,,Wolthoff,1745383,4,good,TEACHER,PROFESSOR,4.7
+Economics,4928,University of Toronto at Mississauga,Kathleen,,Wong,1331299,44,average,TEACHER,PROFESSOR,3.3
+English,4928,University of Toronto at Mississauga,Brent,,Wood,542506,24,good,TEACHER,PROFESSOR,3.9
+Anthropology,4928,University of Toronto at Mississauga,Carolan,,Wood,2153120,24,poor,TEACHER,PROFESSOR,2.3
+Science,4928,University of Toronto at Mississauga,Karen,,Woodall,1838976,5,good,TEACHER,PROFESSOR,4.4
+Political Science,4928,University of Toronto at Mississauga,George,,Wootten,871120,24,good,TEACHER,PROFESSOR,4.1
+History,4928,University of Toronto at Mississauga,Ashley,,Wright,1556305,1,average,TEACHER,PROFESSOR,3.0
+Sociology,4928,University of Toronto at Mississauga,Jordana,,Wright,2164396,0,zero,TEACHER,PROFESSOR,N/A
+English,4928,University of Toronto at Mississauga,Daniel,,Wright,2127229,1,good,TEACHER,PROFESSOR,5.0
+Mathematics,4928,University of Toronto at Mississauga,Enxin,,WU,1797834,0,zero,TEACHER,PROFESSOR,N/A
+Anthropology,4928,University of Toronto at Mississauga,Liye,,Xie,2194076,3,average,TEACHER,PROFESSOR,3.0
+Statistics,4928,University of Toronto at Mississauga,Shengkun,Victor,Xie,2208236,10,poor,TEACHER,PROFESSOR,1.6
+Mathematics,4928,University of Toronto at Mississauga,Michael,,Yampolsky,408696,18,average,TEACHER,PROFESSOR,3.2
+Biology,4928,University of Toronto at Mississauga,Gage,,Yang,1876868,8,average,TEACHER,PROFESSOR,3.4
+Mathematics,4928,University of Toronto at Mississauga,Jessie,Jihyeon,Yang,2040645,5,poor,TEACHER,PROFESSOR,2.4
+Biology,4928,University of Toronto at Mississauga,Abraham,,Yang,2318949,6,poor,TEACHER,PROFESSOR,1.8
+Political Science,4928,University of Toronto at Mississauga,Mark,,Yaniszewski,2001400,14,good,TEACHER,PROFESSOR,4.5
+Anthropology,4928,University of Toronto at Mississauga,Alice,,Yao,1412287,2,good,TEACHER,PROFESSOR,4.0
+Accounting,4928,University of Toronto at Mississauga,Minlei,,Ye,2051079,7,average,TEACHER,PROFESSOR,3.0
+Writing,4928,University of Toronto at Mississauga,David,,Yee,2102187,0,zero,TEACHER,PROFESSOR,N/A
+Philosophy,4928,University of Toronto at Mississauga,Byeong-Uk,,Yi,944962,5,poor,TEACHER,PROFESSOR,1.8
+Mathematics,4928,University of Toronto at Mississauga,Alwin Hok,,Yin Li,1029416,0,zero,TEACHER,PROFESSOR,N/A
+Economics,4928,University of Toronto at Mississauga,Tenzin,,Yindok,2403144,19,average,TEACHER,PROFESSOR,3.3
+Statistics,4928,University of Toronto at Mississauga,Thomas,,Yoon,2395990,6,average,TEACHER,PROFESSOR,3.0
+English,4928,University of Toronto at Mississauga,Timothy,,Youker,1996538,3,average,TEACHER,PROFESSOR,3.3
+Management,4928,University of Toronto at Mississauga,Kevin,,Yousie,1880407,3,good,TEACHER,PROFESSOR,4.0
+Mathematics,4928,University of Toronto at Mississauga,Guowei,,YU,1887038,4,poor,TEACHER,PROFESSOR,1.0
+Economics,4928,University of Toronto at Mississauga,Kathleen,,YU,1470257,26,average,TEACHER,PROFESSOR,3.1
+Physics,4928,University of Toronto at Mississauga,Li,,Yuchong,2270569,8,good,TEACHER,PROFESSOR,4.7
+Mathematics,4928,University of Toronto at Mississauga,Timothy,,Yusun,2368873,7,good,TEACHER,PROFESSOR,4.8
+Languages,4928,University of Toronto at Mississauga,Youri,,Zabbal,1617126,5,good,TEACHER,PROFESSOR,3.7
+History,4928,University of Toronto at Mississauga,Talia,,Zajac,2322465,2,poor,TEACHER,PROFESSOR,2.0
+Economics,4928,University of Toronto at Mississauga,Nicholas,,Zammit,2337485,9,good,TEACHER,PROFESSOR,3.6
+English,4928,University of Toronto at Mississauga,Beth,,Zdriluk,966296,1,good,TEACHER,PROFESSOR,5.0
+Mathematics,4928,University of Toronto at Mississauga,KE,,Zhang,1746722,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4928,University of Toronto at Mississauga,Jianlu,,Zhang,2027493,1,poor,TEACHER,PROFESSOR,1.0
+Social Science,4928,University of Toronto at Mississauga,Weiguo,,Zhang,2454083,0,zero,TEACHER,PROFESSOR,N/A
+Mathematics,4928,University of Toronto at Mississauga,Lei,,Zhang,2379965,1,poor,TEACHER,PROFESSOR,1.0
+Sociology,4928,University of Toronto at Mississauga,Weiguo,,Zhang,770698,34,average,TEACHER,PROFESSOR,3.0
+Computer Science,4928,University of Toronto at Mississauga,Larry,,Zhang,2163023,13,good,TEACHER,PROFESSOR,4.7
+Computer Science,4928,University of Toronto at Mississauga,Lisa,,Zhang,2468435,1,poor,TEACHER,PROFESSOR,2.0
+Mathematics,4928,University of Toronto at Mississauga,KE,,Zheng,1746732,1,good,TEACHER,PROFESSOR,5.0
+Economics,4928,University of Toronto at Mississauga,Xiadong,,Zhu,535618,9,average,TEACHER,PROFESSOR,2.6
+Geography,4928,University of Toronto at Mississauga,Tingting,,Zhu,2485201,1,poor,TEACHER,PROFESSOR,2.0
+Mathematics,4928,University of Toronto at Mississauga,Vladimir,,Zhuravlev,1305529,1,poor,TEACHER,PROFESSOR,1.0
+Computer Science,4928,University of Toronto at Mississauga,Daniel,,Zingaro,1967936,22,good,TEACHER,PROFESSOR,4.6
+Psychology,4928,University of Toronto at Mississauga,Iva,,Zovkic,2111852,3,average,TEACHER,PROFESSOR,2.5
