@@ -2,12 +2,15 @@
   <div class="vuecal">
     <vue-cal
       class="vuecal--blue-theme"
-      :time-from="9 * 60"
+      :time-from="8 * 60"
+      :time-to="23 * 60"
       :disable-views="['years', 'year']"
       default-view="week"
       events-on-month-view="short"
       :events="events"
+      hide-weekends
       style="height: 600px"
+      hide-view-selector
     ></vue-cal>
   </div>
 </template>
@@ -78,4 +81,5 @@ export default Vue.extend({
   padding: 10px;
   margin-right: 20px;
 }
+.vuecal__now-line {display: none}
 </style>

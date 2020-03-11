@@ -1,11 +1,11 @@
 <template>
   <div class="home">
     <div class="columns">
-        <div class="column is-one-quarter">
-            <Searchbar />
-        </div>
         <div class="column">
             <Calendar />
+        </div>
+        <div class="column is-one-quarter">
+            <Searchbar />
         </div>
     </div>
   </div>
