@@ -19,11 +19,14 @@
 import Vue from "vue";
 import VueCal from "vue-cal";
 import "vue-cal/dist/vuecal.css";
+import { bus } from "../main";
 
 export default Vue.extend({
   name: "calendar",
   components: { VueCal },
-  props: {},
+  props: {
+    message: String
+  },
   data: () => ({
     events: [
       {
@@ -66,7 +69,22 @@ export default Vue.extend({
         background: true
       }
     ]
-  })
+  }),
+  created()
+  {
+    bus.$on('messageSent', () => {
+      console.log("please god tell me this works");
+      this.events.push(
+        {
+          start: "2020-03-11 12:00",
+          end: "2020-03-11 14:00",
+          title: "LUNCH",
+          class: "lunch",
+          background: true
+        }
+      )
+    })
+  }
 });
 </script>
 

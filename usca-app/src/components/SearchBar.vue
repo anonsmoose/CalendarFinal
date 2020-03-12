@@ -1,7 +1,7 @@
 <template>
     <section>
         <p class="content"><b>Selected:</b> {{ selected }}</p>
-        <b-field label="Search for a course">
+        <b-field @click="test" label="Search for a course">
             <b-autocomplete
                 rounded
                 v-model="name"
@@ -9,7 +9,7 @@
                 placeholder="CSC301"
                 icon="magnify"
                 clearable
-                @select="option => selected = option">
+                @select="test()">
                 <template slot="empty">No results found</template>
             </b-autocomplete>
         </b-field>
@@ -21,6 +21,7 @@
 import Vue from 'vue'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
+import { bus } from "@/main.ts";
 
 Vue.use(Buefy)
 
@@ -53,6 +54,14 @@ Vue.use(Buefy)
                         .toLowerCase()
                         .indexOf(this.name.toLowerCase()) >= 0
                 })
+            }
+        },
+        methods:
+        {
+            test()
+            {
+                console.log("we can call this from the search bar!");
+                  bus.$emit('messageSent');
             }
         }
     }
