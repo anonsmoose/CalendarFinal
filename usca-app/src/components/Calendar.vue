@@ -73,12 +73,30 @@ export default Vue.extend({
   created()
   {
     bus.$on('messageSent', () => {
-      console.log("please god tell me this works");
+      console.log("please god tell me this works" + 5);
+      const day = Math.round(Math.random() * (13 - 9) + 9);
+      const time = Math.round(Math.random() * (22 - 8) + 8);
+      const title = [
+                    'CSC301',
+                    'CSC338',
+                    'CSC343',
+                    'STA107',
+                    'STA256',
+                    'STA260',
+                    'STA302',
+                    'STA313',
+                    'CSC411',
+                    'MAT301',
+                    'MAT388',
+                    'MAT382'
+      ]
+      const course = Math.round(Math.random() * (11 - 0) + 0);
+
       this.events.push(
         {
-          start: "2020-03-11 12:00",
-          end: "2020-03-11 14:00",
-          title: "LUNCH",
+          start: "2020-03-" + day + " " +  time + ":00",
+          end: "2020-03-" + day + " " +  (time + 2) + ":00",
+          title: title[course],
           class: "lunch",
           background: true
         }
