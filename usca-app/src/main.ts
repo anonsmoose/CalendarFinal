@@ -15,100 +15,148 @@ new Vue({
 
 
 
+interface EventDict {
+  [index: string]: Array<Event>;
+}
 
-function getCourseInfo(course) {
-  var meeting_sections = course.meeting_sections;
-  var curr_section = null;
-  var lectures = {};
-  var tutorials = {};
-  var practicals = {};
-  var days = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"];
+interface Event {
+  start: string;
+  end: string;
+  title: string;
+  class: string;
+  background: boolean;
+}
 
-  var num_ms_in_hour = 3600;
-  var curr_day = null;
-  var start_hour = null;
-  var end_hour = null;
-  var course_section_as_event = null;
 
-  for (var i =0; i < meeting_sections.length; i++) {
+interface Time {
+  day: string;
+  start: number;
+  end: number;
+  duration: number;
+  location: string;
+}
 
-    curr_section = meeting_sections[i];
+
+interface MeetingSection {
+  code: string;
+  instructors: Array<string>;
+  times: Array<Time>;
+  size: number;
+  enrolment: number;
+}
+
+
+interface Course {
+  id: string;
+  code: string;
+  name: string;
+  description: string;
+  division: string;
+  department: string;
+  prerequisites: string;
+  exclusions: string;
+  leve: number;
+  campus: string;
+  term: string;
+  breadths: Array<number>;
+  meeting_sections: Array<MeetingSection>;
+}
+
+
+
+function getCourseInfo(course: Course) {
+  const meetingSections = course.meeting_sections;
+  let currSection = null;
+  const lectures: EventDict = {};
+  const tutorials: EventDict = {};
+  const practicals: EventDict = {};
+  const days = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"];
+
+  const numMsInHour = 3600;
+  let currDay = null;
+  let startHour = null;
+  let endHour = null;
+  let courseSectionAsEvent = null;
+
+  for (let i =0; i < meetingSections.length; i++) {
+
+    currSection = meetingSections[i];
   
 
-    if (curr_section.code[0] == "L") { // If lecture
-      lectures[curr_section.code] = [];
-      for (var j = 0; j < curr_section.times.length; j++){
-        start_hour = (curr_section.times[j].start / num_ms_in_hour).toString();
-        end_hour = (curr_section.times[j].end / num_ms_in_hour).toString();
-        curr_day = curr_section.times[j].day;
-        curr_day = (days.indexOf(curr_day) + 6).toString();
+    if (currSection.code[0] == "L") { // If lecture
+      lectures[currSection.code] = [];
+      for (let j = 0; j < currSection.times.length; j++){
+        startHour = (currSection.times[j].start / numMsInHour).toString();
+        endHour = (currSection.times[j].end / numMsInHour).toString();
+        currDay = currSection.times[j].day;
+        currDay = (days.indexOf(currDay) + 6).toString();
 
-        if (curr_day.length == 1) {
-          curr_day = "0" + curr_day;
+        if (currDay.length == 1) {
+          currDay = "0" + currDay;
         }
 
-        course_section_as_event = {
-          start: "2020-01-" + curr_day + " " +  start_hour + ":00",
-          end: "2020-01-" + curr_day + " " +  end_hour + ":00",
-          title: course.code + " " + curr_section.code,
+        courseSectionAsEvent = {
+          start: "2020-01-" + currDay + " " +  startHour + ":00",
+          end: "2020-01-" + currDay + " " +  endHour + ":00",
+          title: course.code + " " + currSection.code,
           class: "lunch",
           background: true
 
         }
-        lectures[curr_section.code].push(course_section_as_event);
+        lectures[currSection.code].push(courseSectionAsEvent);
       }
 
     }
 
-    else if (curr_section.code[0] == "T") { // If Tutorial
-    tutorials[curr_section.code] = [];
-      for (var j = 0; j < curr_section.times.length; j++){
-        start_hour = (curr_section.times[j].start / num_ms_in_hour).toString();
-        end_hour = (curr_section.times[j].end / num_ms_in_hour).toString();
-        curr_day = curr_section.times[j].day;
-        curr_day = (days.indexOf(curr_day) + 6).toString();
+    else if (currSection.code[0] == "T") { // If Tutorial
+    tutorials[currSection.code] = [];
+      for (let j = 0; j < currSection.times.length; j++){
+        startHour = (currSection.times[j].start / numMsInHour).toString();
+        endHour = (currSection.times[j].end / numMsInHour).toString();
+        currDay = currSection.times[j].day;
+        currDay = (days.indexOf(currDay) + 6).toString();
 
-        if (curr_day.length == 1) {
-          curr_day = "0" + curr_day;
+        if (currDay.length == 1) {
+          currDay = "0" + currDay;
         }
 
-        course_section_as_event = {
-          start: "2020-01-" + curr_day + " " +  start_hour + ":00",
-          end: "2020-01-" + curr_day + " " +  end_hour + ":00",
-          title: course.code + " " + curr_section.code,
+        courseSectionAsEvent = {
+          start: "2020-01-" + currDay + " " +  startHour + ":00",
+          end: "2020-01-" + currDay + " " +  endHour + ":00",
+          title: course.code + " " + currSection.code,
           class: "lunch",
           background: true
 
         }
-        tutorials[curr_section.code].push(course_section_as_event);
+        tutorials[currSection.code].push(courseSectionAsEvent);
       }
 
 
     }
 
     else { //Its a practical
-    practicals[curr_section.code] = [];
-      for (var j = 0; j < curr_section.times.length; j++){
-        start_hour = (curr_section.times[j].start / num_ms_in_hour).toString();
-        end_hour = (curr_section.times[j].end / num_ms_in_hour).toString();
-        curr_day = curr_section.times[j].day;
-        curr_day = (days.indexOf(curr_day) + 6).toString();
+    practicals[currSection.code] = [];
+      for (let j = 0; j < currSection.times.length; j++){
+        startHour = (currSection.times[j].start / numMsInHour).toString();
+        endHour = (currSection.times[j].end / numMsInHour).toString();
+        currDay = currSection.times[j].day;
+        currDay = (days.indexOf(currDay) + 6).toString();
 
 
 
-        if (curr_day.length == 1) {
-          curr_day = "0" + curr_day;
+        if (currDay.length == 1) {
+          currDay = "0" + currDay;
         }
 
-        course_section_as_event = {
-          start: "2020-01-" + curr_day + " " +  start_hour + ":00",
-          end: "2020-01-" + curr_day + " " +  end_hour + ":00",
-          title: course.code + " " + curr_section.code,
+        courseSectionAsEvent = {
+          start: "2020-01-" + currDay + " " +  startHour + ":00",
+          end: "2020-01-" + currDay + " " +  endHour + ":00",
+          title: course.code + " " + currSection.code,
           class: "lunch",
           background: true
 
         }
-        practicals[curr_section.code].push(course_section_as_event);
+        practicals[currSection.code].push(courseSectionAsEvent);
       }
 
     }
