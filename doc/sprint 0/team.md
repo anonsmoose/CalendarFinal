@@ -42,6 +42,11 @@
   - &nbsp;&nbsp;&nbsp;&nbsp; Phone number:  647-916-4582
   - &nbsp;&nbsp;&nbsp;&nbsp; Discord: manahil.m#1748
 
+- Davit Badalyan:
+  - &nbsp;&nbsp;&nbsp;&nbsp; Email:  d.badalyan@mail.utoronto.ca
+  - &nbsp;&nbsp;&nbsp;&nbsp; Phone number:  647-885-7235
+  - &nbsp;&nbsp;&nbsp;&nbsp; Discord: Davo#8643
+
 ###  Communication response times
 >Methods of communication used such as phone, email, and discord should be checked at least once a day to make sure issues get resolved quickly.
 

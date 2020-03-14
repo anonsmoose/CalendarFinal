@@ -62,8 +62,6 @@ interface Course {
   meeting_sections: Array<MeetingSection>;
 }
 
-
-
 function getCourseInfo(course: Course) {
   const meetingSections = course.meeting_sections;
   let currSection = null;
