@@ -1,0 +1,25 @@
+attendance,clarityColor,easyColor,helpColor,helpCount,id,notHelpCount,onlineClass,quality,rClarity,rClass,rComments,rDate,rEasy,rEasyString,rErrorMsg,rHelpful,rInterest,rOverall,rOverallString,rStatus,rTextBookUse,rTimestamp,rWouldTakeAgain,sId,takenForCredit,teacher,teacherGrade,teacherRatingTags,unUsefulGrouping,usefulGrouping
+Not Mandatory,poor,average,poor,0,32884819,0,,awful,1,PCL473,"Starts talking about a subject and then goes on a long tangent about something irrelevant for 5 minutes. When asked questions, she won't directly answer and will go on another irrelevant tangent.",02/02/2020,3.0,3.0,,1,N/A,1.0,1.0,1,No,1580611986000,No,1484,No,,N/A,[],people,people
+Mandatory,good,good,good,1,30085932,0,,awesome,5,PCL301,"Super-nice, super-smart, super-helpful, super-hot.",05/12/2018,4.0,4.0,,5,N/A,5.0,5.0,1,Yes,1526150499000,Yes,1484,Yes,,A,[],people,person
+N/A,good,poor,good,5,26286407,0,,awesome,5,PCL201,"BEST PROF EVER! Makes material easy to understand, and also very enthusiastic. She makes Lecture enjoyable.",04/13/2016,1.0,1.0,,5,N/A,5.0,5.0,1,No,1460542173000,N/A,1484,Yes,,N/A,"['Inspirational', 'Clear grading criteria', 'Respected']",people,people
+Mandatory,average,average,average,2,26284682,3,,average,3,PCL201,very hot,04/12/2016,3.0,3.0,,3,N/A,3.0,3.0,1,No,1460504873000,N/A,1484,Yes,,N/A,"[""Skip class? You won't pass.""]",people,people
+Mandatory,good,good,good,2,25882410,1,,awesome,5,PCL1004,Excellent lecturer and course coordinator.,01/05/2016,4.0,4.0,,5,It's my life,5.0,5.0,1,No,1452020532000,Yes,1484,Yes,,N/A,"['Lots of homework', 'Respected']",person,people
+N/A,good,good,good,2,13342369,0,,awesome,5,PCL473,Very nice! Cares about her students.,07/19/2007,4.0,4.0,,5,It's my life,5.0,5.0,1,No,1184879980000,N/A,1484,N/A,,N/A,[],people,people
+N/A,good,average,good,2,13111043,0,,awesome,5,PCLSECT,"very nice, very helpful, very fair, cares about preparing us for the crazy world out there.",05/04/2007,2.0,2.0,,5,It's my life,5.0,5.0,1,No,1178300770000,N/A,1484,N/A,,N/A,[],people,people
+N/A,good,average,average,1,11676005,4,,good,5,PCL473,"Like hot and sour soup, she keeps me distracted from paying attention in class.",04/07/2006,2.0,2.0,,2,Really into it,3.5,3.5,1,N/A,1144440859000,N/A,1484,N/A,,N/A,[],people,person
+N/A,good,average,good,2,10205220,0,,good,4,PCL,helpful and approachable,09/04/2005,3.0,3.0,,4,Really into it,4.0,4.0,1,N/A,1125840214000,N/A,1484,N/A,,N/A,[],people,people
+N/A,good,average,average,1,3734627,0,,good,4,PCL201,shes nice,04/28/2005,3.0,3.0,,3,Meh,3.5,3.5,1,N/A,1114698915000,N/A,1484,N/A,,N/A,[],people,person
+N/A,good,poor,good,0,3324367,0,,awesome,5,PCL,awesome,02/04/2005,1.0,1.0,,5,Sorta interested,5.0,5.0,1,N/A,1107547497000,N/A,1484,N/A,,N/A,[],people,people
+N/A,average,average,average,0,2085156,2,,poor,2,PCL201,her notes leave alot to be desired...,05/04/2004,3.0,3.0,,2,N/A,2.0,2.0,1,N/A,1083676503000,N/A,1484,N/A,,N/A,[],people,people
+N/A,good,average,good,1,1939982,0,,awesome,4,PCLTOX,"easy to approach outside of the classroom, good teacher",04/12/2004,3.0,3.0,,5,N/A,4.5,4.5,1,N/A,1081771898000,N/A,1484,N/A,,N/A,[],people,person
+N/A,average,average,average,0,1001692,0,,poor,2,PCL302,No Comments,06/05/2003,3.0,3.0,,2,N/A,2.0,2.0,1,N/A,1054846799000,N/A,1484,N/A,,N/A,[],people,people
+N/A,average,average,average,0,918840,0,,good,3,PCL302,No Comments,05/02/2003,3.0,3.0,,4,N/A,3.5,3.5,1,N/A,1051917618000,N/A,1484,N/A,,N/A,[],people,people
+N/A,average,average,good,0,508887,0,,good,3,PCL302,No Comments,01/21/2003,2.0,2.0,,5,N/A,4.0,4.0,1,N/A,1043189136000,N/A,1484,N/A,,N/A,[],people,people
+N/A,good,average,good,0,441787,0,,awesome,5,PCL302,No Comments,12/17/2002,3.0,3.0,,5,N/A,5.0,5.0,1,N/A,1040124639000,N/A,1484,N/A,,N/A,[],people,people
+N/A,good,good,average,0,266519,0,,good,4,PCL201,No Comments,09/19/2002,4.0,4.0,,3,N/A,3.5,3.5,3,N/A,1032463112000,N/A,1484,N/A,,N/A,[],people,people
+N/A,good,average,good,0,244950,0,,awesome,5,PCL,No Comments,08/11/2002,2.0,2.0,,5,N/A,5.0,5.0,1,N/A,1029066166000,N/A,1484,N/A,,N/A,[],people,people
+N/A,average,average,average,0,193993,1,,poor,2,PCL,No Comments,04/29/2002,3.0,3.0,,2,N/A,2.0,2.0,1,N/A,1020044562000,N/A,1484,N/A,,N/A,[],person,people
+N/A,good,average,good,0,181179,0,,awesome,5,PCL470,No Comments,04/18/2002,3.0,3.0,,4,N/A,4.5,4.5,1,N/A,1019090703000,N/A,1484,N/A,,N/A,[],people,people
+N/A,average,average,average,0,176880,0,,average,2,PCL301,No Comments,04/15/2002,3.0,3.0,,4,N/A,3.0,3.0,1,N/A,1018863484000,N/A,1484,N/A,,N/A,[],people,people
+N/A,good,poor,good,0,116859,0,,awesome,5,PCL301H1F,"Damn, if she weren't wearing the ring, I'd marry her myself!",02/18/2002,1.0,1.0,,5,N/A,5.0,5.0,1,N/A,1013997860000,N/A,1484,N/A,,N/A,[],people,people
+N/A,poor,good,poor,0,101689,0,,poor,1,PCL,No Comments,02/07/2002,5.0,5.0,,2,N/A,1.5,1.5,1,N/A,1013095455000,N/A,1484,N/A,,N/A,[],people,people

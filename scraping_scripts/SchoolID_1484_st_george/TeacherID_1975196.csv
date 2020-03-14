@@ -1,0 +1,5 @@
+attendance,clarityColor,easyColor,helpColor,helpCount,id,notHelpCount,onlineClass,quality,rClarity,rClass,rComments,rDate,rEasy,rEasyString,rErrorMsg,rHelpful,rInterest,rOverall,rOverallString,rStatus,rTextBookUse,rTimestamp,rWouldTakeAgain,sId,takenForCredit,teacher,teacherGrade,teacherRatingTags,unUsefulGrouping,usefulGrouping
+Mandatory,good,poor,good,0,26377902,0,,awesome,5,PROTH101,Amazing,04/26/2016,1.0,1.0,,5,N/A,5.0,5.0,1,Yes,1461628849000,N/A,1484,Yes,,N/A,"['Gives good feedback', 'Caring', 'Amazing lectures']",people,people
+Mandatory,good,average,good,0,26377880,0,,awesome,5,PROTH101,he is the best,04/25/2016,2.0,2.0,,5,N/A,5.0,5.0,1,Yes,1461628699000,N/A,1484,Yes,,N/A,"['Amazing lectures', 'Gives good feedback', 'Caring']",people,people
+N/A,good,poor,good,0,24260588,0,,awesome,5,ATTENTION,He is amAZing  ,01/09/2015,1.0,1.0,,5,Really into it,5.0,5.0,1,Yes,1420820733000,N/A,1484,Yes,,N/A,[],people,people
+N/A,good,poor,good,0,24260577,0,,awesome,5,ATTENTION,He is a really good prof ,01/09/2015,1.0,1.0,,5,It's my life,5.0,5.0,1,Yes,1420820569000,N/A,1484,Yes,,N/A,[],people,people
