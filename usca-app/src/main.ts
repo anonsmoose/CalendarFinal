@@ -33,19 +33,20 @@ function getCourseInfo(course) {
   for (var i =0; i < meeting_sections.length; i++) {
 
     curr_section = meeting_sections[i];
-    lectures[curr_section.code] = [];
+  
 
     if (curr_section.code[0] == "L") { // If lecture
+      lectures[curr_section.code] = [];
       for (var j = 0; j < curr_section.times.length; j++){
         start_hour = (curr_section.times[j].start / num_ms_in_hour).toString();
         end_hour = (curr_section.times[j].end / num_ms_in_hour).toString();
         curr_day = curr_section.times[j].day;
         curr_day = (days.indexOf(curr_day) + 6).toString();
-        
+
         if (curr_day.length == 1) {
           curr_day = "0" + curr_day;
         }
-        
+
         course_section_as_event = {
           start: "2020-01-" + curr_day + " " +  start_hour + ":00",
           end: "2020-01-" + curr_day + " " +  end_hour + ":00",
@@ -60,6 +61,7 @@ function getCourseInfo(course) {
     }
 
     else if (curr_section.code[0] == "T") { // If Tutorial
+    tutorials[curr_section.code] = [];
       for (var j = 0; j < curr_section.times.length; j++){
         start_hour = (curr_section.times[j].start / num_ms_in_hour).toString();
         end_hour = (curr_section.times[j].end / num_ms_in_hour).toString();
@@ -69,11 +71,11 @@ function getCourseInfo(course) {
         if (curr_day.length == 1) {
           curr_day = "0" + curr_day;
         }
-        
+
         course_section_as_event = {
           start: "2020-01-" + curr_day + " " +  start_hour + ":00",
           end: "2020-01-" + curr_day + " " +  end_hour + ":00",
-          title: course.code,
+          title: course.code + " " + curr_section.code,
           class: "lunch",
           background: true
 
@@ -85,6 +87,7 @@ function getCourseInfo(course) {
     }
 
     else { //Its a practical
+    practicals[curr_section.code] = [];
       for (var j = 0; j < curr_section.times.length; j++){
         start_hour = (curr_section.times[j].start / num_ms_in_hour).toString();
         end_hour = (curr_section.times[j].end / num_ms_in_hour).toString();
@@ -96,11 +99,11 @@ function getCourseInfo(course) {
         if (curr_day.length == 1) {
           curr_day = "0" + curr_day;
         }
-        
+
         course_section_as_event = {
           start: "2020-01-" + curr_day + " " +  start_hour + ":00",
           end: "2020-01-" + curr_day + " " +  end_hour + ":00",
-          title: course.code,
+          title: course.code + " " + curr_section.code,
           class: "lunch",
           background: true
 
