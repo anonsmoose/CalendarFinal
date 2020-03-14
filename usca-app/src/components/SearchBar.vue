@@ -9,7 +9,7 @@
                 placeholder="CSC301"
                 icon="magnify"
                 clearable
-                @select="test()">
+                @select="test($event)">
                 <template slot="empty">No results found</template>
             </b-autocomplete>
         </b-field>
@@ -29,7 +29,7 @@ Vue.use(Buefy)
         data() {
             return {
                 data: [
-                    'CSC301',
+                    'CSC301H5S',
                     'CSC338',
                     'CSC343',
                     'STA107',
@@ -58,10 +58,11 @@ Vue.use(Buefy)
         },
         methods:
         {
-            test()
+            test(course)
             {
                 console.log("we can call this from the search bar!");
-                  bus.$emit('messageSent');
+                console.log(course);
+                  bus.$emit('course selected', course );
             }
         }
     }
