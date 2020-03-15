@@ -1,0 +1,10 @@
+group: syntax
+
+attendance: 2/2 (some students may have dropped out, full marks for now)
+
+features: 8/8
+ratemyprofessor integration/ reactive UI --> adds to calendar/ GPA link/ database populated
+
+JIRA: all userstories present, remember to mark it done for next time
+
+total: 10/10
