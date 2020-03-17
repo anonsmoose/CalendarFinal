@@ -3,12 +3,12 @@
 
 ### Group members:
 
-  - Parham Fartoot (fartootp)
-  - Ikjot Dhillon (dhill354)
+  - Parham Fartoot (fartootp) [dropped]
+  - Ikjot Dhillon (dhill354) [dropped]
   - Amit Ohm (ohmamit)
-  - Umair Farooqi (faroo124)
+  - Umair Farooqi (faroo124) [dropped]
   - Peter Tamraz (tamrazpe)
-  - Manahil Masroor (masroor6)
+  - Manahil Masroor (masroor6) [dropped]
   - Davit Badalyan (badalya1)
 ### Contact information
 
