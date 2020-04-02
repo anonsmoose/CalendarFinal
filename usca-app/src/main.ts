@@ -14,7 +14,6 @@ new Vue({
 }).$mount("#app");
 
 
-
 interface EventDict {
   [index: string]: Array<Event>;
 }
@@ -163,3 +162,4 @@ function getCourseInfo(course: Course) {
 
   return {"lectures" : lectures, "tutorials" : tutorials, "practicals" : practicals};
 }
+
