@@ -125,8 +125,13 @@ export default {
       this.lectures = [];
       for (const [key, value] of Object.entries(course.lectures)) {
         //          console.log(key, value[0]);
-
-        this.lectures.push(value[0]);
+        let i = 0;
+        while (i < value.length)
+        {
+          this.lectures.push(value[i]);
+          i+=1;
+        }
+        i = 0;
        
       }
 
@@ -143,7 +148,7 @@ export default {
 
         this.practicals.push(value[0]);
       }
-      console.log(this.lectures);
+      
       console.log("bottom of created method");
 
       const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturady"];
