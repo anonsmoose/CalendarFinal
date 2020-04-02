@@ -17,14 +17,6 @@
   </div>
 </template>
 
-<!-- <template> -->
-<!--   <div class ="block"> -->
-<!--     <div class="notification"> -->
-<!--       lorem ip -->
-<!--     </div> -->
-<!--   </div> -->
-<!-- </template> -->
-
 <script>
 // @ is an alias to /src
 import Calendar from "@/components/Calendar.vue";

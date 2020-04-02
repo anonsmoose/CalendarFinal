@@ -10,8 +10,6 @@
               <span>Clear selected</span>
             </button>
 
-            <b-tabs>
-              <b-tab-item label="Table">
                 <b-table
                   :data="lectures"
                   :columns="columns"
@@ -19,12 +17,7 @@
                   focusable
                   @select="addToCalendar($event)"
                 ></b-table>
-              </b-tab-item>
 
-              <b-tab-item label="Selected">
-                <pre>{{ selected }}</pre>
-              </b-tab-item>
-            </b-tabs>
           </section>
         </b-tab-item>
         <b-tab-item label="tutorials">

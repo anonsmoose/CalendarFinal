@@ -38,6 +38,7 @@ import VueCal from "vue-cal";
 import "vue-cal/dist/vuecal.css";
 import { bus } from "../main";
 
+
 export default Vue.extend({
   name: "calendar",
   components: { VueCal },
@@ -46,7 +47,46 @@ export default Vue.extend({
   },
   data: () => ({
     events: [
-    ]
+      // {
+      //   start: "2020-02-24 13:00",
+      //   end: "2020-02-24 14:00",
+      //   title: "PHL258H5 LEC0101"
+      // },
+      // {
+      //   start: "2020-02-26 13:00",
+      //   end: "2020-02-26 15:00",
+      //   title: "PHL258H5 LEC0101"
+      // },
+      // {
+      //   start: "2020-02-25 13:00",
+      //   end: "2020-02-25 15:00",
+      //   title: "CSC301H5 LEC0101"
+      // },
+      // {
+      //   start: "2020-02-27 9:00",
+      //   end: "2020-02-27 10:00",
+      //   title: "CSC301H5 TUT0101"
+      // },
+      // {
+      //   start: "2020-02-25 15:00",
+      //   end: "2020-02-25 17:00",
+      //   title: "CSC309H5 LEC0101"
+      // },
+      // {
+      //   start: "2020-02-19 12:00",
+      //   end: "2020-02-19 14:00",
+      //   title: "LUNCH",
+      //   class: "lunch",
+      //   background: true
+      // },
+      // {
+      //   start: "2020-02-20 12:00",
+      //   end: "2020-02-20 14:00",
+      //   title: "LUNCH",
+      //   class: "lunch",
+      //   background: true
+      // }
+    ],
   }),
   methods:
   {
@@ -57,8 +97,86 @@ export default Vue.extend({
 
       console.log("inside the calendar");
       console.log(course);
-      this.events.push(course);
-    })
+      console.log(course.start);
+      // console.log(course.start.lastIndexOf("-"));
+      console.log(course.start.slice(0, 10));
+      // const startdate = new date(course.start.slice(0, 10));
+      // console.log(startDate);
+      // const endDate = new Date(course.end.slice(0, 10));
+
+      const startDate = new Date(course.start.slice(0, 10).replace("-", "/").replace("-", "/"));
+      console.log(startDate);
+      const endDate = new Date(course.end.slice(0, 10).replace("-", "/").replace("-", "/"));
+      // console.log(course.start.slice(0, 10).replace("-", "/").replace("-", "/"));
+      
+
+      // const date = new Date(startDate);
+      // startDate.setDate(startDate.getDate() + 7);
+      // console.log(startDate.toISOString().slice(0, 10) + " " + course.start.slice(11));
+      
+      // dateList.push(date)
+      // console.log(dateList);
+
+      // console.log(addWeeks(dt, 10).toString());
+
+      let i = 0;
+      while (i < 13)
+      {
+        let dict = {};
+
+        dict["title"] = course.title;
+        dict["background"] = true;
+        dict["class"] = "lunch";
+        dict["start"] = startDate.toISOString().slice(0, 10) + " " + course.start.slice(11);
+        dict["end"] = endDate.toISOString().slice(0, 10) + " " + course.end.slice(11);
+        startDate.setDate(startDate.getDate() + 7);
+        endDate.setDate(endDate.getDate() + 7);
+        i+=1;
+        this.events.push(dict);
+        dict = {};
+
+      }
+      console.log(this.events);
+
+    
+      
+
+      // dateList.push(5);
+      // console.log(dateList);
+      // dateList.push(1);
+      // console.log(dateList);
+      // dateList.push(9);
+      // console.log(dateList);
+      
+
+      // let i = 1;
+      // var startDateList = [];
+      // const endDateList = [];
+      // while (i < 14)
+      // {
+      //   // console.log(startDate);
+      //   // console.log(endDate);
+      //   startDate.setDate(startDate.getDate() + 7);
+      //   console.log(startDate);
+      //   startDateList.push(startDate);
+        
+      //   // endDate.setDate(endDate.getDate() + 7);
+      //   // startDateList.push(startDate);
+      //   // endDateList.push(endDate);
+      //   i+=1;
+      // } 
+      // console.log(startDateList);
+      // console.log(startDateList[1].toISOString());
+      // console.log(endDateList);
+
+
+      // const test = course.start.slice(8, 10)
+      // console.log(test);
+      // console.log(parseInt(test) + 5);
+      // console.log(('0' + '5').slice(-2));
+
+      // this.events.push(course);
+    });
   }
 });
 </script>
