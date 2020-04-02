@@ -1,7 +1,7 @@
 <template>
     <section>
         <p class="content"><b>Selected:</b> {{ selected }}</p>
-        <b-field @click="test" label="Search for a course">
+        <b-field label="Search for a course">
             <b-autocomplete
                 rounded
                 v-model="name"
@@ -52,17 +52,19 @@ Vue.use(Buefy)
         methods:
         {
             getCourses(input) {
-                axios.get('http://localhost:3000/getCourse/' + input)
-                    .then(res => {
-                        let i = 0;
-                        while (i < res.data.length) {
-                            courseData[i] = res.data[i].courseCode;
-                            i += 1;
-                        }
-                        console.log(res.data);
-                        courseData.__ob__.dep.notify();
-                        this.$forceUpdate();
-                    });
+
+                if (input != "") {
+                    axios.get('http://localhost:3000/getCourse/' + input)
+                        .then(res => {
+                            let i = 0;
+                            while (i < res.data.length) {
+                                courseData[i] = res.data[i].courseCode;
+                                i += 1;
+                            }
+                            console.log(res.data);
+                            courseData.__ob__.dep.notify();
+                        });
+                }
              }
         }
     }
