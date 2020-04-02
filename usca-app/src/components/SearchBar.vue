@@ -61,7 +61,7 @@ Vue.use(Buefy)
                         .then(res => {
                             let i = 0;
                             while (i < res.data.length) {
-                                courseData[i] = res.data[i].courseCode;
+                                courseData[i] = res.data[i].courseCodeLong;
                                 i += 1;
                             }
                             // console.log(res.data);
@@ -73,7 +73,7 @@ Vue.use(Buefy)
              {
                  console.log("hello");
                 if (selectedCourse != "") {
-                    axios.get('http://localhost:3000/getCourse/' + selectedCourse)
+                    axios.get('http://localhost:3000/getCourse/' + selectedCourse.slice(0, 8))
                         .then(res => {
                             // let i = 0;
                             // while (i < res.data.length) {

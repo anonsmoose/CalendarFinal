@@ -16,6 +16,7 @@ interface Event {
   title: string;
   class: string;
   background: boolean;
+  professor: string;
 }
 
 
@@ -75,6 +76,9 @@ function getCourseInfo(course: Course) {
     if (currSection.code[0] == "L") { // If lecture
       lectures[currSection.code] = [];
       for (let j = 0; j < currSection.times.length; j++){
+        console.log("important");
+        console.log(currSection.instructors[0]);
+        console.log("importantend");
         startHour = (currSection.times[j].start / numMsInHour).toString();
         endHour = (currSection.times[j].end / numMsInHour).toString();
         currDay = currSection.times[j].day;
@@ -89,9 +93,12 @@ function getCourseInfo(course: Course) {
           end: "2020-01-" + currDay + " " +  endHour + ":00",
           title: course.code + " " + currSection.code,
           class: "lunch",
-          background: true
+          background: true,
+          professor: currSection.instructors[0]
 
         }
+        console.log("test1");
+        console.log(courseSectionAsEvent);
         lectures[currSection.code].push(courseSectionAsEvent);
       }
 
@@ -114,7 +121,8 @@ function getCourseInfo(course: Course) {
           end: "2020-01-" + currDay + " " +  endHour + ":00",
           title: course.code + " " + currSection.code,
           class: "lunch",
-          background: true
+          background: true,
+          professor: ""
 
         }
         tutorials[currSection.code].push(courseSectionAsEvent);
@@ -142,7 +150,8 @@ function getCourseInfo(course: Course) {
           end: "2020-01-" + currDay + " " +  endHour + ":00",
           title: course.code + " " + currSection.code,
           class: "lunch",
-          background: true
+          background: true,
+          professor: ""
 
         };
         practicals[currSection.code].push(courseSectionAsEvent);
@@ -152,7 +161,7 @@ function getCourseInfo(course: Course) {
   }
 
 
-  return {"courseCode" : course.code, "lectures" : lectures, "tutorials" : tutorials, "practicals" : practicals};
+  return {"courseCode" : course.code, "courseCodeLong" : course.code  + " (" + course.campus + ")" + " - " + course.name, "lectures" : lectures, "tutorials" : tutorials, "practicals" : practicals, "campus" : course.campus};
 }
 
 

@@ -12,7 +12,7 @@
 
                 <b-table
                   :data="lectures"
-                  :columns="columns"
+                  :columns="columnsLectures"
                   :selected.sync="selected"
                   focusable
                   @select="addToCalendar($event)"
@@ -31,7 +31,7 @@
               <b-tab-item label="Table">
                 <b-table
                   :data="tutorials"
-                  :columns="columns"
+                  :columns="columnsOther"
                   :selected.sync="selected"
                   focusable
                   @select="addToCalendar($event)"
@@ -55,7 +55,7 @@
               <b-tab-item label="Table">
                 <b-table
                   :data="practicals"
-                  :columns="columns"
+                  :columns="columnsOther"
                   :selected.sync="selected"
                   focusable
                   @select="addToCalendar($event)"
@@ -96,7 +96,21 @@ export default {
       tutorials: [],
       practicals: [],
       selected: {},
-      columns: [
+      columnsLectures: [
+        {
+          field: "Day/Time",
+          label: "Day and Time"
+        },
+        {
+          field: "professor",
+          label: "Professor"
+        },
+        {
+          field: "title",
+          label: "Course Title"
+        }
+      ],
+      columnsOther: [
         {
           field: "Day/Time",
           label: "Day and Time"

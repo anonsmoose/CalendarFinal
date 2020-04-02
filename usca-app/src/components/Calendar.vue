@@ -213,7 +213,7 @@ export default Vue.extend({
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 .vuecal__event {
-  background-color: #fffacd;
+  background-color: #ffdd57;
   border-radius: 2px;
   color: #2c3e50;
   font-size: 10px;
@@ -221,6 +221,25 @@ export default Vue.extend({
   padding: 10px;
   margin-right: 20px;
 }
+.vuecal__menu, .vuecal__cell-events-count {background-color: #42b983;}
+.vuecal__title-bar {background-color: #e4f5ef;}
+.vuecal__cell--today, .vuecal__cell--current {background-color: rgba(240, 240, 255, 0.4);}
+.vuecal:not(.vuecal--day-view) .vuecal__cell--selected {background-color: rgba(235, 255, 245, 0.4);}
+.vuecal__cell--selected:before {border-color: rgba(66, 185, 131, 0.5);}
+/* Cells and buttons get highlighted when an event is dragged over it. */
+.vuecal__cell--highlighted:not(.vuecal__cell--has-splits),
+.vuecal__cell-split--highlighted {background-color: rgba(195, 255, 225, 0.5);}
+.vuecal__arrow.vuecal__arrow--highlighted,
+.vuecal__view-btn.vuecal__view-btn--highlighted {background-color: rgba(136, 236, 191, 0.25);}.vuecal__menu, .vuecal__cell-events-count {background-color: #42b983;}
+.vuecal__title-bar {background-color: #e4f5ef;}
+.vuecal__cell--today, .vuecal__cell--current {background-color: rgba(240, 240, 255, 0.4);}
+.vuecal:not(.vuecal--day-view) .vuecal__cell--selected {background-color: rgba(235, 255, 245, 0.4);}
+.vuecal__cell--selected:before {border-color: rgba(66, 185, 131, 0.5);}
+/* Cells and buttons get highlighted when an event is dragged over it. */
+.vuecal__cell--highlighted:not(.vuecal__cell--has-splits),
+.vuecal__cell-split--highlighted {background-color: rgba(195, 255, 225, 0.5);}
+.vuecal__arrow.vuecal__arrow--highlighted,
+.vuecal__view-btn.vuecal__view-btn--highlighted {background-color: rgba(136, 236, 191, 0.25);}
 
 .vuecal__now-line {display: none}
 </style>
