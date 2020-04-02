@@ -10,6 +10,8 @@
       :events="events"
       hide-weekends
       style="height: 600px"
+      hide-view-selector
+      hideTitleBar
     ></vue-cal>
   </div>
 </template>
@@ -122,7 +124,7 @@ export default Vue.extend({
       let i = 0;
       while (i < 13)
       {
-        let dict = {};
+        const dict = {};
 
         dict["title"] = course.title;
         dict["background"] = true;
@@ -133,7 +135,6 @@ export default Vue.extend({
         endDate.setDate(endDate.getDate() + 7);
         i+=1;
         this.events.push(dict);
-        dict = {};
 
       }
       console.log(this.events);

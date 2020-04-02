@@ -98,13 +98,8 @@ export default {
       selected: {},
       columns: [
         {
-          field: "start",
-          label: "Start Time",
-          width: "40"
-        },
-        {
-          field: "end",
-          label: "End Time"
+          field: "Day/Time",
+          label: "Day and Time"
         },
         {
           field: "title",
@@ -125,12 +120,14 @@ export default {
       //       console.log(course);
       //     console.log(course.lectures);
       //   console.log(course.lectures.L0101[0]);
+      console.log(course);
 
       this.lectures = [];
       for (const [key, value] of Object.entries(course.lectures)) {
         //          console.log(key, value[0]);
 
         this.lectures.push(value[0]);
+       
       }
 
       this.tutorials = [];
@@ -146,7 +143,48 @@ export default {
 
         this.practicals.push(value[0]);
       }
-      console.log(this.lectures[0]);
+      console.log(this.lectures);
+      console.log("bottom of created method");
+
+      const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturady"];
+
+      let i = 0;
+      while (i < this.lectures.length)
+      
+      {
+        const day = weekday[new Date(this.lectures[i].end).getDay()];
+        this.lectures[i]["Day/Time"] = day + " " + this.lectures[i].start.slice(11) + " to " + this.lectures[i].end.slice(11);
+        //console.log(this.lectures[i]);
+        i+=1;
+        
+      }
+
+       i = 0;
+      while (i < this.tutorials.length)
+      
+      {
+        const day = weekday[new Date(this.tutorials[i].end).getDay()];
+        this.tutorials[i]["Day/Time"] = day + " " + this.tutorials[i].start.slice(11) + " to " + this.tutorials[i].end.slice(11);
+        console.log(this.tutorials[i]);
+        i+=1;
+        
+      }
+
+        i = 0;
+      while (i < this.practicals.length)
+      
+      {
+        const day = weekday[new Date(this.practicals[i].end).getDay()];
+        this.practicals[i]["Day/Time"] = day + " " + this.practicals[i].start.slice(11) + " to " + this.praticals[i].end.slice(11);
+        console.log(this.practicals[i]);
+        i+=1;
+        
+      }
+      
+      //const endDate = this.lectures[0].end;
+    //  console.log(this.lectures);
+  //    console.log(new Date(endDate).getDay());
+//      console.log(new Date(this.lectures[0].end).getDay());
     });
   }
 };
@@ -166,7 +204,7 @@ export default {
 
 
 
-
+conswsii
 
 
 

@@ -3,7 +3,6 @@
   <div class="gpa">
       <Navbar />
       <a href="https://gpacalc.utoronto.ca/calculator/#/">Visit the University of Toronto's official GPA calculator</a>
-      <searchbar />
   </div>
 </template>
 
@@ -19,13 +18,12 @@
 <script>
 // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
-import Searchbar from "@/components/SearchBar.vue";
 
 export default {
   name: "Home",
   components: {
     Navbar,
-    Searchbar
+
   },
 };
 </script>
