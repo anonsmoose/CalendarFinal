@@ -90,6 +90,7 @@ export default Vue.extend({
   }),
   methods:
   {
+    
   },
   created()
   {
@@ -218,7 +219,10 @@ export default Vue.extend({
 
       // this.events.push(course);
     });
-  }
+    bus.$on('remove events', (garbage: any) => {
+      this.events = [];
+    })
+  },
 });
 </script>
 

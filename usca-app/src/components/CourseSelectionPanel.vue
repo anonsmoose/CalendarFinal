@@ -1,11 +1,11 @@
 <template>
   <article class="panel is-warning">
-    <p class="panel-heading">Course time selector</p>
+    <p class="panel-heading">Course Time Selector</p>
     <p class="panel-tabs">
       <b-tabs size="is-small">
         <b-tab-item label="Lectures">
           <section>
-            <button class="button field is-danger" @click="selected = null" :disabled="!selected">
+            <button class="button field is-danger" @click="removeFromCalendar($event)">
               <b-icon icon="close"></b-icon>
               <span>Clear selected</span>
             </button>
@@ -14,14 +14,16 @@
               :data="lectures"
               :columns="columnsLectures"
               :selected.sync="selected"
+              :paginated="true"
+              :per-page="perPage"
               focusable
               @select="addToCalendar($event)"
             ></b-table>
           </section>
         </b-tab-item>
-        <b-tab-item label="tutorials">
+        <b-tab-item label="Tutorials">
           <section>
-            <button class="button field is-danger" @click="selected = null" :disabled="!selected">
+            <button class="button field is-danger" @click="removeFromCalendar($event)">
               <b-icon icon="close"></b-icon>
               <span>Clear selected</span>
             </button>
@@ -31,16 +33,17 @@
                   :data="tutorials"
                   :columns="columnsOther"
                   :selected.sync="selected"
- 
+               :paginated="true"
+              :per-page="perPage"
                   focusable
                   @select="addToCalendar($event)"
                 ></b-table>
               
           </section>
         </b-tab-item>
-        <b-tab-item label="practicals">
+        <b-tab-item label="Practicals">
           <section>
-            <button class="button field is-danger" @click="selected = null" :disabled="!selected">
+            <button class="button field is-danger" @click="removeFromCalendar($event)">
               <b-icon icon="close"></b-icon>
               <span>Clear selected</span>
             </button>
@@ -50,6 +53,8 @@
                   :data="practicals"
                   :columns="columnsOther"
                   :selected.sync="selected"
+                                :paginated="true"
+              :per-page="perPage"
                   focusable
                   @select="addToCalendar($event)"
                 ></b-table>
@@ -75,12 +80,14 @@
 import Vue from "vue";
 import Buefy from "buefy";
 import "buefy/dist/buefy.css";
+Vue.use(Buefy, { defaultIconPack: 'fa'})
 import { bus } from "../main";
 import axios from "axios";
 
 export default {
   data() {
     return {
+      perPage: 5,
       lectures: [],
       tutorials: [],
       practicals: [],
@@ -119,7 +126,15 @@ export default {
   methods: {
     addToCalendar(event) {
       bus.$emit("event added", event);
+    },
+    removeFromCalendar(event)
+    {
+      bus.$emit("remove events", event);
+      console.log("still in course selection panel");
+      this.selected = null;
     }
+
+
   },
   created() {
     bus.$on("course selected", course => {
