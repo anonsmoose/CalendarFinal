@@ -31,6 +31,7 @@
                   :data="tutorials"
                   :columns="columnsOther"
                   :selected.sync="selected"
+ 
                   focusable
                   @select="addToCalendar($event)"
                 ></b-table>

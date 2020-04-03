@@ -100,7 +100,8 @@ export default Vue.extend({
       console.log(course.start);
       // console.log(course.start.lastIndexOf("-"));
       console.log(course.start.slice(0, 10));
-      if (course.title.charAt(8) == "F")
+      
+      if (course.title.charAt(8) == "F" || course.title.charAt(8) == "Y")
       {
         console.log("it doesn't really start at that date");
         if (course.start.startsWith("2020-01-07"))
@@ -150,8 +151,18 @@ export default Vue.extend({
 
       // console.log(addWeeks(dt, 10).toString());
 
+      
+      let numWeeks;
+      if(course.title.charAt(8) == "Y")
+      {
+        numWeeks = 30;
+      }
+      else
+      {
+        numWeeks = 13;
+      }
       let i = 0;
-      while (i < 13)
+      while (i < numWeeks)
       {
         const dict = {};
 
