@@ -16,6 +16,8 @@ interface Event {
   title: string;
   class: string;
   background: boolean;
+  professor: string;
+
 }
 
 
@@ -89,9 +91,14 @@ function getCourseInfo(course: Course) {
           end: "2020-01-" + currDay + " " +  endHour + ":00",
           title: course.code + " " + currSection.code,
           class: "lunch",
-          background: true
+          background: true,
+          professor: currSection.instructors[0]
 
         }
+
+
+        }
+
         lectures[currSection.code].push(courseSectionAsEvent);
       }
 
@@ -114,7 +121,9 @@ function getCourseInfo(course: Course) {
           end: "2020-01-" + currDay + " " +  endHour + ":00",
           title: course.code + " " + currSection.code,
           class: "lunch",
-          background: true
+
+          background: true,
+          professor: ""
 
         }
         tutorials[currSection.code].push(courseSectionAsEvent);
@@ -142,7 +151,9 @@ function getCourseInfo(course: Course) {
           end: "2020-01-" + currDay + " " +  endHour + ":00",
           title: course.code + " " + currSection.code,
           class: "lunch",
-          background: true
+          background: true,
+          professor: ""
+
 
         };
         practicals[currSection.code].push(courseSectionAsEvent);
@@ -152,7 +163,9 @@ function getCourseInfo(course: Course) {
   }
 
 
-  return {"courseCode" : course.code, "lectures" : lectures, "tutorials" : tutorials, "practicals" : practicals};
+  return {"courseCode" : course.code, "courseCodeLong" : course.code  + " (" + course.campus + ")" + " - " + course.name, "lectures" : lectures, "tutorials" : tutorials, "practicals" : practicals, "campus" : course.campus};
+
+
 }
 
 
@@ -254,3 +267,4 @@ export default [
     }
   }
 ] as Route[];
+
