@@ -212,7 +212,23 @@ const findDocuments = function (db: { collection: (arg0: string) => any; }, cour
 
 const findDocumentsProfessor = function (db: { collection: (arg0: string) => any; }, campus: string, firstName: string, lastName: string, callback: (arg0: any) => void) {
   // Get the documents collection
-  const collection = db.collection('utm');
+  let collection;
+  if(campus == "UTM")
+  {
+    collection = db.collection('utm');
+  }
+  else if(campus == "UTSC")
+  {
+    collection = db.collection('scarborough');
+  }
+  else if(campus == "UTSG")
+  {
+    collection = db.collection('stg');
+  }
+ 
+  console.log("HERE IS THE CAMPUS: " + campus);
+  console.log("collection: " + collection)
+
   // Find some documents
   //console.log("This is the course id passed: " + courseId);
 
@@ -223,8 +239,8 @@ const findDocumentsProfessor = function (db: { collection: (arg0: string) => any
 
     collection.find({tFname: {$regex: "^"  + firstName}, tLname: lastName}).toArray(function (err: any, docs: any) {
       assert.equal(err, null);
-      console.log("Found the following records");
-      console.log(docs)
+      //console.log("Found the following records");
+      //console.log(docs)
       callback(docs)
     });
 
@@ -232,8 +248,8 @@ const findDocumentsProfessor = function (db: { collection: (arg0: string) => any
   else {
     collection.find().toArray(function (err: any, docs: any) {
       assert.equal(err, null);
-      console.log("Found the following records~");
-      console.log(docs)
+      //console.log("Found the following records~");
+      //console.log(docs)
       callback(docs)
     });
 

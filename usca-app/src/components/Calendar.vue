@@ -9,6 +9,7 @@
       events-on-month-view="short"
       :events="events"
       style="height: 600px"
+      hide-weekends
     ></vue-cal>
   </div>
 </template>
