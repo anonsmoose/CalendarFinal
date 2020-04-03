@@ -1,0 +1,8 @@
+attendance: 2/2
+
+features: course list - connected to DB/ selection menu -- course time/ UI
+mark: 6/8
+
+JIRA: all user stories present 
+
+total: 8/10 
