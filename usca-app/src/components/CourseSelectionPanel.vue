@@ -10,14 +10,13 @@
               <span>Clear selected</span>
             </button>
 
-                <b-table
-                  :data="lectures"
-                  :columns="columnsLectures"
-                  :selected.sync="selected"
-                  focusable
-                  @select="addToCalendar($event)"
-                ></b-table>
-
+            <b-table
+              :data="lectures"
+              :columns="columnsLectures"
+              :selected.sync="selected"
+              focusable
+              @select="addToCalendar($event)"
+            ></b-table>
           </section>
         </b-tab-item>
         <b-tab-item label="tutorials">
@@ -88,6 +87,7 @@ import Vue from "vue";
 import Buefy from "buefy";
 import "buefy/dist/buefy.css";
 import { bus } from "../main";
+import axios from "axios";
 
 export default {
   data() {
@@ -104,6 +104,10 @@ export default {
         {
           field: "professor",
           label: "Professor"
+        },
+        {
+          field: "RMPRating",
+          label: "Rate My Professor Rating"
         },
         {
           field: "title",
@@ -125,7 +129,7 @@ export default {
   },
   methods: {
     addToCalendar(event) {
-        bus.$emit("event added", event);
+      bus.$emit("event added", event);
     }
   },
   created() {
@@ -137,73 +141,125 @@ export default {
       console.log(course);
 
       this.lectures = [];
-      for (const [key, value] of Object.entries(course.lectures)) {
+      let k = 0;
+      let j = 0;
+      for (const [key, value] of Object.entries(course.courseData.lectures)) {
         //          console.log(key, value[0]);
+        
         let i = 0;
-        while (i < value.length)
-        {
+        //console.log(value[i]);
+        //value[i]["bob"] = "is your uncle";
+        while (i < value.length) {
+          console.log(i);
+          console.log(j);
+          console.log(k);
           this.lectures.push(value[i]);
-          i+=1;
+          this.lectures[k]["bob"] = "is your uncle";
+          console.log("tmes");
+          if(course.professorData[j].data.length != 0)
+          {
+            this.lectures[k]["RMPRating"] = course.professorData[j].data[0].overall_rating;
+          }
+          else
+          {
+            this.lectures[k]["RMPRating"] = "-";
+          }
+          k += 1;
+          i += 1;
         }
-        i = 0;
-       
+
+        j+= 1;
+        
+    
+          
+        
       }
+      console.log("Lectures here: ", this.lectures)
 
       this.tutorials = [];
-      for (const [key, value] of Object.entries(course.tutorials)) {
+      for (const [key, value] of Object.entries(course.courseData.tutorials)) {
         //          console.log(key, value[0]);
 
-        this.tutorials.push(value[0]);
+        if (value.length != 0) {
+          this.tutorials.push(value[0]);
+        }
+
+        // console.log("looking for empty tutorials");
+        // console.log(value);
+        // console.log(value.length == 0);
       }
 
       this.practicals = [];
-      for (const [key, value] of Object.entries(course.practicals)) {
-        //          console.log(key, value[0]);
-
-        this.practicals.push(value[0]);
+      for (const [key, value] of Object.entries(course.courseData.practicals)) {
+        console.log("looking for empty practicals");
+        if (value.length != 0) {
+          this.practicals.push(value[0]);
+        }
       }
-      
-      console.log("bottom of created method");
 
-      const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturady"];
+      console.log("bottom of created method");
+      console.log(this.practicals);
+
+      const weekday = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ];
 
       let i = 0;
-      while (i < this.lectures.length)
-      
-      {
+      while (i < this.lectures.length) {
         const day = weekday[new Date(this.lectures[i].end).getDay()];
-        this.lectures[i]["Day/Time"] = day + " " + this.lectures[i].start.slice(11) + " to " + this.lectures[i].end.slice(11);
+        this.lectures[i]["Day/Time"] =
+          day +
+          " " +
+          this.lectures[i].start.slice(11) +
+          " to " +
+          this.lectures[i].end.slice(11);
         //console.log(this.lectures[i]);
-        i+=1;
-        
+        i += 1;
       }
 
-       i = 0;
-      while (i < this.tutorials.length)
-      
-      {
+  
+
+
+
+
+      i = 0;
+      while (i < this.tutorials.length) {
         const day = weekday[new Date(this.tutorials[i].end).getDay()];
-        this.tutorials[i]["Day/Time"] = day + " " + this.tutorials[i].start.slice(11) + " to " + this.tutorials[i].end.slice(11);
-        console.log(this.tutorials[i]);
-        i+=1;
-        
+        this.tutorials[i]["Day/Time"] =
+          day +
+          " " +
+          this.tutorials[i].start.slice(11) +
+          " to " +
+          this.tutorials[i].end.slice(11);
+
+        i += 1;
       }
 
-        i = 0;
-      while (i < this.practicals.length)
-      
-      {
+      i = 0;
+      while (i < this.practicals.length) {
         const day = weekday[new Date(this.practicals[i].end).getDay()];
-        this.practicals[i]["Day/Time"] = day + " " + this.practicals[i].start.slice(11) + " to " + this.praticals[i].end.slice(11);
-        console.log(this.practicals[i]);
-        i+=1;
-        
+
+        const formattedDay =
+          day +
+          " " +
+          this.practicals[i].start.slice(11) +
+          " to " +
+          this.practicals[i].end.slice(11);
+
+        this.practicals[i]["Day/Time"] = formattedDay;
+        i += 1;
       }
-      
+
       //const endDate = this.lectures[0].end;
-    //  console.log(this.lectures);
-  //    console.log(new Date(endDate).getDay());
-//      console.log(new Date(this.lectures[0].end).getDay());
+      //  console.log(this.lectures);
+      //    console.log(new Date(endDate).getDay());
+      //      console.log(new Date(this.lectures[0].end).getDay());
     });
   }
 };
@@ -221,9 +277,6 @@ export default {
 
 
 
-
-
-conswsii
 
 
 

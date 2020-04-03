@@ -54,6 +54,20 @@ interface Course {
   meeting_sections: Array<MeetingSection>;
 }
 
+// interface Professor {
+//   tDept: string;
+//   tSid: number;
+//   institution_name: string;
+//   tFname: string;
+//   tMiddlename: number;
+//   tid: number;
+//   tNumRatings: number;
+//   rating_class: string;
+//   contentType: string;
+//   categoryType: string;
+//   overall_rating: number;
+// }
+
 function getCourseInfo(course: Course) {
   const meetingSections = course.meeting_sections;
   let currSection = null;
@@ -196,6 +210,36 @@ const findDocuments = function (db: { collection: (arg0: string) => any; }, cour
   }
 }
 
+const findDocumentsProfessor = function (db: { collection: (arg0: string) => any; }, campus: string, firstName: string, lastName: string, callback: (arg0: any) => void) {
+  // Get the documents collection
+  const collection = db.collection('utm');
+  // Find some documents
+  //console.log("This is the course id passed: " + courseId);
+
+
+
+
+  if (campus != undefined) {
+
+    collection.find({tFname: {$regex: "^"  + firstName}, tLname: lastName}).toArray(function (err: any, docs: any) {
+      assert.equal(err, null);
+      console.log("Found the following records");
+      console.log(docs)
+      callback(docs)
+    });
+
+  }
+  else {
+    collection.find().toArray(function (err: any, docs: any) {
+      assert.equal(err, null);
+      console.log("Found the following records~");
+      console.log(docs)
+      callback(docs)
+    });
+
+  }
+}
+
 export default [
   {
     path: "/transactions/",
@@ -231,6 +275,44 @@ export default [
             docs[i] = getCourseInfo(docs[i]);
             i += 1
           }
+          res.send(docs);
+        });
+      });
+    }
+  },
+  {
+    path: "/getProfessor/:campus/:firstName/:lastName",
+    method: "get",
+    handler: async (req: Request, res: Response) => {
+      const client = new MongoClient(url);
+
+      console.log("hello");
+      const firstName = req.params.firstName;
+      const lastName = req.params.lastName;
+      const campus = req.params.campus;
+
+      console.log(firstName);
+      console.log(lastName);
+      console.log(campus);
+
+      client.connect(function (err: any) {
+        assert.equal(null, err);
+        console.log("Connected successfully to server");
+
+        const db = client.db("professors");
+
+
+
+        findDocumentsProfessor(db, campus, firstName, lastName, function (docs) {
+          client.close();
+          // console.log(testo);
+          // console.log(docs);
+
+          // let i = 0;
+          // while (i < docs.length) {
+          //   docs[i] = getCourseInfo(docs[i]);
+          //   i += 1
+          // }
           res.send(docs);
         });
       });
