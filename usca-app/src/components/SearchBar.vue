@@ -1,7 +1,7 @@
 <template>
     <section>
         <p class="content"><b>Selected:</b> {{ selected }}</p>
-        <b-field @click="test" label="Search for a course">
+        <b-field label="Search for a course">
             <b-autocomplete
                 rounded
                 v-model="name"
@@ -9,7 +9,8 @@
                 placeholder="CSC301"
                 icon="magnify"
                 clearable
-                @select="test($event)">
+                @select="test($event)"
+                @input="getCourses($event)">
                 <template slot="empty">No results found</template>
             </b-autocomplete>
         </b-field>
@@ -22,30 +23,22 @@ import Vue from 'vue'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 import { bus } from "@/main.ts";
+import axios from 'axios';
+
+
+const courseData = ['CSC301H5S', 'CSC338H5S', 'CSC343H5S', 'CSC363H5S', 'CSC309H5S']
 
 Vue.use(Buefy)
 
     export default {
         data() {
             return {
-                data: [
-                    'CSC301H5S',
-                    'CSC338',
-                    'CSC343',
-                    'STA107',
-                    'STA256',
-                    'STA260',
-                    'STA302',
-                    'STA313',
-                    'CSC411',
-                    'MAT301',
-                    'MAT388',
-                    'MAT382'
-                ],
+                data: courseData,
                 name: '',
                 selected: null
             }
         },
+
         computed: {
             filteredDataArray() {
                 return this.data.filter((option) => {
@@ -58,12 +51,24 @@ Vue.use(Buefy)
         },
         methods:
         {
-            test(course)
-            {
-                console.log("we can call this from the search bar!");
-                console.log(course);
-                  bus.$emit('course selected', course );
-            }
+            getCourses(input) {
+
+                if (input != "") {
+                    axios.get('http://localhost:3000/getCourse/' + input)
+                        .then(res => {
+                            let i = 0;
+                            while (i < res.data.length) {
+                                courseData[i] = res.data[i].courseCode;
+                                i += 1;
+                            }
+                            console.log(res.data);
+                            courseData.__ob__.dep.notify();
+                        });
+                }
+             }
         }
     }
+
+
+
 </script>
