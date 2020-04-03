@@ -9,7 +9,8 @@
                 placeholder="CSC301"
                 icon="magnify"
                 clearable
-                @select="test($event)"
+                @select="sendData($event)"
+
                 @input="getCourses($event)">
                 <template slot="empty">No results found</template>
             </b-autocomplete>
@@ -26,7 +27,9 @@ import { bus } from "@/main.ts";
 import axios from 'axios';
 
 
-const courseData = ['CSC301H5S', 'CSC338H5S', 'CSC343H5S', 'CSC363H5S', 'CSC309H5S']
+const courseData = [];
+const selectedCourseData = [];
+
 
 Vue.use(Buefy)
 
@@ -35,7 +38,9 @@ Vue.use(Buefy)
             return {
                 data: courseData,
                 name: '',
-                selected: null
+                selected: null,
+                selectedCourseD: selectedCourseData
+                
             }
         },
 
@@ -61,10 +66,30 @@ Vue.use(Buefy)
                                 courseData[i] = res.data[i].courseCode;
                                 i += 1;
                             }
-                            console.log(res.data);
+
+                            // console.log(res.data);
                             courseData.__ob__.dep.notify();
                         });
                 }
+             },
+             sendData(selectedCourse)
+             {
+                 console.log("hello");
+                if (selectedCourse != "") {
+                    axios.get('http://localhost:3000/getCourse/' + selectedCourse)
+                        .then(res => {
+                            // let i = 0;
+                            // while (i < res.data.length) {
+                            //     selectedCourseData[i] = res.data[i];
+                            //     i += 1;
+                            // }
+
+                            console.log(res.data[0]);
+                            bus.$emit('course selected', res.data[0]);
+                        });
+                }
+                console.log("end");
+                console.log(selectedCourseData);
              }
         }
     }
@@ -72,3 +97,4 @@ Vue.use(Buefy)
 
 
 </script>
+
