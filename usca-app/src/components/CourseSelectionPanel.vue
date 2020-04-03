@@ -1,14 +1,19 @@
 <template>
   <article class="panel is-warning">
+
     <p class="panel-heading">Course time selector</p>
+
     <p class="panel-tabs">
       <b-tabs size="is-small">
         <b-tab-item label="Lectures">
           <section>
+
             <button class="button field is-danger" @click="selected = null" :disabled="!selected">
+
               <b-icon icon="close"></b-icon>
               <span>Clear selected</span>
             </button>
+
 
             <b-tabs>
               <b-tab-item label="Table">
@@ -30,9 +35,11 @@
         <b-tab-item label="tutorials">
           <section>
             <button class="button field is-danger" @click="selected = null" :disabled="!selected">
+
               <b-icon icon="close"></b-icon>
               <span>Clear selected</span>
             </button>
+
 
             <b-tabs>
               <b-tab-item label="Table">
@@ -54,9 +61,11 @@
         <b-tab-item label="practicals">
           <section>
             <button class="button field is-danger" @click="selected = null" :disabled="!selected">
+
               <b-icon icon="close"></b-icon>
               <span>Clear selected</span>
             </button>
+
 
             <b-tabs>
               <b-tab-item label="Table">
@@ -94,7 +103,10 @@
 import Vue from "vue";
 import Buefy from "buefy";
 import "buefy/dist/buefy.css";
+Vue.use(Buefy, { defaultIconPack: 'fa'})
 import { bus } from "../main";
+import axios from "axios";
+
 
 export default {
   data() {
@@ -103,6 +115,7 @@ export default {
       tutorials: [],
       practicals: [],
       selected: {},
+
       columns: [
         {
           field: "start",
@@ -112,6 +125,7 @@ export default {
         {
           field: "end",
           label: "End Time"
+
         },
         {
           field: "title",
@@ -123,8 +137,10 @@ export default {
   },
   methods: {
     addToCalendar(event) {
+
         bus.$emit("event added", event);
     }
+
   },
   created() {
     bus.$on("course selected", course => {
@@ -154,53 +170,11 @@ export default {
         this.practicals.push(value[0]);
       }
       console.log(this.lectures[0]);
+
     });
   }
 };
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
