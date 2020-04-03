@@ -10,6 +10,7 @@
                 icon="magnify"
                 clearable
                 @select="sendData($event)"
+
                 @input="getCourses($event)">
                 <template slot="empty">No results found</template>
             </b-autocomplete>
@@ -28,6 +29,7 @@ import axios from 'axios';
 
 const courseData = [];
 const selectedCourseData = [];
+
 
 Vue.use(Buefy)
 
@@ -64,6 +66,7 @@ Vue.use(Buefy)
                                 courseData[i] = res.data[i].courseCode;
                                 i += 1;
                             }
+
                             // console.log(res.data);
                             courseData.__ob__.dep.notify();
                         });
