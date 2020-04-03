@@ -9,6 +9,7 @@
       events-on-month-view="short"
       :events="events"
       style="height: 600px"
+      hide-weekends
     ></vue-cal>
   </div>
 </template>
@@ -46,11 +47,11 @@ export default Vue.extend({
   },
   data: () => ({
     events: [
-      {
-        start: "2020-02-24 13:00",
-        end: "2020-02-24 14:00",
-        title: "PHL258H5 LEC0101"
-      },
+      // {
+      //   start: "2020-02-24 13:00",
+      //   end: "2020-02-24 14:00",
+      //   title: "PHL258H5 LEC0101"
+      // },
       // {
       //   start: "2020-02-26 13:00",
       //   end: "2020-02-26 15:00",
@@ -89,19 +90,21 @@ export default Vue.extend({
   }),
   methods:
   {
+    
   },
   created()
   {
     bus.$on('event added', (course: any) => {
 
-      console.log("inside the calendar");
-      console.log(course);
-      console.log(course.start);
-      // console.log(course.start.lastIndexOf("-"));
-      console.log(course.start.slice(0, 10));
-      if (course.title.charAt(8) == "F")
+      // console.log("inside the calendar");
+      // console.log(course);
+      // console.log(course.start);
+      // // console.log(course.start.lastIndexOf("-"));
+      // console.log(course.start.slice(0, 10));
+      
+      if (course.title.charAt(8) == "F" || course.title.charAt(8) == "Y")
       {
-        console.log("it doesn't really start at that date");
+       
         if (course.start.startsWith("2020-01-07"))
         {
              course.start = "2019-09-10"  + course.start.slice(10);
@@ -135,7 +138,7 @@ export default Vue.extend({
       // const endDate = new Date(course.end.slice(0, 10));
 
       const startDate = new Date(course.start.slice(0, 10).replace("-", "/").replace("-", "/"));
-      console.log(startDate);
+      
       const endDate = new Date(course.end.slice(0, 10).replace("-", "/").replace("-", "/"));
       // console.log(course.start.slice(0, 10).replace("-", "/").replace("-", "/"));
       
@@ -149,8 +152,18 @@ export default Vue.extend({
 
       // console.log(addWeeks(dt, 10).toString());
 
+      
+      let numWeeks;
+      if(course.title.charAt(8) == "Y")
+      {
+        numWeeks = 30;
+      }
+      else
+      {
+        numWeeks = 13;
+      }
       let i = 0;
-      while (i < 13)
+      while (i < numWeeks)
       {
         const dict = {};
 
@@ -165,7 +178,7 @@ export default Vue.extend({
         this.events.push(dict);
 
       }
-      console.log(this.events);
+      
 
     
       
@@ -206,14 +219,17 @@ export default Vue.extend({
 
       // this.events.push(course);
     });
-  }
+    bus.$on('remove events', (garbage: any) => {
+      this.events = [];
+    })
+  },
 });
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 .vuecal__event {
-  background-color: #fffacd;
+  background-color: #ffdd57;
   border-radius: 2px;
   color: #2c3e50;
   font-size: 10px;
@@ -221,7 +237,31 @@ export default Vue.extend({
   padding: 10px;
   margin-right: 20px;
 }
+.vuecal__event-time {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.vuecal__menu, .vuecal__cell-events-count {background-color: #42b983;}
+.vuecal__title-bar {background-color: #e4f5ef;}
+.vuecal__cell--today, .vuecal__cell--current {background-color: rgba(240, 240, 255, 0.4);}
+.vuecal:not(.vuecal--day-view) .vuecal__cell--selected {background-color: rgba(235, 255, 245, 0.4);}
+.vuecal__cell--selected:before {border-color: rgba(66, 185, 131, 0.5);}
+/* Cells and buttons get highlighted when an event is dragged over it. */
+.vuecal__cell--highlighted:not(.vuecal__cell--has-splits),
+.vuecal__cell-split--highlighted {background-color: rgba(195, 255, 225, 0.5);}
+.vuecal__arrow.vuecal__arrow--highlighted,
+.vuecal__view-btn.vuecal__view-btn--highlighted {background-color: rgba(136, 236, 191, 0.25);}.vuecal__menu, .vuecal__cell-events-count {background-color: #42b983;}
+.vuecal__title-bar {background-color: #e4f5ef;}
+.vuecal__cell--today, .vuecal__cell--current {background-color: rgba(240, 240, 255, 0.4);}
+.vuecal:not(.vuecal--day-view) .vuecal__cell--selected {background-color: rgba(235, 255, 245, 0.4);}
+.vuecal__cell--selected:before {border-color: rgba(66, 185, 131, 0.5);}
+/* Cells and buttons get highlighted when an event is dragged over it. */
+.vuecal__cell--highlighted:not(.vuecal__cell--has-splits),
+.vuecal__cell-split--highlighted {background-color: rgba(195, 255, 225, 0.5);}
+.vuecal__arrow.vuecal__arrow--highlighted,
+.vuecal__view-btn.vuecal__view-btn--highlighted {background-color: rgba(136, 236, 191, 0.25);}
 
 .vuecal__now-line {display: none}
 </style>
-

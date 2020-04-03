@@ -17,7 +17,6 @@ interface Event {
   class: string;
   background: boolean;
   professor: string;
-
 }
 
 
@@ -55,6 +54,20 @@ interface Course {
   meeting_sections: Array<MeetingSection>;
 }
 
+// interface Professor {
+//   tDept: string;
+//   tSid: number;
+//   institution_name: string;
+//   tFname: string;
+//   tMiddlename: number;
+//   tid: number;
+//   tNumRatings: number;
+//   rating_class: string;
+//   contentType: string;
+//   categoryType: string;
+//   overall_rating: number;
+// }
+
 function getCourseInfo(course: Course) {
   const meetingSections = course.meeting_sections;
   let currSection = null;
@@ -77,6 +90,9 @@ function getCourseInfo(course: Course) {
     if (currSection.code[0] == "L") { // If lecture
       lectures[currSection.code] = [];
       for (let j = 0; j < currSection.times.length; j++){
+        // console.log("important");
+        // console.log(currSection.instructors[0]);
+        // console.log("importantend");
         startHour = (currSection.times[j].start / numMsInHour).toString();
         endHour = (currSection.times[j].end / numMsInHour).toString();
         currDay = currSection.times[j].day;
@@ -95,10 +111,8 @@ function getCourseInfo(course: Course) {
           professor: currSection.instructors[0]
 
         }
-
-
-        }
-
+        // console.log("test1");
+        // console.log(courseSectionAsEvent);
         lectures[currSection.code].push(courseSectionAsEvent);
       }
 
@@ -121,7 +135,6 @@ function getCourseInfo(course: Course) {
           end: "2020-01-" + currDay + " " +  endHour + ":00",
           title: course.code + " " + currSection.code,
           class: "lunch",
-
           background: true,
           professor: ""
 
@@ -154,7 +167,6 @@ function getCourseInfo(course: Course) {
           background: true,
           professor: ""
 
-
         };
         practicals[currSection.code].push(courseSectionAsEvent);
       }
@@ -164,8 +176,6 @@ function getCourseInfo(course: Course) {
 
 
   return {"courseCode" : course.code, "courseCodeLong" : course.code  + " (" + course.campus + ")" + " - " + course.name, "lectures" : lectures, "tutorials" : tutorials, "practicals" : practicals, "campus" : course.campus};
-
-
 }
 
 
@@ -174,7 +184,7 @@ const findDocuments = function (db: { collection: (arg0: string) => any; }, cour
   // Get the documents collection
   const collection = db.collection('course_information');
   // Find some documents
-  console.log("This is the course id passed: " + courseId);
+  // console.log("This is the course id passed: " + courseId);
 
 
 
@@ -183,8 +193,8 @@ const findDocuments = function (db: { collection: (arg0: string) => any; }, cour
 
     collection.find({"code" : {$regex: "^" + courseId, $options: "i"} }).limit(5).toArray(function (err: any, docs: any) {
       assert.equal(err, null);
-      console.log("Found the following records");
-      console.log(docs)
+      // console.log("Found the following records");
+      // console.log(docs)
       callback(docs)
     });
 
@@ -192,8 +202,54 @@ const findDocuments = function (db: { collection: (arg0: string) => any; }, cour
   else {
     collection.find().toArray(function (err: any, docs: any) {
       assert.equal(err, null);
-      console.log("Found the following records~");
-      console.log(docs)
+      // console.log("Found the following records~");
+      // console.log(docs)
+      callback(docs)
+    });
+
+  }
+}
+
+const findDocumentsProfessor = function (db: { collection: (arg0: string) => any; }, campus: string, firstName: string, lastName: string, callback: (arg0: any) => void) {
+  // Get the documents collection
+  let collection;
+  if(campus == "UTM")
+  {
+    collection = db.collection('utm');
+  }
+  else if(campus == "UTSC")
+  {
+    collection = db.collection('scarborough');
+  }
+  else if(campus == "UTSG")
+  {
+    collection = db.collection('stg');
+  }
+ 
+  // console.log("HERE IS THE CAMPUS: " + campus);
+  // console.log("collection: " + collection)
+
+  // Find some documents
+  //console.log("This is the course id passed: " + courseId);
+
+
+
+
+  if (campus != undefined) {
+
+    collection.find({tFname: {$regex: "^"  + firstName}, tLname: lastName}).toArray(function (err: any, docs: any) {
+      assert.equal(err, null);
+      //console.log("Found the following records");
+      //console.log(docs)
+      callback(docs)
+    });
+
+  }
+  else {
+    collection.find().toArray(function (err: any, docs: any) {
+      assert.equal(err, null);
+      //console.log("Found the following records~");
+      //console.log(docs)
       callback(docs)
     });
 
@@ -214,12 +270,12 @@ export default [
     handler: async (req: Request, res: Response) => {
       const client = new MongoClient(url);
 
-      console.log("hello");
+      // console.log("hello");
       const courseId = req.params.courseId;
 
       client.connect(function (err: any) {
         assert.equal(null, err);
-        console.log("Connected successfully to server");
+        // console.log("Connected successfully to server");
 
         const db = client.db(dbName);
 
@@ -241,17 +297,55 @@ export default [
     }
   },
   {
+    path: "/getProfessor/:campus/:firstName/:lastName",
+    method: "get",
+    handler: async (req: Request, res: Response) => {
+      const client = new MongoClient(url);
+
+      // console.log("hello");
+      const firstName = req.params.firstName;
+      const lastName = req.params.lastName;
+      const campus = req.params.campus;
+
+      // console.log(firstName);
+      // console.log(lastName);
+      // console.log(campus);
+
+      client.connect(function (err: any) {
+        assert.equal(null, err);
+        // console.log("Connected successfully to server");
+
+        const db = client.db("professors");
+
+
+
+        findDocumentsProfessor(db, campus, firstName, lastName, function (docs) {
+          client.close();
+          // console.log(testo);
+          // console.log(docs);
+
+          // let i = 0;
+          // while (i < docs.length) {
+          //   docs[i] = getCourseInfo(docs[i]);
+          //   i += 1
+          // }
+          res.send(docs);
+        });
+      });
+    }
+  },
+  {
     path: "/getAllCourses",
     method: "get",
     handler: async (req: Request, res: Response) => {
       const client = new MongoClient(url);
 
-      console.log("hello");
+      // console.log("hello");
       const courseId = req.params.courseId;
 
       client.connect(function (err: any) {
         assert.equal(null, err);
-        console.log("Connected successfully to server");
+        // console.log("Connected successfully to server");
 
         const db = client.db(dbName);
 
@@ -267,4 +361,3 @@ export default [
     }
   }
 ] as Route[];
-
