@@ -4,7 +4,10 @@
   <div class="tile is-ancestor">
     <div class="tile is-9 is-parent">
       <div class="tile is-child">
-        <Calendar />
+        <FallCalendar />
+      </div>
+      <div class="tile is-child">
+        <WinterCalendar />
       </div>
     </div>
     <div class="tile is-3 is-vertical is-parent">
@@ -42,7 +45,8 @@
 <!-- </template> -->
 <script>
 // @ is an alias to /src
-import Calendar from "@/components/Calendar.vue";
+import WinterCalendar from "@/components/WinterCalendar.vue";
+import FallCalendar from "@/components/FallCalendar.vue";
 import Searchbar from "@/components/SearchBar.vue";
 import Panel from "@/components/CourseSelectionPanel.vue";
 import Navbar from "@/components/Navbar.vue";
@@ -52,7 +56,8 @@ import { bus } from "../main";
 export default {
   name: "Home",
   components: {
-    Calendar,
+    FallCalendar,
+    WinterCalendar,
     Searchbar,
     Panel,
     CourseInfo,

@@ -18,6 +18,7 @@ interface Event {
   background: boolean;
   professor: string;
   dayTime: string;
+  semester: string;
 }
 
 
@@ -110,7 +111,8 @@ function getCourseInfo(course: Course) {
           class: "lunch",
           background: true,
           professor: currSection.instructors[0],
-          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00"
+          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00",
+          semester: course.term.slice(5)
         }
         // console.log("test1");
         // console.log(courseSectionAsEvent);
@@ -138,7 +140,8 @@ function getCourseInfo(course: Course) {
           class: "lunch",
           background: true,
           professor: "",
-          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00"
+          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00",
+          semester: course.term.slice(5)
         }
         tutorials[currSection.code].push(courseSectionAsEvent);
       }
@@ -167,7 +170,8 @@ function getCourseInfo(course: Course) {
           class: "lunch",
           background: true,
           professor: "",
-          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00"
+          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00",
+          semester: course.term.slice(5)
         };
         practicals[currSection.code].push(courseSectionAsEvent);
       }

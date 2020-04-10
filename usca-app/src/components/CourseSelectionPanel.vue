@@ -125,7 +125,15 @@ export default {
   },
   methods: {
     addToCalendar(event) {
-      bus.$emit("event added", event);
+      console.log("event here: ", event);
+      if(event.semester == "Winter")
+      {
+        bus.$emit("winter event added", event);
+      }
+      else
+      {
+        bus.$emit("fall event added", event);
+      }
     },
     removeFromCalendar(event)
     {
@@ -138,7 +146,6 @@ export default {
   },
   created() {
     bus.$on("course selected", course => {
-      // console.log("inside the selection panel!");
       //       console.log(course);
       //     console.log(course.lectures);
       //   console.log(course.lectures.L0101[0]);
@@ -174,10 +181,6 @@ export default {
         }
 
         j+= 1;
-        
-    
-          
-        
       }
       // console.log("Lectures here: ", this.lectures)
 

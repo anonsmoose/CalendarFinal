@@ -2,7 +2,7 @@
   <div class="vuecal">
     <vue-cal
       class="vuecal--full-height-delete"
-      selected-date="2020-1-15"
+      selected-date="2019-10-15"
       :time-from="8 * 60"
       :time-to="23 * 60"
       :disable-views="['years', 'year']"
@@ -59,7 +59,7 @@ export default Vue.extend({
   },
   created()
   {
-    bus.$on('event added', (course: any) => {
+    bus.$on('fall event added', (course: any) => {
 
       // console.log("inside the calendar");
       // console.log(course);
