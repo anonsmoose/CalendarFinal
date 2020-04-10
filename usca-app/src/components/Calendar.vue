@@ -3,7 +3,7 @@
     <vue-cal
       class="vuecal--full-height-delete"
       selected-date="2020-1-15"
-      :time-from="1 * 60"
+      :time-from="8 * 60"
       :time-to="23 * 60"
       :disable-views="['years', 'year']"
       default-view="week"
@@ -11,6 +11,7 @@
       :events="events"
       editable-events
       hide-weekends
+      style="height: 736px"
     ></vue-cal>
   </div>
 </template>

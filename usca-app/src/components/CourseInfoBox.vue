@@ -1,10 +1,9 @@
 
 <template>
   <div class="Course Information">
-    <p class="title">Course Information</p>
-    <p style="font-size:15px"> {{courseDescription}} </p>
-    <p> Prerequisites: {{coursePrerequisites}} </p>
-    <p> Exclusions: {{courseExclusions}} </p>
+    <p style="font-size:14px"> {{courseDescription}} </p>
+    <p style="font-size:14px"> Prerequisites: {{coursePrerequisites}} </p>
+    <p style="font-size:14px"> Exclusions: {{courseExclusions}} </p>
   </div>
 </template>
 

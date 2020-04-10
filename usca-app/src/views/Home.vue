@@ -1,4 +1,6 @@
 <template>
+<div class="home">
+  <Navbar />
   <div class="tile is-ancestor">
     <div class="tile is-9 is-parent">
       <div class="tile is-child">
@@ -12,11 +14,12 @@
       <div v-show="courseInfoLoaded" class="tile is-child box is-12">
         <CourseInfo />
       </div>
-      <div class="tile  is-child box is-12">
+      <div v-show="courseInfoLoaded" class="tile  is-child box is-12">
         <Panel />
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <!-- <template> -->
@@ -42,6 +45,7 @@
 import Calendar from "@/components/Calendar.vue";
 import Searchbar from "@/components/SearchBar.vue";
 import Panel from "@/components/CourseSelectionPanel.vue";
+import Navbar from "@/components/Navbar.vue";
 import CourseInfo from "@/components/CourseInfoBox.vue";
 import { bus } from "../main";
 
@@ -51,7 +55,8 @@ export default {
     Calendar,
     Searchbar,
     Panel,
-    CourseInfo
+    CourseInfo,
+    Navbar
   },
   data() {
     return {
