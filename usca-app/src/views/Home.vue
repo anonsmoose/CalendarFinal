@@ -9,11 +9,8 @@
       <div class="tile is-child is-12">
         <Searchbar />
       </div>
-      <div class="tile is-child box is-12">
-        <p class="title">One</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Proin ornare magna eros, eu pellentesque tortor vestibulum ut. 
-          Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+      <div v-show="courseInfoLoaded" class="tile is-child box is-12">
+        <CourseInfo />
       </div>
       <div class="tile  is-child box is-12">
         <Panel />
@@ -45,13 +42,27 @@
 import Calendar from "@/components/Calendar.vue";
 import Searchbar from "@/components/SearchBar.vue";
 import Panel from "@/components/CourseSelectionPanel.vue";
+import CourseInfo from "@/components/CourseInfoBox.vue";
+import { bus } from "../main";
 
 export default {
   name: "Home",
   components: {
     Calendar,
     Searchbar,
-    Panel
+    Panel,
+    CourseInfo
+  },
+  data() {
+    return {
+      courseInfoLoaded: false
+    };
+  },
+  created()
+  {
+    bus.$on("information loaded", data => {
+      this.courseInfoLoaded = true;
+    });
   }
 };
 </script>

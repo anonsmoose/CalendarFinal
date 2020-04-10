@@ -143,6 +143,7 @@ export default {
       //     console.log(course.lectures);
       //   console.log(course.lectures.L0101[0]);
       // console.log(course);
+      console.log(course.courseData);
 
       this.lectures = [];
       let k = 0;

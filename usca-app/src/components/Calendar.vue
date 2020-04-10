@@ -2,7 +2,8 @@
   <div class="vuecal">
     <vue-cal
       class="vuecal--full-height-delete"
-      :time-from="8 * 60"
+      selected-date="2020-1-15"
+      :time-from="1 * 60"
       :time-to="23 * 60"
       :disable-views="['years', 'year']"
       default-view="week"

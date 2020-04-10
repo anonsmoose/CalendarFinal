@@ -175,7 +175,10 @@ function getCourseInfo(course: Course) {
   }
 
 
-  return {"courseCode" : course.code, "courseCodeLong" : course.code  + " (" + course.campus + ")" + " - " + course.name, "lectures" : lectures, "tutorials" : tutorials, "practicals" : practicals, "campus" : course.campus};
+  return {"courseCode" : course.code, "courseCodeLong" : course.code  + " (" + course.campus + ")" + " - " + course.name,
+   "lectures" : lectures, "tutorials" : tutorials,
+    "practicals" : practicals, "campus" : course.campus, "description" : course.description,
+  "prerequisites": course.prerequisites, "exclusions": course.exclusions};
 }
 
 
