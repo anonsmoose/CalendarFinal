@@ -94,7 +94,7 @@ export default {
       selected: {},
       columnsLectures: [
         {
-          field: "Day/Time",
+          field: "dayTime",
           label: "Day and Time"
         },
         {
@@ -112,7 +112,7 @@ export default {
       ],
       columnsOther: [
         {
-          field: "Day/Time",
+          field: "dayTime",
           label: "Day and Time"
         },
         {
@@ -205,66 +205,6 @@ export default {
       // console.log("bottom of created method");
       // console.log(this.practicals);
 
-      const weekday = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ];
-
-      let i = 0;
-      while (i < this.lectures.length) {
-        const day = weekday[new Date(this.lectures[i].end).getDay()];
-        this.lectures[i]["Day/Time"] =
-          day +
-          " " +
-          this.lectures[i].start.slice(11) +
-          " to " +
-          this.lectures[i].end.slice(11);
-        //console.log(this.lectures[i]);
-        i += 1;
-      }
-
-  
-
-
-
-
-      i = 0;
-      while (i < this.tutorials.length) {
-        const day = weekday[new Date(this.tutorials[i].end).getDay()];
-        this.tutorials[i]["Day/Time"] =
-          day +
-          " " +
-          this.tutorials[i].start.slice(11) +
-          " to " +
-          this.tutorials[i].end.slice(11);
-
-        i += 1;
-      }
-
-      i = 0;
-      while (i < this.practicals.length) {
-        const day = weekday[new Date(this.practicals[i].end).getDay()];
-
-        const formattedDay =
-          day +
-          " " +
-          this.practicals[i].start.slice(11) +
-          " to " +
-          this.practicals[i].end.slice(11);
-
-        this.practicals[i]["Day/Time"] = formattedDay;
-        i += 1;
-      }
-
-      //const endDate = this.lectures[0].end;
-      //  console.log(this.lectures);
-      //    console.log(new Date(endDate).getDay());
-      //      console.log(new Date(this.lectures[0].end).getDay());
     });
   }
 };

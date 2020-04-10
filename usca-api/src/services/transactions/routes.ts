@@ -17,6 +17,7 @@ interface Event {
   class: string;
   background: boolean;
   professor: string;
+  dayTime: string;
 }
 
 
@@ -108,8 +109,8 @@ function getCourseInfo(course: Course) {
           title: course.code + " " + currSection.code,
           class: "lunch",
           background: true,
-          professor: currSection.instructors[0]
-
+          professor: currSection.instructors[0],
+          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00"
         }
         // console.log("test1");
         // console.log(courseSectionAsEvent);
@@ -136,8 +137,8 @@ function getCourseInfo(course: Course) {
           title: course.code + " " + currSection.code,
           class: "lunch",
           background: true,
-          professor: ""
-
+          professor: "",
+          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00"
         }
         tutorials[currSection.code].push(courseSectionAsEvent);
       }
@@ -165,8 +166,8 @@ function getCourseInfo(course: Course) {
           title: course.code + " " + currSection.code,
           class: "lunch",
           background: true,
-          professor: ""
-
+          professor: "",
+          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00"
         };
         practicals[currSection.code].push(courseSectionAsEvent);
       }
