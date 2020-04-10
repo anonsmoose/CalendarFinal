@@ -87,7 +87,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      perPage: 5,
+      perPage: 4,
       lectures: [],
       tutorials: [],
       practicals: [],

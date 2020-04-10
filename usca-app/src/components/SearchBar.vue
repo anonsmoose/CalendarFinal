@@ -1,9 +1,5 @@
 <template>
   <section>
-    <p class="content">
-      <b>Selected:</b>
-      {{ selected }}
-    </p>
     <b-field label="Search for a course">
       <b-autocomplete
         rounded

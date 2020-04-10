@@ -1,14 +1,14 @@
 <template>
   <div class="vuecal">
     <vue-cal
-      class="vuecal--green-theme"
+      class="vuecal--full-height-delete"
       :time-from="8 * 60"
       :time-to="23 * 60"
       :disable-views="['years', 'year']"
       default-view="week"
       events-on-month-view="short"
       :events="events"
-      style="height: 600px"
+      editable-events
       hide-weekends
     ></vue-cal>
   </div>
@@ -47,50 +47,13 @@ export default Vue.extend({
   },
   data: () => ({
     events: [
-      // {
-      //   start: "2020-02-24 13:00",
-      //   end: "2020-02-24 14:00",
-      //   title: "PHL258H5 LEC0101"
-      // },
-      // {
-      //   start: "2020-02-26 13:00",
-      //   end: "2020-02-26 15:00",
-      //   title: "PHL258H5 LEC0101"
-      // },
-      // {
-      //   start: "2020-02-25 13:00",
-      //   end: "2020-02-25 15:00",
-      //   title: "CSC301H5 LEC0101"
-      // },
-      // {
-      //   start: "2020-02-27 9:00",
-      //   end: "2020-02-27 10:00",
-      //   title: "CSC301H5 TUT0101"
-      // },
-      // {
-      //   start: "2020-02-25 15:00",
-      //   end: "2020-02-25 17:00",
-      //   title: "CSC309H5 LEC0101"
-      // },
-      // {
-      //   start: "2020-02-19 12:00",
-      //   end: "2020-02-19 14:00",
-      //   title: "LUNCH",
-      //   class: "lunch",
-      //   background: true
-      // },
-      // {
-      //   start: "2020-02-20 12:00",
-      //   end: "2020-02-20 14:00",
-      //   title: "LUNCH",
-      //   class: "lunch",
-      //   background: true
-      // }
+ 
     ],
+    selectedEvent: {}
   }),
   methods:
   {
-    
+
   },
   created()
   {
