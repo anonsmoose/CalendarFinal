@@ -41,10 +41,10 @@
           <div class="tile is-child box">
             <Searchbar />
           </div>
-          <div class="tile is-child box">
+          <div v-show="courseInfoLoaded" class="tile is-child box">
             <CourseInfo />
           </div>
-          <div class="tile is-child box">
+          <div v-show="courseInfoLoaded" class="tile is-child box">
             <Panel />
           </div>
         </div>
