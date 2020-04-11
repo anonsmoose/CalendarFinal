@@ -108,6 +108,10 @@ export default {
         {
           field: "title",
           label: "Course Title"
+        },
+        {
+          field: "location",
+          label: "Location"
         }
       ],
       columnsOther: [
@@ -118,6 +122,10 @@ export default {
         {
           field: "title",
           label: "Course Title"
+        },
+        {
+          field: "location",
+          label: "Location"
         }
       ],
       courseAdded: 0
@@ -126,7 +134,13 @@ export default {
   methods: {
     addToCalendar(event) {
       console.log("event here: ", event);
-      if(event.semester == "Winter")
+      if(event.title.charAt(8) == "Y")
+      {
+        console.log("yearly");
+        bus.$emit("fall event added", event);
+        bus.$emit("winter event added", event);
+      }
+      else if (event.semester == "Winter")
       {
         bus.$emit("winter event added", event);
       }

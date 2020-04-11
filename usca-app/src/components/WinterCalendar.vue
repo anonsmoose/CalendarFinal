@@ -67,37 +67,6 @@ export default Vue.extend({
       // // console.log(course.start.lastIndexOf("-"));
       // console.log(course.start.slice(0, 10));
       
-      if (course.title.charAt(8) == "F" || course.title.charAt(8) == "Y")
-      {
-       
-        if (course.start.startsWith("2020-01-07"))
-        {
-             course.start = "2019-09-10"  + course.start.slice(10);
-             course.end = "2019-09-10" + course.end.slice(10);
-        }
-          else if (course.start.startsWith("2020-01-06"))
-        {
-             course.start = "2019-09-09"  + course.start.slice(10);
-             course.end = "2019-09-09" + course.end.slice(10);
-        }
-          else if (course.start.startsWith("2020-01-08"))
-        {
-             course.start = "2019-09-11"  + course.start.slice(10);
-             course.end = "2019-09-11" + course.end.slice(10);
-        }
-          else if (course.start.startsWith("2020-01-09"))
-        {
-             course.start = "2019-09-12"  + course.start.slice(10);
-             course.end = "2019-09-12" + course.end.slice(10);
-        }
-           else if (course.start.startsWith("2020-01-10"))
-        {
-             course.start = "2019-09-13"  + course.start.slice(10);
-             course.end = "2019-09-13" + course.end.slice(10);
-        }
- 
-        // console.log(course);
-      }
       // const startdate = new date(course.start.slice(0, 10));
       // console.log(startDate);
       // const endDate = new Date(course.end.slice(0, 10));
@@ -106,7 +75,7 @@ export default Vue.extend({
       
       const endDate = new Date(course.end.slice(0, 10).replace("-", "/").replace("-", "/"));
       // console.log(course.start.slice(0, 10).replace("-", "/").replace("-", "/"));
-      
+      console.log("adding the winter course");
 
       // const date = new Date(startDate);
       // startDate.setDate(startDate.getDate() + 7);
@@ -118,18 +87,11 @@ export default Vue.extend({
       // console.log(addWeeks(dt, 10).toString());
 
       
-      let numWeeks;
-      if(course.title.charAt(8) == "Y")
-      {
-        numWeeks = 30;
-      }
-      else
-      {
-        numWeeks = 13;
-      }
+      const numWeeks = 13;
       let i = 0;
       while (i < numWeeks)
       {
+        console.log("in the weeks dictionary");
         const dict = {};
 
         dict["title"] = course.title;

@@ -66,34 +66,37 @@ export default Vue.extend({
       // console.log(course.start);
       // // console.log(course.start.lastIndexOf("-"));
       // console.log(course.start.slice(0, 10));
+
+      let courseStart = "";
+      let courseEnd = "";
       
       if (course.title.charAt(8) == "F" || course.title.charAt(8) == "Y")
       {
        
         if (course.start.startsWith("2020-01-07"))
         {
-             course.start = "2019-09-10"  + course.start.slice(10);
-             course.end = "2019-09-10" + course.end.slice(10);
+             courseStart = "2019-09-10"  + course.start.slice(10);
+             courseEnd = "2019-09-10" + course.end.slice(10);
         }
           else if (course.start.startsWith("2020-01-06"))
         {
-             course.start = "2019-09-09"  + course.start.slice(10);
-             course.end = "2019-09-09" + course.end.slice(10);
+             courseStart = "2019-09-09"  + course.start.slice(10);
+             courseEnd = "2019-09-09" + course.end.slice(10);
         }
           else if (course.start.startsWith("2020-01-08"))
         {
-             course.start = "2019-09-11"  + course.start.slice(10);
-             course.end = "2019-09-11" + course.end.slice(10);
+             courseStart = "2019-09-11"  + course.start.slice(10);
+             courseEnd = "2019-09-11" + course.end.slice(10);
         }
           else if (course.start.startsWith("2020-01-09"))
         {
-             course.start = "2019-09-12"  + course.start.slice(10);
-             course.end = "2019-09-12" + course.end.slice(10);
+             courseStart = "2019-09-12"  + course.start.slice(10);
+             courseEnd = "2019-09-12" + course.end.slice(10);
         }
            else if (course.start.startsWith("2020-01-10"))
         {
-             course.start = "2019-09-13"  + course.start.slice(10);
-             course.end = "2019-09-13" + course.end.slice(10);
+             courseStart = "2019-09-13"  + course.start.slice(10);
+             courseEnd = "2019-09-13" + course.end.slice(10);
         }
  
         // console.log(course);
@@ -102,9 +105,9 @@ export default Vue.extend({
       // console.log(startDate);
       // const endDate = new Date(course.end.slice(0, 10));
 
-      const startDate = new Date(course.start.slice(0, 10).replace("-", "/").replace("-", "/"));
+      const startDate = new Date(courseStart.slice(0, 10).replace("-", "/").replace("-", "/"));
       
-      const endDate = new Date(course.end.slice(0, 10).replace("-", "/").replace("-", "/"));
+      const endDate = new Date(courseEnd.slice(0, 10).replace("-", "/").replace("-", "/"));
       // console.log(course.start.slice(0, 10).replace("-", "/").replace("-", "/"));
       
 
@@ -118,15 +121,7 @@ export default Vue.extend({
       // console.log(addWeeks(dt, 10).toString());
 
       
-      let numWeeks;
-      if(course.title.charAt(8) == "Y")
-      {
-        numWeeks = 30;
-      }
-      else
-      {
-        numWeeks = 13;
-      }
+      const numWeeks = 13;
       let i = 0;
       while (i < numWeeks)
       {
@@ -135,8 +130,8 @@ export default Vue.extend({
         dict["title"] = course.title;
         dict["background"] = true;
         dict["class"] = "lunch";
-        dict["start"] = startDate.toISOString().slice(0, 10) + " " + course.start.slice(11);
-        dict["end"] = endDate.toISOString().slice(0, 10) + " " + course.end.slice(11);
+        dict["start"] = startDate.toISOString().slice(0, 10) + " " + courseStart.slice(11);
+        dict["end"] = endDate.toISOString().slice(0, 10) + " " + courseEnd.slice(11);
         startDate.setDate(startDate.getDate() + 7);
         endDate.setDate(endDate.getDate() + 7);
         i+=1;
