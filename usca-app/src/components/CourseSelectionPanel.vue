@@ -2,7 +2,7 @@
   <article class="panel is-warning">
     <p class="panel-heading">Course Time Selector</p>
     <p class="panel-tabs">
-      <b-tabs size="is-small">
+      <b-tabs position="is-centered" size="is-small" expanded>
         <b-tab-item label="Lectures">
           <section>
             <button class="button field is-danger" @click="removeFromCalendar($event)">

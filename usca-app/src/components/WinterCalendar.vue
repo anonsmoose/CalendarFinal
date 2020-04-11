@@ -1,7 +1,7 @@
 <template>
   <div class="vuecal">
     <vue-cal
-      class="vuecal--full-height-delete"
+      class="vuecal"
       selected-date="2020-1-13"
       :time-from="8 * 60"
       :time-to="23 * 60"
@@ -12,6 +12,7 @@
       editable-events
       hide-weekends
       style="height: 736px"
+      v-on:event-delete="deleteHandler($event)"
     ></vue-cal>
   </div>
 </template>
@@ -55,12 +56,31 @@ export default Vue.extend({
   }),
   methods:
   {
-
+    deleteHandler(event)
+    {
+      console.log("events list: ", this.events);
+      console.log("inside the delete event handler ", event);
+      console.log("length of event dict: ", this.events.length);
+      let i = 0
+      while(i < this.events.length)
+      {
+        console.log("looping");
+        if(this.events[i].title == event.title)
+        {
+          console.log("inside splice area");
+          this.events.splice(i, 1);
+          i--;
+        }
+        i +=1;
+      }
+      console.log("modded events list: ", this.events);
+    }
   },
   created()
   {
     bus.$on('winter event added', course => {
 
+      console.log(course);
       // console.log("inside the calendar");
       // console.log(course);
       // console.log(course.start);
