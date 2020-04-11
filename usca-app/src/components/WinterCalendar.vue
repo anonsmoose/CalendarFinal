@@ -87,26 +87,27 @@ export default Vue.extend({
       // console.log(addWeeks(dt, 10).toString());
 
       
+      
+
       const numWeeks = 13;
       let i = 0;
+      let eventToAdd = null;
       while (i < numWeeks)
       {
-        console.log("in the weeks dictionary");
-        const dict = {};
-
-        dict["title"] = course.title;
-        dict["background"] = true;
-        dict["class"] = "lunch";
-        dict["start"] = startDate.toISOString().slice(0, 10) + " " + course.start.slice(11);
-        dict["end"] = endDate.toISOString().slice(0, 10) + " " + course.end.slice(11);
+        eventToAdd = {
+          title: course.title,
+          background: true,
+          class: "lunch",
+          start: startDate.toISOString().slice(0, 10) + " " + course.start.slice(11),
+          end: endDate.toISOString().slice(0, 10) + " " + course.end.slice(11)
+        }
         startDate.setDate(startDate.getDate() + 7);
         endDate.setDate(endDate.getDate() + 7);
         i+=1;
-        this.events.push(dict);
+        this.events.push(eventToAdd);
+        eventToAdd = null;
 
       }
-      
-
     
       
 

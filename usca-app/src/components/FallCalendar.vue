@@ -40,6 +40,14 @@ import VueCal from "vue-cal";
 import "vue-cal/dist/vuecal.css";
 import { bus } from "../main";
 
+interface Event 
+{
+  title: string;
+  background: boolean;
+  class: string;
+  start: string;
+  end: string;
+}
 
 export default Vue.extend({
   name: "calendar",
@@ -125,20 +133,19 @@ export default Vue.extend({
       let i = 0;
       while (i < numWeeks)
       {
-        const dict = {};
-
-        dict["title"] = course.title;
-        dict["background"] = true;
-        dict["class"] = "lunch";
-        dict["start"] = startDate.toISOString().slice(0, 10) + " " + courseStart.slice(11);
-        dict["end"] = endDate.toISOString().slice(0, 10) + " " + courseEnd.slice(11);
+        const eventToAdd : Event = {
+          title: course.title,
+          background: true,
+          class: "lunch",
+          start: startDate.toISOString().slice(0, 10) + " " + courseStart.slice(11),
+          end: endDate.toISOString().slice(0, 10) + " " + courseEnd.slice(11)
+        };
         startDate.setDate(startDate.getDate() + 7);
         endDate.setDate(endDate.getDate() + 7);
         i+=1;
-        this.events.push(dict);
+        this.events.push(eventToAdd);
 
       }
-      
 
     
       
