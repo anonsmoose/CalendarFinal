@@ -34,20 +34,13 @@
 <!--   </div> -->
 <!-- </template> -->
 
-<script lang="ts">
+<script>
 import Vue from "vue";
 import VueCal from "vue-cal";
 import "vue-cal/dist/vuecal.css";
 import { bus } from "../main";
 
-interface Event 
-{
-  title: string;
-  background: boolean;
-  class: string;
-  start: string;
-  end: string;
-}
+
 
 export default Vue.extend({
   name: "calendar",
@@ -67,7 +60,7 @@ export default Vue.extend({
   },
   created()
   {
-    bus.$on('fall event added', (course: any) => {
+    bus.$on('fall event added', course => {
 
       // console.log("inside the calendar");
       // console.log(course);
@@ -133,7 +126,7 @@ export default Vue.extend({
       let i = 0;
       while (i < numWeeks)
       {
-        const eventToAdd : Event = {
+        const eventToAdd = {
           title: course.title,
           background: true,
           class: "lunch",
@@ -186,7 +179,7 @@ export default Vue.extend({
 
       // this.events.push(course);
     });
-    bus.$on('remove events', (garbage: any) => {
+    bus.$on('remove events', garbage => {
       this.events = [];
     })
   },

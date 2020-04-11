@@ -34,7 +34,7 @@
 <!--   </div> -->
 <!-- </template> -->
 
-<script lang="ts">
+<script>
 import Vue from "vue";
 import VueCal from "vue-cal";
 import "vue-cal/dist/vuecal.css";
@@ -59,7 +59,7 @@ export default Vue.extend({
   },
   created()
   {
-    bus.$on('winter event added', (course: any) => {
+    bus.$on('winter event added', course => {
 
       // console.log("inside the calendar");
       // console.log(course);
@@ -147,7 +147,7 @@ export default Vue.extend({
 
       // this.events.push(course);
     });
-    bus.$on('remove events', (garbage: any) => {
+    bus.$on('remove events', garbage => {
       this.events = [];
     })
   },
