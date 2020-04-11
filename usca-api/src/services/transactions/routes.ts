@@ -17,6 +17,9 @@ interface Event {
   class: string;
   background: boolean;
   professor: string;
+  dayTime: string;
+  semester: string;
+  location: string;
 }
 
 
@@ -108,8 +111,10 @@ function getCourseInfo(course: Course) {
           title: course.code + " " + currSection.code,
           class: "lunch",
           background: true,
-          professor: currSection.instructors[0]
-
+          professor: currSection.instructors[0],
+          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00",
+          semester: course.term.slice(5),
+          location: currSection.times[j].location
         }
         // console.log("test1");
         // console.log(courseSectionAsEvent);
@@ -136,8 +141,10 @@ function getCourseInfo(course: Course) {
           title: course.code + " " + currSection.code,
           class: "lunch",
           background: true,
-          professor: ""
-
+          professor: "",
+          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00",
+          semester: course.term.slice(5),
+          location: currSection.times[j].location
         }
         tutorials[currSection.code].push(courseSectionAsEvent);
       }
@@ -165,8 +172,10 @@ function getCourseInfo(course: Course) {
           title: course.code + " " + currSection.code,
           class: "lunch",
           background: true,
-          professor: ""
-
+          professor: "",
+          dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00",
+          semester: course.term.slice(5),
+          location: currSection.times[j].location
         };
         practicals[currSection.code].push(courseSectionAsEvent);
       }
@@ -175,7 +184,10 @@ function getCourseInfo(course: Course) {
   }
 
 
-  return {"courseCode" : course.code, "courseCodeLong" : course.code  + " (" + course.campus + ")" + " - " + course.name, "lectures" : lectures, "tutorials" : tutorials, "practicals" : practicals, "campus" : course.campus};
+  return {"courseCode" : course.code, "courseCodeLong" : course.code  + " (" + course.campus + ")" + " - " + course.name,
+   "lectures" : lectures, "tutorials" : tutorials,
+    "practicals" : practicals, "campus" : course.campus, "description" : course.description,
+  "prerequisites": course.prerequisites, "exclusions": course.exclusions};
 }
 
 

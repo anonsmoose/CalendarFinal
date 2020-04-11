@@ -1,15 +1,18 @@
 <template>
   <div class="vuecal">
     <vue-cal
-      class="vuecal--green-theme"
+      class="vuecal"
+      selected-date="2020-1-13"
       :time-from="8 * 60"
       :time-to="23 * 60"
       :disable-views="['years', 'year']"
       default-view="week"
       events-on-month-view="short"
       :events="events"
-      style="height: 600px"
+      editable-events
       hide-weekends
+      style="height: 736px"
+      v-on:event-delete="deleteHandler($event)"
     ></vue-cal>
   </div>
 </template>
@@ -32,7 +35,7 @@
 <!--   </div> -->
 <!-- </template> -->
 
-<script lang="ts">
+<script>
 import Vue from "vue";
 import VueCal from "vue-cal";
 import "vue-cal/dist/vuecal.css";
@@ -47,92 +50,43 @@ export default Vue.extend({
   },
   data: () => ({
     events: [
-      // {
-      //   start: "2020-02-24 13:00",
-      //   end: "2020-02-24 14:00",
-      //   title: "PHL258H5 LEC0101"
-      // },
-      // {
-      //   start: "2020-02-26 13:00",
-      //   end: "2020-02-26 15:00",
-      //   title: "PHL258H5 LEC0101"
-      // },
-      // {
-      //   start: "2020-02-25 13:00",
-      //   end: "2020-02-25 15:00",
-      //   title: "CSC301H5 LEC0101"
-      // },
-      // {
-      //   start: "2020-02-27 9:00",
-      //   end: "2020-02-27 10:00",
-      //   title: "CSC301H5 TUT0101"
-      // },
-      // {
-      //   start: "2020-02-25 15:00",
-      //   end: "2020-02-25 17:00",
-      //   title: "CSC309H5 LEC0101"
-      // },
-      // {
-      //   start: "2020-02-19 12:00",
-      //   end: "2020-02-19 14:00",
-      //   title: "LUNCH",
-      //   class: "lunch",
-      //   background: true
-      // },
-      // {
-      //   start: "2020-02-20 12:00",
-      //   end: "2020-02-20 14:00",
-      //   title: "LUNCH",
-      //   class: "lunch",
-      //   background: true
-      // }
+ 
     ],
+    selectedEvent: {}
   }),
   methods:
   {
-    
+    deleteHandler(event)
+    {
+      console.log("events list: ", this.events);
+      console.log("inside the delete event handler ", event);
+      console.log("length of event dict: ", this.events.length);
+      let i = 0
+      while(i < this.events.length)
+      {
+        console.log("looping");
+        if(this.events[i].title == event.title)
+        {
+          console.log("inside splice area");
+          this.events.splice(i, 1);
+          i--;
+        }
+        i +=1;
+      }
+      console.log("modded events list: ", this.events);
+    }
   },
   created()
   {
-    bus.$on('event added', (course: any) => {
+    bus.$on('winter event added', course => {
 
+      console.log(course);
       // console.log("inside the calendar");
       // console.log(course);
       // console.log(course.start);
       // // console.log(course.start.lastIndexOf("-"));
       // console.log(course.start.slice(0, 10));
       
-      if (course.title.charAt(8) == "F" || course.title.charAt(8) == "Y")
-      {
-       
-        if (course.start.startsWith("2020-01-07"))
-        {
-             course.start = "2019-09-10"  + course.start.slice(10);
-             course.end = "2019-09-10" + course.end.slice(10);
-        }
-          else if (course.start.startsWith("2020-01-06"))
-        {
-             course.start = "2019-09-09"  + course.start.slice(10);
-             course.end = "2019-09-09" + course.end.slice(10);
-        }
-          else if (course.start.startsWith("2020-01-08"))
-        {
-             course.start = "2019-09-11"  + course.start.slice(10);
-             course.end = "2019-09-11" + course.end.slice(10);
-        }
-          else if (course.start.startsWith("2020-01-09"))
-        {
-             course.start = "2019-09-12"  + course.start.slice(10);
-             course.end = "2019-09-12" + course.end.slice(10);
-        }
-           else if (course.start.startsWith("2020-01-10"))
-        {
-             course.start = "2019-09-13"  + course.start.slice(10);
-             course.end = "2019-09-13" + course.end.slice(10);
-        }
- 
-        // console.log(course);
-      }
       // const startdate = new date(course.start.slice(0, 10));
       // console.log(startDate);
       // const endDate = new Date(course.end.slice(0, 10));
@@ -141,7 +95,7 @@ export default Vue.extend({
       
       const endDate = new Date(course.end.slice(0, 10).replace("-", "/").replace("-", "/"));
       // console.log(course.start.slice(0, 10).replace("-", "/").replace("-", "/"));
-      
+      console.log("adding the winter course");
 
       // const date = new Date(startDate);
       // startDate.setDate(startDate.getDate() + 7);
@@ -153,33 +107,27 @@ export default Vue.extend({
       // console.log(addWeeks(dt, 10).toString());
 
       
-      let numWeeks;
-      if(course.title.charAt(8) == "Y")
-      {
-        numWeeks = 30;
-      }
-      else
-      {
-        numWeeks = 13;
-      }
+      
+
+      const numWeeks = 13;
       let i = 0;
+      let eventToAdd = null;
       while (i < numWeeks)
       {
-        const dict = {};
-
-        dict["title"] = course.title;
-        dict["background"] = true;
-        dict["class"] = "lunch";
-        dict["start"] = startDate.toISOString().slice(0, 10) + " " + course.start.slice(11);
-        dict["end"] = endDate.toISOString().slice(0, 10) + " " + course.end.slice(11);
+        eventToAdd = {
+          title: course.title,
+          background: true,
+          class: "lunch",
+          start: startDate.toISOString().slice(0, 10) + " " + course.start.slice(11),
+          end: endDate.toISOString().slice(0, 10) + " " + course.end.slice(11)
+        }
         startDate.setDate(startDate.getDate() + 7);
         endDate.setDate(endDate.getDate() + 7);
         i+=1;
-        this.events.push(dict);
+        this.events.push(eventToAdd);
+        eventToAdd = null;
 
       }
-      
-
     
       
 
@@ -219,7 +167,7 @@ export default Vue.extend({
 
       // this.events.push(course);
     });
-    bus.$on('remove events', (garbage: any) => {
+    bus.$on('remove events', garbage => {
       this.events = [];
     })
   },

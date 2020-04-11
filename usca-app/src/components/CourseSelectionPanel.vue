@@ -2,12 +2,12 @@
   <article class="panel is-warning">
     <p class="panel-heading">Course Time Selector</p>
     <p class="panel-tabs">
-      <b-tabs size="is-small">
+      <b-tabs position="is-centered" size="is-small" expanded>
         <b-tab-item label="Lectures">
           <section>
             <button class="button field is-danger" @click="removeFromCalendar($event)">
               <b-icon icon="close"></b-icon>
-              <span>Clear selected</span>
+              <span>Remove All Courses</span>
             </button>
 
             <b-table
@@ -25,7 +25,7 @@
           <section>
             <button class="button field is-danger" @click="removeFromCalendar($event)">
               <b-icon icon="close"></b-icon>
-              <span>Clear selected</span>
+              <span>Remove All Courses</span>
             </button>
 
             
@@ -45,7 +45,7 @@
           <section>
             <button class="button field is-danger" @click="removeFromCalendar($event)">
               <b-icon icon="close"></b-icon>
-              <span>Clear selected</span>
+              <span>Remove All Courses</span>
             </button>
 
             
@@ -87,14 +87,14 @@ import axios from "axios";
 export default {
   data() {
     return {
-      perPage: 5,
+      perPage: 4,
       lectures: [],
       tutorials: [],
       practicals: [],
       selected: {},
       columnsLectures: [
         {
-          field: "Day/Time",
+          field: "dayTime",
           label: "Day and Time"
         },
         {
@@ -108,16 +108,24 @@ export default {
         {
           field: "title",
           label: "Course Title"
+        },
+        {
+          field: "location",
+          label: "Location"
         }
       ],
       columnsOther: [
         {
-          field: "Day/Time",
+          field: "dayTime",
           label: "Day and Time"
         },
         {
           field: "title",
           label: "Course Title"
+        },
+        {
+          field: "location",
+          label: "Location"
         }
       ],
       courseAdded: 0
@@ -125,7 +133,21 @@ export default {
   },
   methods: {
     addToCalendar(event) {
-      bus.$emit("event added", event);
+      console.log("event here: ", event);
+      if(event.title.charAt(8) == "Y")
+      {
+        console.log("yearly");
+        bus.$emit("fall event added", event);
+        bus.$emit("winter event added", event);
+      }
+      else if (event.semester == "Winter")
+      {
+        bus.$emit("winter event added", event);
+      }
+      else
+      {
+        bus.$emit("fall event added", event);
+      }
     },
     removeFromCalendar(event)
     {
@@ -138,11 +160,11 @@ export default {
   },
   created() {
     bus.$on("course selected", course => {
-      // console.log("inside the selection panel!");
       //       console.log(course);
       //     console.log(course.lectures);
       //   console.log(course.lectures.L0101[0]);
       // console.log(course);
+      console.log(course.courseData);
 
       this.lectures = [];
       let k = 0;
@@ -173,10 +195,6 @@ export default {
         }
 
         j+= 1;
-        
-    
-          
-        
       }
       // console.log("Lectures here: ", this.lectures)
 
@@ -204,66 +222,6 @@ export default {
       // console.log("bottom of created method");
       // console.log(this.practicals);
 
-      const weekday = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ];
-
-      let i = 0;
-      while (i < this.lectures.length) {
-        const day = weekday[new Date(this.lectures[i].end).getDay()];
-        this.lectures[i]["Day/Time"] =
-          day +
-          " " +
-          this.lectures[i].start.slice(11) +
-          " to " +
-          this.lectures[i].end.slice(11);
-        //console.log(this.lectures[i]);
-        i += 1;
-      }
-
-  
-
-
-
-
-      i = 0;
-      while (i < this.tutorials.length) {
-        const day = weekday[new Date(this.tutorials[i].end).getDay()];
-        this.tutorials[i]["Day/Time"] =
-          day +
-          " " +
-          this.tutorials[i].start.slice(11) +
-          " to " +
-          this.tutorials[i].end.slice(11);
-
-        i += 1;
-      }
-
-      i = 0;
-      while (i < this.practicals.length) {
-        const day = weekday[new Date(this.practicals[i].end).getDay()];
-
-        const formattedDay =
-          day +
-          " " +
-          this.practicals[i].start.slice(11) +
-          " to " +
-          this.practicals[i].end.slice(11);
-
-        this.practicals[i]["Day/Time"] = formattedDay;
-        i += 1;
-      }
-
-      //const endDate = this.lectures[0].end;
-      //  console.log(this.lectures);
-      //    console.log(new Date(endDate).getDay());
-      //      console.log(new Date(this.lectures[0].end).getDay());
     });
   }
 };
