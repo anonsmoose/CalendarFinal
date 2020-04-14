@@ -58,29 +58,22 @@ export default Vue.extend({
   {
     deleteHandler(event)
     {
-      console.log("events list: ", this.events);
-      console.log("inside the delete event handler ", event);
-      console.log("length of event dict: ", this.events.length);
       let i = 0
       while(i < this.events.length)
       {
-        console.log("looping");
         if(this.events[i].title == event.title)
         {
-          console.log("inside splice area");
           this.events.splice(i, 1);
           i--;
         }
         i +=1;
       }
-      console.log("modded events list: ", this.events);
     }
   },
   created()
   {
     bus.$on('winter event added', course => {
 
-      console.log(course);
       // console.log("inside the calendar");
       // console.log(course);
       // console.log(course.start);
@@ -95,7 +88,6 @@ export default Vue.extend({
       
       const endDate = new Date(course.end.slice(0, 10).replace("-", "/").replace("-", "/"));
       // console.log(course.start.slice(0, 10).replace("-", "/").replace("-", "/"));
-      console.log("adding the winter course");
 
       // const date = new Date(startDate);
       // startDate.setDate(startDate.getDate() + 7);

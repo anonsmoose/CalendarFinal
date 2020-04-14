@@ -4,14 +4,18 @@
       <b-autocomplete
         rounded
         v-model="name"
-        :data="filteredDataArray"
+        :data="data"
         placeholder="CSC301"
         icon="magnify"
         clearable
         @select="sendData($event)"
-        @input="getCourses($event)"
+        @typing="getAsyncData"
       >
-        <template slot="empty">No results found</template>
+      <template slot-scope="props">
+        <small>
+            {{ props.option.courseCodeLong }}
+        </small>
+      </template>
       </b-autocomplete>
     </b-field>
   </section>
@@ -23,8 +27,9 @@ import Buefy from "buefy";
 import "buefy/dist/buefy.css";
 import { bus } from "@/main.ts";
 import axios from "axios";
+import debounce from 'lodash/debounce'
 
-const courseData = [];
+
 const selectedCourseData = [];
 
 Vue.use(Buefy);
@@ -32,45 +37,47 @@ Vue.use(Buefy);
 export default {
   data() {
     return {
-      data: courseData,
+      data: [],
       name: "",
       selected: null,
-      selectedCourseD: selectedCourseData
+      selectedCourseD: selectedCourseData,
+      isFetching: false
     };
   },
 
-  computed: {
-    filteredDataArray() {
-      return this.data.filter(option => {
-        return (
-          option
-            .toString()
-            .toLowerCase()
-            .indexOf(this.name.toLowerCase()) >= 0
-        );
-      });
-    }
-  },
   methods: {
-    getCourses(input) {
-      if (input != "") {
-        axios.get("http://localhost:3000/getCourse/" + input).then(res => {
-          let i = 0;
-          while (i < res.data.length) {
-            courseData[i] = res.data[i].courseCodeLong;
-            i += 1;
-          }
-          // console.log(res.data);
-          courseData.__ob__.dep.notify();
-        });
-      }
-    },
+    getAsyncData: debounce(function (name) {
+
+
+                if (!name.length) {
+                    this.data = []
+                    return
+                }
+                // this.isFetching = true
+                // this.$http.get(`http://localhost:3000/getCourse/${name}`)
+                //     .then(({ data }) => {
+                //         console.log("doing stuff");
+                //         this.data = []
+                //         data.results.forEach((item) => this.data.push(item))
+                //     })
+                //     .catch((error) => {
+                //         this.data = []
+                //         throw error
+                //     })
+                //     .finally(() => {
+                //         this.isFetching = false
+                //     })
+                axios.get("http://localhost:3000/getCourse/" + name)
+                    .then(res => {
+                      this.data = [];
+                      res.data.forEach((item) => this.data.push(item));
+                    });
+            }, 500),
     sendData(selectedCourse) {
       let courseD = {};
-      console.log("hello");
       if (selectedCourse != "") {
         axios
-          .get("http://localhost:3000/getCourse/" + selectedCourse.slice(0, 9))
+          .get("http://localhost:3000/getCourse/" + selectedCourse.courseCode)
           .then(res => {
             courseD = res.data[0];
             // const requestOne = axios.get(

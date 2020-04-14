@@ -133,10 +133,8 @@ export default {
   },
   methods: {
     addToCalendar(event) {
-      console.log("event here: ", event);
       if(event.title.charAt(8) == "Y")
       {
-        console.log("yearly");
         bus.$emit("fall event added", event);
         bus.$emit("winter event added", event);
       }
@@ -164,7 +162,6 @@ export default {
       //     console.log(course.lectures);
       //   console.log(course.lectures.L0101[0]);
       // console.log(course);
-      console.log(course.courseData);
 
       this.lectures = [];
       let j = 0;

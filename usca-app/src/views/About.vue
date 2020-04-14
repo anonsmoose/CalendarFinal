@@ -37,7 +37,6 @@ export default {
       // .then(res => this.course = res)
       // .catch(err => err);
       // console.log(this.course);
-      console.log(this.$buefy);
       
     }
   }

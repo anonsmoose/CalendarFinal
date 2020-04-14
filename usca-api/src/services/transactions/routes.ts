@@ -199,7 +199,7 @@ function getCourseInfo(course: Course) {
 
 const findDocuments = function (db: { collection: (arg0: string) => any; }, courseId: string, callback: (arg0: any) => void) {
   // Get the documents collection
-  const collection = db.collection('ci4');
+  const collection = db.collection('ci6');
   // Find some documents
   // console.log("This is the course id passed: " + courseId);
 
@@ -220,7 +220,6 @@ const findDocuments = function (db: { collection: (arg0: string) => any; }, cour
     collection.find().toArray(function (err: any, docs: any) {
       assert.equal(err, null);
       // console.log("Found the following records~");
-      // console.log(docs)
       callback(docs)
     });
 
