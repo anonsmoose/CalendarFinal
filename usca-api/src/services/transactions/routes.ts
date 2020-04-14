@@ -20,6 +20,7 @@ interface Event {
   dayTime: string;
   semester: string;
   location: string;
+  RMPRating: string;
 }
 
 
@@ -38,6 +39,7 @@ interface MeetingSection {
   times: Array<Time>;
   size: number;
   enrolment: number;
+  RMPRating: string;
 }
 
 
@@ -114,7 +116,8 @@ function getCourseInfo(course: Course) {
           professor: currSection.instructors[0],
           dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00",
           semester: course.term.slice(5),
-          location: currSection.times[j].location
+          location: currSection.times[j].location,
+          RMPRating: currSection.RMPRating + " / 5.0"
         }
         // console.log("test1");
         // console.log(courseSectionAsEvent);
@@ -144,7 +147,8 @@ function getCourseInfo(course: Course) {
           professor: "",
           dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00",
           semester: course.term.slice(5),
-          location: currSection.times[j].location
+          location: currSection.times[j].location,
+          RMPRating: currSection.RMPRating
         }
         tutorials[currSection.code].push(courseSectionAsEvent);
       }
@@ -175,7 +179,8 @@ function getCourseInfo(course: Course) {
           professor: "",
           dayTime: currSection.times[j].day[0] + currSection.times[j].day.slice(1).toLowerCase() + " " + startHour + ":00" + " " + "to " + endHour + ":00",
           semester: course.term.slice(5),
-          location: currSection.times[j].location
+          location: currSection.times[j].location,
+          RMPRating: currSection.RMPRating
         };
         practicals[currSection.code].push(courseSectionAsEvent);
       }
@@ -194,7 +199,7 @@ function getCourseInfo(course: Course) {
 
 const findDocuments = function (db: { collection: (arg0: string) => any; }, courseId: string, callback: (arg0: any) => void) {
   // Get the documents collection
-  const collection = db.collection('course_information');
+  const collection = db.collection('ci4');
   // Find some documents
   // console.log("This is the course id passed: " + courseId);
 

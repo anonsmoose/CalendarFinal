@@ -167,7 +167,6 @@ export default {
       console.log(course.courseData);
 
       this.lectures = [];
-      let k = 0;
       let j = 0;
       for (const [key, value] of Object.entries(course.courseData.lectures)) {
         //          console.log(key, value[0]);
@@ -180,23 +179,11 @@ export default {
           // console.log(j);
           // console.log(k);
           this.lectures.push(value[i]);
-          this.lectures[k]["bob"] = "is your uncle";
-          // console.log("tmes");
-          if(course.professorData[j].data.length != 0)
-          {
-            this.lectures[k]["RMPRating"] = course.professorData[j].data[0].overall_rating;
-          }
-          else
-          {
-            this.lectures[k]["RMPRating"] = "-";
-          }
-          k += 1;
           i += 1;
         }
 
         j+= 1;
       }
-      // console.log("Lectures here: ", this.lectures)
 
       this.tutorials = [];
       for (const [key, value] of Object.entries(course.courseData.tutorials)) {
