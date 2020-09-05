@@ -1,9 +1,0 @@
-attendance: Members missing from the tutorial
-marks: 1/2
-
-features: backend/ about page/ calendar component
-marks: 6/8
-
-JIRA: didn't document sprint 2 on JIRA
-
-Total: 7/10

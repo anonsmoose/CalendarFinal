@@ -1,9 +1,0 @@
-ikjot dhillion, parham fartoot(missing), amity ohm, umair farooqui, peter tamraz, manahail masroor, davit badalyan 
-
-Attendance -- 1/2 (1 person missing)
-
-Features -- home page/ DB / post methods/ database works
-
-JIRA -- somewhat documented (had not documented user stories as complete/done --> should be fixed for next sprint demo)
-
-Total -- 9/10
